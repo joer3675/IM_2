@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 287391695}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440221, g: 0.49316514, b: 0.5722316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1126,11 +1126,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1764770255099613291, guid: 77c6dbd032ed2274194dedcb11b48abb,
-        type: 3}
-      propertyPath: mText
-      value: 
-      objectReference: {fileID: 877303905}
     - target: {fileID: 1879010068461575308, guid: 77c6dbd032ed2274194dedcb11b48abb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1210,6 +1205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpeechBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412390272454394293, guid: 77c6dbd032ed2274194dedcb11b48abb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c6dbd032ed2274194dedcb11b48abb, type: 3}
@@ -1408,6 +1408,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877303903}
   m_CullTransparentMesh: 1
+--- !u!1 &1068187925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8254188182874400126, guid: 77c6dbd032ed2274194dedcb11b48abb,
+    type: 3}
+  m_PrefabInstance: {fileID: 666798747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1291259208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,6 +2523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2049287209}
+  - component: {fileID: 2049287213}
   - component: {fileID: 2049287212}
   - component: {fileID: 2049287211}
   - component: {fileID: 2049287210}
@@ -2536,7 +2543,7 @@ RectTransform:
   m_GameObject: {fileID: 2049287208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 2.0155, y: 2.0155, z: 2.0155}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 303363665}
@@ -2545,8 +2552,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -50, y: 13.549988}
-  m_SizeDelta: {x: 100, y: 27.100006}
+  m_AnchoredPosition: {x: -299, y: 30}
+  m_SizeDelta: {x: 100, y: 27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049287210
 MonoBehaviour:
@@ -2609,7 +2616,19 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2049287213}
+        m_TargetAssemblyTypeName: UserInputText, Assembly-CSharp
+        m_MethodName: ReadStringInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -2684,6 +2703,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049287208}
   m_CullTransparentMesh: 1
+--- !u!114 &2049287213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049287208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777b5ca242b328b47bfcfbefab8c18f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speechBubble: {fileID: 1068187925}
 --- !u!1001 &2085117584
 PrefabInstance:
   m_ObjectHideFlags: 0

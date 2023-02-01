@@ -6,18 +6,12 @@ using TMPro;
 
 public class UserInputText : MonoBehaviour
 {
-    [SerializeField] 
-    private TMP_Text mText;
-    
-    // Start is called before the first frame update
-    void Awake()
-    {
+    [SerializeField]
+    private GameObject speechBubble;
 
-    }
-
-    // Update is called once per frame
-    void Update()
+    public void ReadStringInput(string inputString)
     {
-        gameObject.GetComponent<TMP_Text>().text = mText.text;
+        Debug.Log(inputString);
+        speechBubble.GetComponentInChildren<TMP_Text>().text = inputString;
     }
 }
