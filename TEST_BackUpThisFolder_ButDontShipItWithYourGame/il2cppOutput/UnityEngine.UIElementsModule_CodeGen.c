@@ -4414,7 +4414,7 @@ extern void TextEditorEventHandler_ExecuteDefaultAction_m21DBD380D9B0328BFEEDCCB
 // 0x0000096E System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase::SyncGUIStyle(UnityEngine.UIElements.TextInputBaseField`1/TextInputBase<TValueType>,UnityEngine.GUIStyle)
 // 0x0000096F System.Boolean UnityEngine.UIElements.TextInputBaseField`1/TextInputBase::IsLayoutUsingPercent(UnityEngine.UIElements.VisualElement)
 // 0x00000970 System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase::AssignRect(UnityEngine.RectOffset,System.Int32,System.Int32,System.Int32,System.Int32)
-// 0x00000971 System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase::<ProcessEventAtTarget>b__99_0()
+// 0x00000971 System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase::<ProcessEventAtTarget>b__97_0()
 // 0x00000972 UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseSlider`1::get_dragContainer()
 // 0x00000973 System.Void UnityEngine.UIElements.BaseSlider`1::set_dragContainer(UnityEngine.UIElements.VisualElement)
 // 0x00000974 UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseSlider`1::get_dragElement()
@@ -7414,8 +7414,8 @@ extern void MeshGenerationContextUtils_GetVisualElementRadii_mFE9E8F24A2AD07A7A8
 extern void MeshGenerationContextUtils_AdjustBackgroundSizeForBorders_mA398AD4029744337DD91A5C40AC231229BD66695 (void);
 // 0x00001010 System.Void UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::AdjustUVsForScaleMode(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,UnityEngine.Rect&,UnityEngine.Rect&)
 extern void RectangleParams_AdjustUVsForScaleMode_mC339715267B68B2102DB25BE5C89FD2386E1F462 (void);
-// 0x00001011 System.Void UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::AdjustSpriteUVsForScaleMode(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Sprite,UnityEngine.ScaleMode,UnityEngine.Rect&,UnityEngine.Rect&)
-extern void RectangleParams_AdjustSpriteUVsForScaleMode_m7BC39E2FF0DDCDABF200DE1785F33BF1F51B50C8 (void);
+// 0x00001011 System.Void UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::AdjustSpriteUVsForScaleMode(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Sprite,UnityEngine.ScaleMode,UnityEngine.Rect&,UnityEngine.Rect&)
+extern void RectangleParams_AdjustSpriteUVsForScaleMode_m370CCBA1B2243F5F81C9CEDFEA0F2C3FE362C751 (void);
 // 0x00001012 UnityEngine.Rect UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::RectIntersection(UnityEngine.Rect,UnityEngine.Rect)
 extern void RectangleParams_RectIntersection_m45E2CE5981EEB73D4B2A7A9BE20BEC0B3820A16E (void);
 // 0x00001013 UnityEngine.Rect UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::ComputeGeomRect(UnityEngine.Sprite)
@@ -7426,8 +7426,8 @@ extern void RectangleParams_ComputeUVRect_m13805AD61578847383E6A5A12DD4FC1DC2F33
 extern void RectangleParams_ApplyPackingRotation_m475E380A81F9A2927AB374E6371F7E752EB03824 (void);
 // 0x00001016 UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::MakeTextured(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,UnityEngine.UIElements.ContextType)
 extern void RectangleParams_MakeTextured_mBF847B4D457BCD201129A2D87FAF2A8E98F494E0 (void);
-// 0x00001017 UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::MakeSprite(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.Sprite,UnityEngine.ScaleMode,UnityEngine.UIElements.ContextType,System.Boolean,UnityEngine.Vector4&)
-extern void RectangleParams_MakeSprite_mEF2D8328126A4A301555AE595B0043966F0C5FE4 (void);
+// 0x00001017 UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::MakeSprite(UnityEngine.Rect,UnityEngine.Sprite,UnityEngine.ScaleMode,UnityEngine.UIElements.ContextType,System.Boolean,UnityEngine.Vector4&)
+extern void RectangleParams_MakeSprite_m118E5A609E0DACF5686472983AF97C7E1D734D43 (void);
 // 0x00001018 UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::MakeVectorTextured(UnityEngine.Rect,UnityEngine.Rect,UnityEngine.UIElements.VectorImage,UnityEngine.ScaleMode,UnityEngine.UIElements.ContextType)
 extern void RectangleParams_MakeVectorTextured_m9E3D5C085D8874C30D90288332B1F198F4247F24 (void);
 // 0x00001019 System.Boolean UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams::HasRadius(System.Single)
@@ -13748,13 +13748,13 @@ static Il2CppMethodPointer s_methodPointers[5353] =
 	MeshGenerationContextUtils_GetVisualElementRadii_mFE9E8F24A2AD07A7A8F143AA599BF4F24FD07BE7,
 	MeshGenerationContextUtils_AdjustBackgroundSizeForBorders_mA398AD4029744337DD91A5C40AC231229BD66695,
 	RectangleParams_AdjustUVsForScaleMode_mC339715267B68B2102DB25BE5C89FD2386E1F462,
-	RectangleParams_AdjustSpriteUVsForScaleMode_m7BC39E2FF0DDCDABF200DE1785F33BF1F51B50C8,
+	RectangleParams_AdjustSpriteUVsForScaleMode_m370CCBA1B2243F5F81C9CEDFEA0F2C3FE362C751,
 	RectangleParams_RectIntersection_m45E2CE5981EEB73D4B2A7A9BE20BEC0B3820A16E,
 	RectangleParams_ComputeGeomRect_mDA0B560FC27C2B75796AF2AA586E8EF66BB8CE45,
 	RectangleParams_ComputeUVRect_m13805AD61578847383E6A5A12DD4FC1DC2F33F50,
 	RectangleParams_ApplyPackingRotation_m475E380A81F9A2927AB374E6371F7E752EB03824,
 	RectangleParams_MakeTextured_mBF847B4D457BCD201129A2D87FAF2A8E98F494E0,
-	RectangleParams_MakeSprite_mEF2D8328126A4A301555AE595B0043966F0C5FE4,
+	RectangleParams_MakeSprite_m118E5A609E0DACF5686472983AF97C7E1D734D43,
 	RectangleParams_MakeVectorTextured_m9E3D5C085D8874C30D90288332B1F198F4247F24,
 	RectangleParams_HasRadius_mD5FCED05D5C5D320D0C3925667105DEFD0EDFC02,
 	TextParams_GetHashCode_mC8A715BCEEDF161F0CDF1510C352C3C72B30C4A6,
@@ -16187,7 +16187,7 @@ static const int32_t s_InvokerIndices[5353] =
 {
 	7274,
 	7274,
-	7690,
+	7689,
 	7156,
 	5688,
 	7156,
@@ -18249,7 +18249,7 @@ static const int32_t s_InvokerIndices[5353] =
 	5688,
 	5688,
 	5688,
-	7707,
+	7706,
 	7274,
 	7274,
 	7274,
@@ -18972,7 +18972,7 @@ static const int32_t s_InvokerIndices[5353] =
 	2280,
 	7043,
 	10661,
-	7626,
+	7627,
 	12301,
 	12278,
 	12301,
@@ -19838,7 +19838,7 @@ static const int32_t s_InvokerIndices[5353] =
 	7274,
 	7274,
 	10412,
-	7660,
+	7659,
 	7116,
 	7116,
 	7116,
@@ -19939,9 +19939,9 @@ static const int32_t s_InvokerIndices[5353] =
 	1455,
 	1451,
 	1452,
-	7602,
-	7659,
 	7603,
+	7658,
+	7604,
 	5771,
 	5772,
 	5723,
@@ -20296,14 +20296,14 @@ static const int32_t s_InvokerIndices[5353] =
 	10754,
 	8278,
 	11008,
-	7755,
-	7637,
+	7754,
+	7578,
 	10629,
 	12331,
 	12331,
 	10627,
 	8399,
-	7643,
+	7789,
 	8399,
 	3986,
 	7116,
@@ -20875,15 +20875,15 @@ static const int32_t s_InvokerIndices[5353] =
 	8277,
 	9596,
 	7568,
-	7754,
+	7753,
 	9754,
 	8367,
 	7497,
 	7532,
-	7731,
+	7730,
 	7519,
 	10030,
-	7750,
+	7749,
 	8253,
 	9539,
 	8800,
@@ -20906,8 +20906,8 @@ static const int32_t s_InvokerIndices[5353] =
 	8934,
 	9877,
 	9876,
-	7628,
-	7734,
+	7629,
+	7733,
 	7537,
 	7488,
 	8795,
@@ -21074,10 +21074,10 @@ static const int32_t s_InvokerIndices[5353] =
 	8102,
 	10714,
 	7512,
-	7636,
+	7637,
 	8910,
 	7576,
-	7749,
+	7748,
 	10219,
 	11972,
 	12278,
@@ -21914,7 +21914,7 @@ extern const uint32_t g_rgctx_TextInputBase_ProcessEventAtTarget_mC72FC9FB2ECD9E
 extern const uint32_t g_rgctx_TextInputBase_BuildContextualMenu_mB61B0BDF92F9267F08EB38C12E254C0E217F7C99;
 extern const uint32_t g_rgctx_TextInputBase_SaveValueAndText_mDD8478417EF4AB1F17EF3EB176785219840A9D3F;
 extern const uint32_t g_rgctx_TextInputBase_get_touchScreenTextFieldChanged_mFF8639D73A93961FB89199DF45087B291E2DF618;
-extern const uint32_t g_rgctx_TextInputBase_U3CProcessEventAtTargetU3Eb__99_0_m4F9673C42287B6C492D02C85972D23C1D092B67F;
+extern const uint32_t g_rgctx_TextInputBase_U3CProcessEventAtTargetU3Eb__97_0_m3EC88953639F0251CC7457B18FA5A97E36D3B5F3;
 extern const uint32_t g_rgctx_TextInputBase_RestoreValueAndText_mC16D56C625968D9E37F2BA8306696DE3396FF8FD;
 extern const uint32_t g_rgctx_TextInputBase_SyncTextEngine_mEE89D2248749066B383548148A3246865E7AFB03;
 extern const uint32_t g_rgctx_TextInputBase_AcceptCharacter_mA057185A47571E048B0CCDEF512EFE78D019A1EE;
@@ -22738,7 +22738,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[822] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_BuildContextualMenu_mB61B0BDF92F9267F08EB38C12E254C0E217F7C99 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_SaveValueAndText_mDD8478417EF4AB1F17EF3EB176785219840A9D3F },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_get_touchScreenTextFieldChanged_mFF8639D73A93961FB89199DF45087B291E2DF618 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_U3CProcessEventAtTargetU3Eb__99_0_m4F9673C42287B6C492D02C85972D23C1D092B67F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_U3CProcessEventAtTargetU3Eb__97_0_m3EC88953639F0251CC7457B18FA5A97E36D3B5F3 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_RestoreValueAndText_mC16D56C625968D9E37F2BA8306696DE3396FF8FD },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_SyncTextEngine_mEE89D2248749066B383548148A3246865E7AFB03 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TextInputBase_AcceptCharacter_mA057185A47571E048B0CCDEF512EFE78D019A1EE },

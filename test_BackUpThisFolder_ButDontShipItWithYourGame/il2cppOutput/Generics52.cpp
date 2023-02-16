@@ -34790,8 +34790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextInputBase_AssignRect_mF3A58BFC7D8E1F
 		return;
 	}
 }
-// System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase<System.Object>::<ProcessEventAtTarget>b__99_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextInputBase_U3CProcessEventAtTargetU3Eb__99_0_m2B499AEFDBD4C8CE21A1612073BC34D033F9D533_gshared (TextInputBase_tB39C3307149E695704F6CB95FE12BD9916743CAE* __this, const RuntimeMethod* method) 
+// System.Void UnityEngine.UIElements.TextInputBaseField`1/TextInputBase<System.Object>::<ProcessEventAtTarget>b__97_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextInputBase_U3CProcessEventAtTargetU3Eb__97_0_mDF0830CEFB70118354572860DEB1116F70B0C725_gshared (TextInputBase_tB39C3307149E695704F6CB95FE12BD9916743CAE* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
