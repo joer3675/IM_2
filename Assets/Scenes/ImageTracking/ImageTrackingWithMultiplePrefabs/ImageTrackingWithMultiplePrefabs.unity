@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 287391695}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440221, g: 0.49316514, b: 0.5722316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,7 +157,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PrefabsList:
   - imageGuid: acb49c90-17ef-4383-8a50-13bd72a4666c
-    imagePrefab: {fileID: 0}
+    imagePrefab: {fileID: 7038220984588547355, guid: 9d914c3d0b1114964b654dbb800f73cd,
+      type: 3}
+  - imageGuid: 795c5d42-7804-414e-afcb-08242bf863cc
+    imagePrefab: {fileID: 7412390272454394293, guid: 54342b266035240ee8ca9d5949959c56,
+      type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21, type: 2}
 --- !u!114 &143437354
 MonoBehaviour:
@@ -173,8 +177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21,
     type: 2}
-  m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_MaxNumberOfMovingImages: 3
+  m_TrackedImagePrefab: {fileID: 8682790842898555120, guid: a34fff2b4f91f438197886db4a364e3e,
+    type: 3}
 --- !u!114 &143437355
 MonoBehaviour:
   m_ObjectHideFlags: 0
