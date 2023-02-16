@@ -31,6 +31,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
             {
                 imageGuid = guid.ToString();
                 imagePrefab = prefab;
+
+                //Debug.Log(imagePrefab.name);
             }
         }
 
@@ -61,6 +63,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             foreach (var kvp in m_PrefabsDictionary)
             {
                 m_PrefabsList.Add(new NamedPrefab(kvp.Key, kvp.Value));
+                // Debug.Log(kvp.Value.name);
             }
         }
 
@@ -96,13 +99,18 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 var minLocalScalar = Mathf.Min(trackedImage.size.x, trackedImage.size.y) / 2;
                 trackedImage.transform.localScale = new Vector3(minLocalScalar, minLocalScalar, minLocalScalar);
                 AssignPrefab(trackedImage);
+                // GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "test3";
             }
         }
 
         void AssignPrefab(ARTrackedImage trackedImage)
         {
             if (m_PrefabsDictionary.TryGetValue(trackedImage.referenceImage.guid, out var prefab))
+            {
+                //  GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "test2";
                 m_Instantiated[trackedImage.referenceImage.guid] = Instantiate(prefab, trackedImage.transform);
+            }
+
         }
 
         public GameObject GetPrefabForReferenceImage(XRReferenceImage referenceImage)
@@ -113,6 +121,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             m_PrefabsDictionary[referenceImage.guid] = alternativePrefab;
             if (m_Instantiated.TryGetValue(referenceImage.guid, out var instantiatedPrefab))
             {
+                //   GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "test1";
                 m_Instantiated[referenceImage.guid] = Instantiate(alternativePrefab, instantiatedPrefab.transform.parent);
                 Destroy(instantiatedPrefab);
             }
@@ -196,7 +205,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                         var tempDictionary = new Dictionary<Guid, GameObject>();
                         foreach (var image in library)
                         {
-                            var prefab = (GameObject) EditorGUILayout.ObjectField(image.name, behaviour.m_PrefabsDictionary[image.guid], typeof(GameObject), false);
+                            var prefab = (GameObject)EditorGUILayout.ObjectField(image.name, behaviour.m_PrefabsDictionary[image.guid], typeof(GameObject), false);
                             tempDictionary.Add(image.guid, prefab);
                         }
 
