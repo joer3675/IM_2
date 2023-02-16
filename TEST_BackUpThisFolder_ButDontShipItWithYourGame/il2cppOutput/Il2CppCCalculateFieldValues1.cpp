@@ -36099,12 +36099,20 @@ struct DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F  : public MonoBeh
 {
 	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_OriginalPrefab
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OriginalPrefab_4;
+	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_OriginalPrefab1
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OriginalPrefab1_5;
+	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_OriginalPrefab2
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OriginalPrefab2_6;
 	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_AlternativePrefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AlternativePrefab_5;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AlternativePrefab_7;
+	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_AlternativePrefab1
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AlternativePrefab1_8;
+	// UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_AlternativePrefab2
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AlternativePrefab2_9;
 	// UnityEngine.XR.ARFoundation.Samples.DynamicPrefab/State UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_State
-	int32_t ___m_State_6;
+	int32_t ___m_State_10;
 	// System.String UnityEngine.XR.ARFoundation.Samples.DynamicPrefab::m_ErrorMessage
-	String_t* ___m_ErrorMessage_7;
+	String_t* ___m_ErrorMessage_11;
 };
 
 // UnityEngine.XR.ARFoundation.Samples.EnvironmentProbeVisualizer
@@ -56149,9 +56157,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5393[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5394[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5395[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5395[8] = 
 {
-	static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_OriginalPrefab_4)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_AlternativePrefab_5)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_State_6)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_ErrorMessage_7)),};
+	static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_OriginalPrefab_4)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_OriginalPrefab1_5)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_OriginalPrefab2_6)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_AlternativePrefab_7)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_AlternativePrefab1_8)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_AlternativePrefab2_9)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_State_10)),static_cast<int32_t>(offsetof(DynamicPrefab_t5216B847A66361861F7AE71240A400FF6435AC0F, ___m_ErrorMessage_11)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5396[2] = 
 {
 	static_cast<int32_t>(offsetof(NamedPrefab_t1DFF605A65C3F163B46E76ADFA6CD33CECCAFA1D, ___imageGuid_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(NamedPrefab_t1DFF605A65C3F163B46E76ADFA6CD33CECCAFA1D, ___imagePrefab_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

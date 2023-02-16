@@ -14,14 +14,36 @@ namespace UnityEngine.XR.ARFoundation.Samples
     {
         GameObject m_OriginalPrefab;
 
+        GameObject m_OriginalPrefab1;
+
+        GameObject m_OriginalPrefab2;
+
         [SerializeField]
         GameObject m_AlternativePrefab;
+        [SerializeField]
+        GameObject m_AlternativePrefab1;
+        [SerializeField]
+        GameObject m_AlternativePrefab2;
 
         public GameObject alternativePrefab
         {
             get => m_AlternativePrefab;
             set => m_AlternativePrefab = value;
         }
+
+        public GameObject alternativePrefab1
+        {
+            get => m_AlternativePrefab1;
+            set => m_AlternativePrefab1 = value;
+        }
+
+        public GameObject alternativePrefab2
+        {
+            get => m_AlternativePrefab2;
+            set => m_AlternativePrefab2 = value;
+        }
+
+       
 
         enum State
         {
@@ -50,7 +72,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             {
                 case State.OriginalPrefab:
                 {
-                    if (GUILayout.Button($"Piktogram {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
+                    if (GUILayout.Button($"Piktogram"))
                     {
                         m_State = State.ChangeToAlternativePrefab;
                     }
@@ -59,7 +81,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 }
                 case State.AlternativePrefab:
                 {
-                    if (GUILayout.Button($"Text {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
+                    if (GUILayout.Button($"Text"))
                     {
                         m_State = State.ChangeToOriginalPrefab;
                     }
@@ -109,9 +131,13 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                     if (!m_OriginalPrefab)
                         m_OriginalPrefab = manager.GetPrefabForReferenceImage(library[0]);
+                        m_OriginalPrefab1 = manager.GetPrefabForReferenceImage(library[1]);
+                        m_OriginalPrefab2 = manager.GetPrefabForReferenceImage(library[2]);
 
-                    manager.SetPrefabForReferenceImage(library[0], alternativePrefab);
-                    m_State = State.AlternativePrefab;
+                        manager.SetPrefabForReferenceImage(library[0], alternativePrefab);
+                        manager.SetPrefabForReferenceImage(library[1], alternativePrefab1);
+                        manager.SetPrefabForReferenceImage(library[2], alternativePrefab2);
+                        m_State = State.AlternativePrefab;
                     break;
                 }
 
@@ -138,6 +164,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                     }
 
                     manager.SetPrefabForReferenceImage(library[0], m_OriginalPrefab);
+                    manager.SetPrefabForReferenceImage(library[1], m_OriginalPrefab1);
+                    manager.SetPrefabForReferenceImage(library[2], m_OriginalPrefab2);
                     m_State = State.OriginalPrefab;
                     break;
                 }
