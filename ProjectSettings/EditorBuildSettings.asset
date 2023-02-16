@@ -131,6 +131,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Camera/BackgroundRenderOrder/BackgroundRenderOrder.unity
     guid: dd6d3723894ae4618b821f1e99d0a4c7
+  - enabled: 0
+    path: Assets/Scenes/ObjectScanner_Johan/ObjectIdentifier.unity
+    guid: 6060125a676ff664ba12a0226c415706
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,
       type: 2}
