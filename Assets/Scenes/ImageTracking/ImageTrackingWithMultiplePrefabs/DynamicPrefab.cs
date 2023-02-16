@@ -28,7 +28,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         public GameObject alternativePrefab
         {
             get => m_AlternativePrefab;
-            set => m_AlternativePrefab = value
+            set => m_AlternativePrefab = value;
         }
 
         public GameObject alternativePrefab1
@@ -134,7 +134,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                         m_OriginalPrefab1 = manager.GetPrefabForReferenceImage(library[1]);
                         m_OriginalPrefab2 = manager.GetPrefabForReferenceImage(library[2]);
 
-                        manager.SetPrefabForReferenceImage(library[0], alternativePrefab)
+                        manager.SetPrefabForReferenceImage(library[0], alternativePrefab);
                         manager.SetPrefabForReferenceImage(library[1], alternativePrefab1);
                         manager.SetPrefabForReferenceImage(library[2], alternativePrefab2);
                         m_State = State.AlternativePrefab;
