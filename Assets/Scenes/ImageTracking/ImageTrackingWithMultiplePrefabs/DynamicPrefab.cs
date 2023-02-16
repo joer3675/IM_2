@@ -44,13 +44,13 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             float margin = 100;
 
-            GUILayout.BeginArea(new Rect(margin, margin, Screen.width - margin * 2, Screen.height - margin * 2));
+            GUILayout.BeginArea(new Rect(margin * 2, Screen.height - margin, Screen.width - margin * 4, Screen.height - margin * 4));
 
             switch (m_State)
             {
                 case State.OriginalPrefab:
                 {
-                    if (GUILayout.Button($"Alternative Prefab for {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
+                    if (GUILayout.Button($"Piktogram {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
                     {
                         m_State = State.ChangeToAlternativePrefab;
                     }
@@ -59,7 +59,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 }
                 case State.AlternativePrefab:
                 {
-                    if (GUILayout.Button($"Original Prefab for {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
+                    if (GUILayout.Button($"Text {GetComponent<PrefabImagePairManager>().imageLibrary[0].name}"))
                     {
                         m_State = State.ChangeToOriginalPrefab;
                     }
