@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 6516169314016277279}
   - component: {fileID: 2658245686717847710}
   - component: {fileID: 5485271009301439774}
+  - component: {fileID: 7809659353534936356}
   m_Layer: 0
   m_Name: ManipulatorCube
   m_TagString: Untagged
@@ -483,6 +484,20 @@ MonoBehaviour:
   m_ARSessionOrigin: {fileID: 0}
   m_RotationRateDegreesDrag: 100
   m_RotationRateDegreesTwist: 2.5
+--- !u!114 &7809659353534936356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085108242453859580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51385d3a7b3b5f14b922b352d153f8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSlider: {fileID: 0}
+  scaleSlider: {fileID: 0}
 --- !u!1 &5716108479203398054
 GameObject:
   m_ObjectHideFlags: 0
