@@ -96,6 +96,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 var minLocalScalar = Mathf.Min(trackedImage.size.x, trackedImage.size.y) / 2;
                 trackedImage.transform.localScale = new Vector3(minLocalScalar, minLocalScalar, minLocalScalar);
                 AssignPrefab(trackedImage);
+
+                //Debug.Log("Test");
             }
         }
 
@@ -104,6 +106,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
             if (m_PrefabsDictionary.TryGetValue(trackedImage.referenceImage.guid, out var prefab))
                 m_Instantiated[trackedImage.referenceImage.guid] = Instantiate(prefab, trackedImage.transform);
         }
+
+        
 
         public GameObject GetPrefabForReferenceImage(XRReferenceImage referenceImage)
             => m_PrefabsDictionary.TryGetValue(referenceImage.guid, out var prefab) ? prefab : null;
@@ -117,6 +121,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 Destroy(instantiatedPrefab);
             }
         }
+
+
 
 #if UNITY_EDITOR
         /// <summary>
