@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143437356}
   - component: {fileID: 143437355}
+  - component: {fileID: 143437358}
   - component: {fileID: 143437354}
   - component: {fileID: 143437351}
   - component: {fileID: 143437357}
@@ -233,6 +234,21 @@ MonoBehaviour:
     type: 3}
   m_AlternativePrefab2: {fileID: 7412390272454394293, guid: 1ac1a3f7c08cd074394665bc3b190801,
     type: 3}
+--- !u!114 &143437358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143437350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FacePrefab: {fileID: 7412390272454394293, guid: 2b6890b2826b0c74e81791f61ab8fe22,
+    type: 3}
+  m_MaximumFaceCount: 1
 --- !u!1 &191042748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2302,7 +2318,7 @@ MonoBehaviour:
   m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
-  m_FacingDirection: 1
+  m_FacingDirection: 2
   m_RenderMode: 0
 --- !u!114 &1718838892
 MonoBehaviour:
