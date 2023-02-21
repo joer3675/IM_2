@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RotationSlider1
   - ScaleSlider1
+  - prefabtag
   layers:
   - Default
   - TransparentFX
