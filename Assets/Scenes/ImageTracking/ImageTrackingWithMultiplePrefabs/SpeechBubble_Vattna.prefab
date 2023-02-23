@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 3043349999823416690}
   m_Layer: 0
   m_Name: SpeechBubble_Vattna
-  m_TagString: Untagged
+  m_TagString: Speechbubble_Vattna
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

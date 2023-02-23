@@ -91,8 +91,8 @@ namespace UnityEngine.XR.ARFoundation
                     {
                         if (imageName.Equals("Vattna"))
                         {
-                            GameObject.FindGameObjectsWithTag("Speechbubble_Vattna").transform.GetChild(0).gameObject.SetActive(true);
-                            GameObject.FindGameObjectsWithTag("Speechbubble_Vattna").transform.GetChild(1).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("Speechbubble_Vattna").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("Speechbubble_Vattna").transform.GetChild(1).gameObject.SetActive(false);
                         }
                         else if (imageName.Equals("Dammsuga")) {
 
