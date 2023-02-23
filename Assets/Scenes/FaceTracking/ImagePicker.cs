@@ -87,38 +87,27 @@ namespace UnityEngine.XR.ARFoundation
                 Debug.Log("test");
                 if (task.Equals("vacuum", StringComparison.OrdinalIgnoreCase))
                 {
+                    if (imageName != null)
+                    {
+                        if (imageName.Equals("Vattna"))
+                        {
+                            GameObject.Find("Speechbubble_Vattna").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.Find("Speechbubble_Vattna").transform.GetChild(1).gameObject.SetActive(false);
+                        }
+                        else if (imageName.Equals("Dammsuga")) {
 
-                    if (imageName != null)
-                    {
-                        if (imageName.Equals("VacuumQR"))
-                        {
-                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
-                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
+                            GameObject.Find("Speechbubble_Dammsuga").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.Find("Speechbubble_Dammsuga").transform.GetChild(1).gameObject.SetActive(false);
                         }
-                        else
+                        else if (imageName.Equals("Mala"))
                         {
-                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
-                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
+                            GameObject.Find("Speechbubble_Mala").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.Find("Speechbubble_Mala").transform.GetChild(1).gameObject.SetActive(false);
                         }
-                    }
-                }
-                else if (task.Equals("paint", StringComparison.OrdinalIgnoreCase))
-                {
-                    if (imageName != null)
-                    {
-                        if (imageName.Equals("VacuumQR"))
-                        {
-                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
-                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
-                        }
-                        else
-                        {
-                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(true);
-                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(false);
-                        }
-                    }
+                    }   
                 }
             }
+        
 
             foreach (var removedImage in eventArgs.removed)
             {
@@ -128,5 +117,3 @@ namespace UnityEngine.XR.ARFoundation
     }
 
 }
-
-
