@@ -3,32 +3,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Origin : MonoBehaviour
+namespace UnityEngine.XR.ARFoundation
 {
-    [SerializeField]
-    private GameObject prefabOrigin;
-
-    [SerializeField]
-    private GameObject _camera;
-
-    private GameObject spawnObject;
-
-    void Awake()
+    public class Origin : MonoBehaviour
     {
-        Debug.Log(_camera.transform.position);
-        Instantiate(prefabOrigin, _camera.transform.position, transform.rotation);
+        [SerializeField]
+        private GameObject prefabOrigin;
 
-    }
+        [SerializeField]
+        private GameObject _camera;
+
+        private GameObject spawnObject;
 
 
-    public void SetPosition(Vector3 v3)
-    {
-        prefabOrigin.transform.position = v3;
+        void Awake()
+        {
+            spawnObject = Instantiate(prefabOrigin, _camera.transform.position, transform.rotation);
+            if (spawnObject.GetComponent<ARAnchor>() == null)
+            {
+                spawnObject.AddComponent<ARAnchor>();
+            }
 
-    }
+        }
 
-    public Vector3 GetPosition()
-    {
-        return prefabOrigin.transform.position;
+
+        public void SetPosition(Vector3 v3)
+        {
+            prefabOrigin.transform.position = v3;
+
+        }
+
+        public Vector3 GetPosition()
+        {
+            return prefabOrigin.transform.position;
+        }
     }
 }

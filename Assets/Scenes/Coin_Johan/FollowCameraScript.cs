@@ -9,6 +9,9 @@ namespace UnityEngine.XR.ARFoundation
     {
         // Start is called before the first frame update
         [SerializeField]
+        private AudioSource soundClip;
+
+        [SerializeField]
         private GameObject _camera;
 
         [SerializeField]
@@ -21,6 +24,7 @@ namespace UnityEngine.XR.ARFoundation
         private int highscoore;
         void Start()
         {
+            soundClip = GetComponent<AudioSource>();
             coinsLeft = spawnRandomCoins.GetComponent<SpawnRandomCoins>();
         }
 
@@ -35,13 +39,13 @@ namespace UnityEngine.XR.ARFoundation
 
         void OnTriggerEnter(Collider collision)
         {
-            Debug.Log("Here");
+
             if (collision.gameObject.CompareTag("CoinTag"))
             {
+                soundClip.Play();
                 highscoore++;
                 collision.gameObject.SetActive(false);
                 Destroy(collision.gameObject);
-                Debug.Log("Hit!");
                 _score.text = highscoore.ToString();
                 coinsLeft.numberOfSpawnCoins++;
             }

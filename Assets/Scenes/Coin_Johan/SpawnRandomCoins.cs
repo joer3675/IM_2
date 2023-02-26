@@ -19,6 +19,9 @@ namespace UnityEngine.XR.ARFoundation
         private GameObject m_prefabSpawn;
         private GameObject spawnObject;
 
+        [SerializeField]
+        private GameObject _camera;
+
         private ARRaycastManager _raycastManager;
 
         private ARAnchorManager _anchorManager;
@@ -31,6 +34,7 @@ namespace UnityEngine.XR.ARFoundation
 
         [SerializeField]
         public int numberOfSpawnCoins;
+
 
 
         private static readonly List<ARRaycastHit> Hits = new List<ARRaycastHit>();
@@ -50,14 +54,34 @@ namespace UnityEngine.XR.ARFoundation
             if (spawnObject == null || 0 < numberOfSpawnCoins)
             {
 
-                Vector3 spawnPosition = (origin.transform.position + new Vector3(Random.Range(-4.0f, 4f), 0, Random.Range(-4f, 4f)));
+                Vector3 spawnPosition = (origin.transform.position + new Vector3(Random.Range(-3.0f, 3f) * 2 - 1, -1, Random.Range(-3f, 3f) * 2 - 1));
+                if (Mathf.Abs(spawnPosition.x - _camera.transform.position.x) > 2 || Mathf.Abs(spawnPosition.z - _camera.transform.position.z) > 2)
+                {
 
-                spawnObject = Instantiate(m_prefabSpawn, spawnPosition, origin.transform.rotation);
-                origin.transform.position = currentPos;
+                    if (GameObject.FindGameObjectsWithTag("CoinTag").Length > 0)
+                    {
+                        foreach (GameObject prefab in GameObject.FindGameObjectsWithTag("CoinTag"))
+                        {
+                            if (Mathf.Abs(spawnPosition.x - prefab.transform.position.x) > 2 || Mathf.Abs(spawnPosition.z - prefab.transform.position.z) > 2)
+                            {
+                                spawnObject = Instantiate(m_prefabSpawn, spawnPosition, origin.transform.rotation);
+                            }
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        spawnObject = Instantiate(m_prefabSpawn, spawnPosition, origin.transform.rotation);
+                    }
 
-                currentPos = spawnObject.transform.position;
-                numberOfSpawnCoins--;
-                Debug.Log("Origin Pos: " + origin.transform.position + " CoinPois : " + spawnObject.transform.position);
+                    numberOfSpawnCoins--;
+                }
+
+                //origin.transform.position = currentPos;
+
+                //currentPos = spawnObject.transform.position;
+
+                // Debug.Log("Origin Pos: " + origin.transform.position + " CoinPois : " + spawnObject.transform.position);
                 // if(_raycastManager.Raycast())
                 // CreateAnchor(Hits[0]);
             }
