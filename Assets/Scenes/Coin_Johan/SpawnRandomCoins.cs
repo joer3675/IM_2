@@ -4,6 +4,8 @@ using Unity.Collections;
 using UnityEngine.XR.ARSubsystems;
 using Unity.XR.CoreUtils;
 using UnityEngine.UI;
+using UnityEngine;
+using System.Collections;
 
 
 
@@ -21,6 +23,15 @@ namespace UnityEngine.XR.ARFoundation
 
         private ARAnchorManager _anchorManager;
 
+        public ARPlane aRPlane;
+
+        [SerializeField]
+        private GameObject origin;
+        Vector3 currentPos;
+
+        [SerializeField]
+        public int numberOfSpawnCoins;
+
 
         private static readonly List<ARRaycastHit> Hits = new List<ARRaycastHit>();
 
@@ -29,38 +40,69 @@ namespace UnityEngine.XR.ARFoundation
         {
             _anchorManager = GetComponent<ARAnchorManager>();
             _raycastManager = GetComponent<ARRaycastManager>();
+            currentPos = origin.transform.position;
         }
 
 
         void Update()
         {
-            Touch touch;
-            if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) { return; }
 
-            // Perform AR raycast to any kind of trackable
-            if (_raycastManager.Raycast(touch.position, Hits, TrackableType.PlaneWithinPolygon))
+            if (spawnObject == null || 0 < numberOfSpawnCoins)
             {
-                // Raycast hits are sorted by distance, so the first one will be the closest hit.
 
-                var hitPose = Hits[0].pose;
+                Vector3 spawnPosition = (origin.transform.position + new Vector3(Random.Range(-4.0f, 4f), 0, Random.Range(-4f, 4f)));
 
-                if (spawnObject == null)
-                {
-                    spawnObject = Instantiate(m_prefabSpawn, hitPose.position, hitPose.rotation);
-                }
-                else
-                {
-                    spawnObject.transform.position = hitPose.position;
-                }
+                spawnObject = Instantiate(m_prefabSpawn, spawnPosition, origin.transform.rotation);
+                origin.transform.position = currentPos;
 
-
-                // Instantiate the prefab at the given position
-                // Note: the object is not anchored yet!
-                //CreateAnchor(Hits[0]);
+                currentPos = spawnObject.transform.position;
+                numberOfSpawnCoins--;
+                Debug.Log("Origin Pos: " + origin.transform.position + " CoinPois : " + spawnObject.transform.position);
+                // if(_raycastManager.Raycast())
+                // CreateAnchor(Hits[0]);
             }
+            // // Ray rayCast;
+            // // rayCast = Camera.main.ScreenPointToRay(new Vector3((Camera.main.pixelWidth - 1) / 2, (Camera.main.pixelHeight - 1) / 2, 0));
+            // // //if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) { return; }
+            // // // Perform AR raycast to any kind of trackable
 
+            // // if (_raycastManager.Raycast(rayCast, Hits, TrackableType.PlaneWithinPolygon))
+            // // {
+            // //     // Raycast hits are sorted by distance, so the first one will be the closest hit.
+
+            // //     var hitPose = Hits[0].pose;
+
+
+
+            // //     if (spawnObject == null)
+            // //     {
+            // //         spawnObject = Instantiate(m_prefabSpawn, hitPose.position, hitPose.rotation);
+            // //         CreateAnchor(Hits[0]);
+            // //     }
+            // else
+            // {
+            //     spawnObject.transform.position = hitPose.position;
+            //     CreateAnchor(Hits[0]);
+            //     // if (!spawnObject.activeSelf)
+            //     // {
+            //     //     spawnObject.SetActive(true);
+
+            //     // }
+            // }
+
+
+            // Instantiate the prefab at the given position
+            // Note: the object is not anchored yet!
+
+            //}
 
         }
+
+        private float ARPlaneSize(ARPlaneBoundaryChangedEventArgs obj)
+        {
+            return aRPlane.size.x * aRPlane.size.y;
+        }
+
 
         private ARAnchor CreateAnchor(in ARRaycastHit hit)
         {
@@ -86,20 +128,22 @@ namespace UnityEngine.XR.ARFoundation
             // Otherwise, just create a regular anchor at the hit pose
 
             // Note: the anchor can be anywhere in the scene hierarchy
-            var instantiatedObject = Instantiate(m_prefabSpawn, (hit.pose.position + new Vector3(Random.Range(-5, 5), 0, 0)), hit.pose.rotation);
-
-            // Make sure the new GameObject has an ARAnchor component
-            anchor = instantiatedObject.GetComponent<ARAnchor>();
+            anchor = spawnObject.GetComponent<ARAnchor>();
             if (anchor == null)
             {
-                anchor = instantiatedObject.AddComponent<ARAnchor>();
+                anchor = spawnObject.AddComponent<ARAnchor>();
             }
             Debug.Log($"Created regular anchor (id: {anchor.nativePtr}).");
-
-
-
             return anchor;
         }
+        //var instantiatedObject = Instantiate(m_prefabSpawn, (hit.pose.position + new Vector3(Random.Range(-5, 5), 0, 0)), hit.pose.rotation);
+
+        // Make sure the new GameObject has an ARAnchor component
     }
+
+
+
+
+
 
 }
