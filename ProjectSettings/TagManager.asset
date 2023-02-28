@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Speechbubble_Vattna
   - SpeechBubble_Mala
+  - DebugTag
   layers:
   - Default
   - TransparentFX
