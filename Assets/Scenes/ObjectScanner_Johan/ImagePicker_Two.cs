@@ -6,7 +6,7 @@ using UnityEngine;
 using System.Collections;
 namespace UnityEngine.XR.ARFoundation
 {
-    public class ImagePicker : MonoBehaviour
+    public class ImagePicker_Two : MonoBehaviour
     {
         [SerializeField]
         ARTrackedImageManager m_TrackedImageManager;

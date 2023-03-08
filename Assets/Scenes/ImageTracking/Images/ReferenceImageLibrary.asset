@@ -47,3 +47,33 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Dammsuga
     m_Texture: {fileID: 2800000, guid: 45ec977ae49c42a498f340b4d1357445, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4982728996683216776
+      m_GuidHigh: 14532217531302598550
+    m_SerializedTextureGuid:
+      m_GuidLow: 9648046559583119262
+      m_GuidHigh: 1364601530035555978
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: VacumeQR
+    m_Texture: {fileID: 2800000, guid: 7861a79ebf3a85e48a4eb991dc09f012, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4900281762326273445
+      m_GuidHigh: 4995741409201497492
+    m_SerializedTextureGuid:
+      m_GuidLow: 12989737210668014328
+      m_GuidHigh: 8884847694719957177
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: WaterCan
+    m_Texture: {fileID: 2800000, guid: a78a5af8d12bb444b9383b87e7514d7b, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5120594927301299169
+      m_GuidHigh: 17023395947857656977
+    m_SerializedTextureGuid:
+      m_GuidLow: 10584761501227334810
+      m_GuidHigh: 15088903514963012875
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Brush
+    m_Texture: {fileID: 2800000, guid: 40e2bc9aa08192e40b6d836bcd8d66d1, type: 3}
