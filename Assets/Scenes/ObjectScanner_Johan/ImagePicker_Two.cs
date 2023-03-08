@@ -119,10 +119,6 @@ namespace UnityEngine.XR.ARFoundation
                 {
                     if (imageName != null)
                     {
-                        // if (!isCorrectNewImage)
-                        // {
-                        //     hasPlayedSound = false;
-                        // }
 
                         if (imageName.Equals("VacuumQR"))
                         {
@@ -249,14 +245,17 @@ namespace UnityEngine.XR.ARFoundation
                     if (GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("green");
+                        //  nextSceneObject.SetActive(true);
                     }
                     else if (GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
+                        //   nextSceneObject.SetActive(false);
                     }
                     else if (GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
+                        // nextSceneObject.SetActive(false);
                     }
 
 
@@ -266,14 +265,17 @@ namespace UnityEngine.XR.ARFoundation
                     if (GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
+                        //nextSceneObject.SetActive(false);
                     }
                     else if (GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
+                        // nextSceneObject.SetActive(false);
                     }
                     else if (GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("green");
+                        //nextSceneObject.SetActive(true);
                     }
 
 
@@ -426,7 +428,6 @@ namespace UnityEngine.XR.ARFoundation
             switch (task)
             {
                 case "Dammsuga":
-
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
@@ -434,6 +435,7 @@ namespace UnityEngine.XR.ARFoundation
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                     break;
+
                 case "Mala":
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
@@ -442,6 +444,7 @@ namespace UnityEngine.XR.ARFoundation
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                     break;
+
                 case "Vattna":
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);

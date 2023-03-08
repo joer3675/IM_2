@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class PrefabManager : MonoBehaviour
 {
-    public string task; 
+    //public string task;
     public GameObject gameobject;
- 
+
 
     private int pressNumber = 0;
     private GameObject[] objectsPrefabList;
@@ -16,7 +16,6 @@ public class PrefabManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Task.setTask("vacuum");
     }
 
     // Update is called once per frame
@@ -26,18 +25,20 @@ public class PrefabManager : MonoBehaviour
 
     }
 
-     void Start() {
+    void Start()
+    {
 
         //gameobject = GameObject.FindGameObjectWithTag("prefabtag");
-        if (Task.getTask().Equals("vacuum")) {
+        if (Task.getTask().Equals("Dammsuga"))
+        {
 
             //foreach (GameObject gameobject in objectsPrefabList)
             //{
-                gameobject.transform.GetChild(0).gameObject.SetActive(true);
-                gameobject.transform.GetChild(1).gameObject.SetActive(false);
-                gameobject.transform.GetChild(2).gameObject.SetActive(false);
-                //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(0).gameObject.SetActive(true);
-                //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(1).gameObject.SetActive(false);
+            gameobject.transform.GetChild(0).gameObject.SetActive(true);
+            gameobject.transform.GetChild(1).gameObject.SetActive(false);
+            gameobject.transform.GetChild(2).gameObject.SetActive(false);
+            //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(0).gameObject.SetActive(true);
+            //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(1).gameObject.SetActive(false);
 
             //}
             pressNumber++;
@@ -46,17 +47,17 @@ public class PrefabManager : MonoBehaviour
             //prefabObject.transform.GetChild(1).gameObject.SetActive(false);
 
         }
-        else if (Task.getTask().Equals("paint"))
+        else if (Task.getTask().Equals("Mala"))
         {
 
             //    foreach (GameObject gameobject in objectsPrefabList)
             //{
-                gameobject.transform.GetChild(0).gameObject.SetActive(false);
-                gameobject.transform.GetChild(1).gameObject.SetActive(true);
-                gameobject.transform.GetChild(2).gameObject.SetActive(false);
-                //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(0).gameObject.SetActive(false);
-                //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(1).gameObject.SetActive(true);
-               
+            gameobject.transform.GetChild(0).gameObject.SetActive(false);
+            gameobject.transform.GetChild(1).gameObject.SetActive(true);
+            gameobject.transform.GetChild(2).gameObject.SetActive(false);
+            //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(0).gameObject.SetActive(false);
+            //GameObject.FindGameObjectWithTag("prefabtag").transform.GetChild(1).gameObject.SetActive(true);
+
             //}
             pressNumber++;
 
@@ -64,18 +65,18 @@ public class PrefabManager : MonoBehaviour
             //prefabObject.transform.GetChild(1).gameObject.SetActive(true);
 
         }
-        else if (Task.getTask().Equals("watering"))
+        else if (Task.getTask().Equals("Vattna"))
         {
             //foreach (GameObject gameobject in objectsPrefabList)
             //{
-                gameobject.transform.GetChild(0).gameObject.SetActive(false);
-                gameobject.transform.GetChild(1).gameObject.SetActive(false);
-                gameobject.transform.GetChild(2).gameObject.SetActive(true);
+            gameobject.transform.GetChild(0).gameObject.SetActive(false);
+            gameobject.transform.GetChild(1).gameObject.SetActive(false);
+            gameobject.transform.GetChild(2).gameObject.SetActive(true);
             //}
             pressNumber = 0;
-           
+
         }
-        
+
 
     }
 }
