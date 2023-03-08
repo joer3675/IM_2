@@ -8,6 +8,8 @@ TagManager:
   - GreenRedMarker
   - GreenRedMarker2
   - CoinTag
+  - SessionOrigin
+  - GreenRedMarker3
   layers:
   - Default
   - TransparentFX

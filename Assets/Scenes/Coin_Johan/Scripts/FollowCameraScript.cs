@@ -25,7 +25,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         private Text _score;
         private int highscoore;
 
-        int i = 0;
+
 
         void Start()
         {

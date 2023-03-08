@@ -27,6 +27,9 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         private GameObject _camera;
 
+        [SerializeField]
+        private GameObject buttonGround;
+
         private GameObject spawnObject;
 
         private bool hasFoundPlane = false;
@@ -61,7 +64,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                     if (spawnObject == null)
                     {
                         spawnObject = Instantiate(prefabOrigin, hitpose.position, hitpose.rotation);
-
+                        buttonGround.SetActive(true);
 
                         //var anchor = CreateAnchorSetPrefab(hit);
                     }
@@ -69,6 +72,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                     {
                         spawnObject.transform.position = hitpose.position;
                     }
+
 
 
 
@@ -107,12 +111,6 @@ namespace UnityEngine.XR.ARFoundation.Samples
                     if (plane.trackableId != _id)
                     {
                         plane.gameObject.SetActive(false);
-
-                    }
-                    else
-                    {
-                        //plane.GetComponent<MeshRenderer>().enabled = false;
-                        //plane.GetComponent<ARPlaneMeshVisualizer>().enabled = false;
 
                     }
 

@@ -98,7 +98,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (spawnObject == null || maxNumberOfSpawnedCoins >= numberOfSpawnCoins && numberOfSpawnCoins >= 0)
                 {
 
-                    Vector3 spawnPosition = (sessionOrigin.transform.position + new Vector3(Random.Range(-roomWidth, roomWidth) * 2 - 1, +coinSpawnHeight, Random.Range(-roomLength, roomLength) * 2 - 1));
+                    Vector3 spawnPosition = (sessionOrigin.transform.position + new Vector3(Random.Range(-roomWidth, roomWidth) * 2, +coinSpawnHeight, Random.Range(-roomLength, roomLength) * 2));
                     if (Mathf.Abs(spawnPosition.x - _camera.transform.position.x) > 2 || Mathf.Abs(spawnPosition.z - _camera.transform.position.z) > 2)
                     {
                         Transform ta = GameObject.FindGameObjectWithTag("SessionOrigin").transform;
@@ -110,6 +110,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                                 {
 
                                     spawnObject = Instantiate(m_prefabSpawn, spawnPosition, sessionOrigin.transform.rotation, ta);
+
 
 
                                 }
