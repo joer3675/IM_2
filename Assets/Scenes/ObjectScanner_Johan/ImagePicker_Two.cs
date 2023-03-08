@@ -34,13 +34,9 @@ namespace UnityEngine.XR.ARFoundation
         public GameObject prefabVac;
         public GameObject prefabBrush;
 
-        void Start()
+        void Awake()
         {
-
-        }
-        void Update()
-        {
-            //GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = inputField.GetComponent<TMP_InputField>().text;
+            task = Task.getTask();
         }
 
 
@@ -57,10 +53,11 @@ namespace UnityEngine.XR.ARFoundation
             foreach (var newImage in eventArgs.added)
             {
 
-                task = inputField.GetComponent<TMP_InputField>().text;
+                //task = inputField.GetComponent<TMP_InputField>().text;
+                //task = Task.getTask();
                 var imageName = newImage.referenceImage.name;
 
-                if (task.Equals("vacuum", StringComparison.OrdinalIgnoreCase))
+                if (task.Equals("Dammsuga", StringComparison.OrdinalIgnoreCase))
                 {
 
                     if (imageName != null)
@@ -102,23 +99,23 @@ namespace UnityEngine.XR.ARFoundation
                             // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                             // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                         }
-                        if (!hasPlayedSound)
-                        {
-                            if (isCorrectNewImage)
-                            {
-                                audioSource.PlayOneShot(audioClipGood);
-                                // hasPlayedSound = true;
+                        // if (!hasPlayedSound)
+                        // {
+                        //     if (isCorrectNewImage)
+                        //     {
+                        //         audioSource.PlayOneShot(audioClipGood);
+                        //         // hasPlayedSound = true;
 
-                            }
-                            else
-                            {
-                                audioSource.PlayOneShot(audioClipBad);
-                                // hasPlayedSound = true;
-                            }
-                        }
+                        //     }
+                        //     else
+                        //     {
+                        //         audioSource.PlayOneShot(audioClipBad);
+                        //         // hasPlayedSound = true;
+                        //     }
+                        // }
                     }
                 }
-                else if (task.Equals("paint", StringComparison.OrdinalIgnoreCase))
+                else if (task.Equals("Mala", StringComparison.OrdinalIgnoreCase))
                 {
                     if (imageName != null)
                     {
@@ -210,12 +207,12 @@ namespace UnityEngine.XR.ARFoundation
             }
             foreach (var updatedImage in eventArgs.updated)
             {
-                task = inputField.GetComponent<TMP_InputField>().text;
+                //task = inputField.GetComponent<TMP_InputField>().text;
                 var imageName = updatedImage.referenceImage.name;
 
                 if (!GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
                 {
-                    GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "Failed";
+                    //GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "Failed";
                     scannerObject.GetComponent<ScannerColor>().setColor("white");
                     nextSceneObject.SetActive(false);
 
@@ -227,7 +224,7 @@ namespace UnityEngine.XR.ARFoundation
                     SetMarkers(task);
 
                 }
-                if (task.Equals("vacuum", StringComparison.OrdinalIgnoreCase))
+                if (task.Equals("Dammsuga", StringComparison.OrdinalIgnoreCase))
                 {
 
                     if (GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible())
@@ -247,7 +244,7 @@ namespace UnityEngine.XR.ARFoundation
                     }
 
                 }
-                else if (task.Equals("paint", StringComparison.OrdinalIgnoreCase))
+                else if (task.Equals("Mala", StringComparison.OrdinalIgnoreCase))
                 {
                     if (GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible())
                     {
@@ -264,7 +261,7 @@ namespace UnityEngine.XR.ARFoundation
 
 
                 }
-                else if (task.Equals("water", StringComparison.OrdinalIgnoreCase))
+                else if (task.Equals("Vattna", StringComparison.OrdinalIgnoreCase))
                 {
                     if (GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible())
                     {
@@ -428,7 +425,7 @@ namespace UnityEngine.XR.ARFoundation
         {
             switch (task)
             {
-                case "vacuum":
+                case "Dammsuga":
 
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
@@ -437,7 +434,7 @@ namespace UnityEngine.XR.ARFoundation
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                     break;
-                case "paint":
+                case "Mala":
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
                     GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(true);
@@ -445,7 +442,7 @@ namespace UnityEngine.XR.ARFoundation
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                     break;
-                case "water":
+                case "Vattna":
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                     GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
                     GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
