@@ -12,6 +12,9 @@ TagManager:
   - Speechbubble_Vattna
   - SpeechBubble_Mala
   - DebugTag
+  - RotationSlider1
+  - ScaleSlider1
+  - prefabtag
   layers:
   - Default
   - TransparentFX
