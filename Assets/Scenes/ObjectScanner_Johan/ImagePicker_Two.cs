@@ -36,7 +36,7 @@ namespace UnityEngine.XR.ARFoundation
 
         void Awake()
         {
-            task = Task.getTask();
+
         }
 
 
@@ -54,8 +54,9 @@ namespace UnityEngine.XR.ARFoundation
             {
 
                 //task = inputField.GetComponent<TMP_InputField>().text;
-                //task = Task.getTask();
+                task = Task.getTask();
                 var imageName = newImage.referenceImage.name;
+
 
                 if (task.Equals("Dammsuga", StringComparison.OrdinalIgnoreCase))
                 {
@@ -70,8 +71,8 @@ namespace UnityEngine.XR.ARFoundation
                             // }
                             audioSource.PlayOneShot(audioClipGood);
                             // isCorrectNewImage = true;
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
                             // scannerObject.GetComponent<ScannerColor>().setColor("green");
 
                         }
@@ -83,12 +84,12 @@ namespace UnityEngine.XR.ARFoundation
                             //     hasPlayedSound = false;
                             // }
                             // isCorrectNewImage = false;
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
                             //scannerObject.GetComponent<ScannerColor>().setColor("red");
 
                         }
-                        else
+                        else if (imageName.Equals("WaterCanQR"))
                         {
                             audioSource.PlayOneShot(audioClipBad);
                             // if (isCorrectNewImage)
@@ -96,8 +97,8 @@ namespace UnityEngine.XR.ARFoundation
                             //     hasPlayedSound = false;
                             // }
                             // isCorrectNewImage = false;
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
                         }
                         // if (!hasPlayedSound)
                         // {
@@ -124,25 +125,25 @@ namespace UnityEngine.XR.ARFoundation
                         {
                             // isCorrectNewImage = false;
                             audioSource.PlayOneShot(audioClipBad);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
 
                         }
                         else if (imageName.Equals("BrushQR"))
                         {
                             audioSource.PlayOneShot(audioClipGood);
                             //  isCorrectNewImage = true;
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(true);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(false);
 
                         }
-                        else
+                        else if (imageName.Equals("WaterCanQR"))
                         {
 
                             // isCorrectNewImage = false;
                             audioSource.PlayOneShot(audioClipBad);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
-                            // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
+                            GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
 
 
                         }
@@ -160,24 +161,24 @@ namespace UnityEngine.XR.ARFoundation
                             {
                                 // isCorrectNewImage = false;
                                 audioSource.PlayOneShot(audioClipBad);
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
 
                             }
                             else if (imageName.Equals("BrushQR"))
                             {
                                 //isCorrectNewImage = false;
                                 audioSource.PlayOneShot(audioClipBad);
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
 
                             }
-                            else
+                            else if (imageName.Equals("WaterCanQR"))
                             {
                                 audioSource.PlayOneShot(audioClipGood);
                                 // isCorrectNewImage = true;
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(true);
-                                // GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(false);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(true);
+                                GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(false);
 
 
                             }
@@ -199,11 +200,12 @@ namespace UnityEngine.XR.ARFoundation
                     //         }
                     //     }
                 }
-                SetMarkers(task);
+                //SetMarkers(task);
+
             }
             foreach (var updatedImage in eventArgs.updated)
             {
-                //task = inputField.GetComponent<TMP_InputField>().text;
+                task = Task.getTask();
                 var imageName = updatedImage.referenceImage.name;
 
                 if (!GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
@@ -215,11 +217,7 @@ namespace UnityEngine.XR.ARFoundation
                     return;
 
                 }
-                if (imageName != null)
-                {
-                    SetMarkers(task);
 
-                }
                 if (task.Equals("Dammsuga", StringComparison.OrdinalIgnoreCase))
                 {
 
@@ -278,6 +276,11 @@ namespace UnityEngine.XR.ARFoundation
                         //nextSceneObject.SetActive(true);
                     }
 
+
+                }
+                if (imageName != null)
+                {
+                    SetMarkers(task);
 
                 }
             }
