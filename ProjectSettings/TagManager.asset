@@ -10,6 +10,9 @@ TagManager:
   - CoinTag
   - SessionOrigin
   - GreenRedMarker3
+  - Speechbubble_Vattna
+  - SpeechBubble_Mala
+  - DebugTag
   layers:
   - Default
   - TransparentFX

@@ -8495,6 +8495,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionMap_ClearCachedActionData_m330736EE1B1191D865E9E464C14259A2B86DBAAA (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, bool ___0_onlyControls, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.InputActionMap::set_needToResolveBindings(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionMap_set_needToResolveBindings_mB2A9CAFEC37703C6292BB532DF9F773A53A018B7 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.InputActionMap::get_bindingResolutionNeedsFullReResolve()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputActionMap_get_bindingResolutionNeedsFullReResolve_m370361CD7A2F7175840ED1A4124982E892EB9EE2 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.InputActionMap::set_bindingResolutionNeedsFullReResolve(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionMap_set_bindingResolutionNeedsFullReResolve_m77FCA7C01DC6BD5A30E88E6849B3D76909E95BC8 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.InputActionMap::ResolveBindings()
@@ -8517,8 +8519,6 @@ inline RuntimeObject* OneOrMore_2_GetEnumerator_m59B1B847E7D7C9D2DE8C48EDEF914A5
 {
 	return ((  RuntimeObject* (*) (OneOrMore_2_tBD457F6E89438B15F84326BF73CEA630C036DC13*, const RuntimeMethod*))OneOrMore_2_GetEnumerator_m88C5DBDBDD259A0F2FE924ED64456DB99902BD5F_gshared)(__this, method);
 }
-// System.Boolean UnityEngine.InputSystem.InputActionMap::get_bindingResolutionNeedsFullReResolve()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputActionMap_get_bindingResolutionNeedsFullReResolve_m370361CD7A2F7175840ED1A4124982E892EB9EE2 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.Utilities.OneOrMore`2<TValue,TList> UnityEngine.InputSystem.Utilities.OneOrMore`2<UnityEngine.InputSystem.InputActionMap,UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputActionMap>>::op_Implicit(TValue)
 inline OneOrMore_2_tBD457F6E89438B15F84326BF73CEA630C036DC13 OneOrMore_2_op_Implicit_m3CDAA03BA969058B732AAD62CB1AE9152166040B (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___0_single, const RuntimeMethod* method)
 {
@@ -22431,14 +22431,16 @@ IL_0018:
 	{
 		// needToResolveBindings = true;
 		InputActionMap_set_needToResolveBindings_mB2A9CAFEC37703C6292BB532DF9F773A53A018B7(__this, (bool)1, NULL);
-		// bindingResolutionNeedsFullReResolve = fullResolve;
-		bool L_1 = ___0_fullResolve;
-		InputActionMap_set_bindingResolutionNeedsFullReResolve_m77FCA7C01DC6BD5A30E88E6849B3D76909E95BC8(__this, L_1, NULL);
+		// bindingResolutionNeedsFullReResolve |= fullResolve;
+		bool L_1;
+		L_1 = InputActionMap_get_bindingResolutionNeedsFullReResolve_m370361CD7A2F7175840ED1A4124982E892EB9EE2(__this, NULL);
+		bool L_2 = ___0_fullResolve;
+		InputActionMap_set_bindingResolutionNeedsFullReResolve_m77FCA7C01DC6BD5A30E88E6849B3D76909E95BC8(__this, (bool)((int32_t)((int32_t)L_1|(int32_t)L_2)), NULL);
 		// if (s_DeferBindingResolution > 0)
-		int32_t L_2 = ((InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_StaticFields*)il2cpp_codegen_static_fields_for(InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_il2cpp_TypeInfo_var))->___s_DeferBindingResolution_18;
-		if ((((int32_t)L_2) <= ((int32_t)0)))
+		int32_t L_3 = ((InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_StaticFields*)il2cpp_codegen_static_fields_for(InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_il2cpp_TypeInfo_var))->___s_DeferBindingResolution_18;
+		if ((((int32_t)L_3) <= ((int32_t)0)))
 		{
-			goto IL_0030;
+			goto IL_0037;
 		}
 	}
 	{
@@ -22446,7 +22448,7 @@ IL_0018:
 		return (bool)0;
 	}
 
-IL_0030:
+IL_0037:
 	{
 		// ResolveBindings();
 		InputActionMap_ResolveBindings_m54810EBFA0C0E995C9F86CADFF60B465C46DAC57(__this, NULL);
@@ -32501,7 +32503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterEnumerator_FindParameter_mB2688
 		RuntimeObject* L_3 = ___0_instance;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
 		if (L_4)
 		{
 			goto IL_001e;
@@ -35631,7 +35633,7 @@ IL_00ea_1:
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_40 = V_6;
 				NullCheck(L_39);
 				bool L_41;
-				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
+				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
 				if (!L_41)
 				{
 					goto IL_02bf_1;

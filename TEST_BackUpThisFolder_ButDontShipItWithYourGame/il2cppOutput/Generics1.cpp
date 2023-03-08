@@ -368,6 +368,8 @@ struct InvokerActionInvoker5<T1*, T2*, T3*, T4*, T5*>
 	}
 };
 
+// System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>
+struct Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3;
 // System.Action`1<UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs>
 struct Action_1_t762BEDF03B3FAD9E52246AF6B4291030B8085074;
 // System.Action`1<UnityEngine.XR.ARFoundation.ARPlanesChangedEventArgs>
@@ -412,6 +414,8 @@ struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
 struct Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8;
 // System.Action`1<System.Object>
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<UnityEngine.Pose>
+struct Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD;
 // System.Action`1<System.Single>
 struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
 // System.Action`1<UnityEngine.UIElements.TimerState>
@@ -550,6 +554,8 @@ struct InputStateHistory_1_tFE6497AA1E7DC5B54CA3C00976576A7E88C77798;
 struct KeyCollection_tACA314578A3D994C07972DC55AA432618B441372;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>>
 struct List_1_t60F39D768DAD2345527AD3EE73FAB2667DF4F260;
+// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARParticipant>
+struct List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARPlane>
 struct List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARPointCloud>
@@ -754,6 +760,8 @@ struct ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0;
 struct ARRaycast_t141143E16F40B1580060317DA867423FF2624E76;
 // UnityEngine.UIElements.BaseVisualElementPanel
 struct BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303;
+// System.Byte
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3;
 // System.Delegate
 struct Delegate_t;
 // System.DelegateData
@@ -780,6 +788,10 @@ struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
 struct InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5;
 // UnityEngine.InputSystem.LowLevel.InputStateHistory
 struct InputStateHistory_tF2145C4E34E0E3AC84270533F58F047D6E28A480;
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C;
+// System.IntPtr
+struct IntPtr_t;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // UnityEngine.Material
@@ -792,6 +804,14 @@ struct MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455;
 struct MeshHandle_tC1E9A7ECCFDAEFDE064B8D58B35B9CEE5A70A22E;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
+// Unity.Collections.NativeQueueBlockHeader
+struct NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004;
+// Unity.Collections.NativeQueueBlockPoolData
+struct NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87;
+// Unity.Collections.NativeQueueData
+struct NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52;
+// Unity.Networking.Transport.NetworkEvent
+struct NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F;
 // System.Text.RegularExpressions.Regex
 struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
 // UnityEngine.UIElements.UIR.RenderChainCommand
@@ -814,6 +834,12 @@ struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE;
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData
+struct UnsafeHashMapData_t82AA009E447306C927002C4EED80392BD8D8E5B4;
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock
+struct UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C;
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange
+struct UnsafeStreamRange_tF5953324FD7FC591B632D6464C49C83C9429AAA9;
 // UnityEngine.UIElements.VectorImage
 struct VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC;
 // UnityEngine.UIElements.VisualElement
@@ -826,6 +852,20 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE;
 // UnityEngine.Yoga.YogaNode
 struct YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA;
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42;
+// Unity.TLS.LowLevel.Binding/unitytls_client
+struct unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80;
+// Unity.TLS.LowLevel.Binding/unitytls_client_config
+struct unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F;
+// Unity.Networking.Transport.IPCManager/IPCData
+struct IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC;
+// Unity.Networking.Transport.NetworkDriver/Connection
+struct Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70;
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+struct PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E;
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+struct UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2;
 // UnityEngine.UIElements.VisualElement/CustomStyleAccess
 struct CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1;
 // UnityEngine.UIElements.VisualElement/TypeData
@@ -1067,6 +1107,15 @@ struct AlignOfHelper_1_tDEDE36731BCA4BBF0A258F5E9A0155E556B11BB3
 	uint8_t ___dummy_0;
 	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
 	int32_t ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Int64>
+struct AlignOfHelper_1_tC9E49DD174177728FAE921002FFE59CC7A908F40 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	int64_t ___data_1;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Single>
@@ -1742,6 +1791,17 @@ struct NativeArray_1_tA04FF6E7BE3D24B3E6351C63BF7229421DFE1259
 	int32_t ___m_AllocatorLabel_2;
 };
 
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+struct ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97 
+{
+	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
+	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
+	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
+	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
+	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
+	int32_t ___m_ThreadIndex_2;
+};
+
 // UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>
 struct Record_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4 
 {
@@ -2128,6 +2188,31 @@ struct Triangle_1_t37AD500EBA0FF178D5A11334D2731DE378640303
 	uint16_t ___c_2;
 };
 
+// UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs
+struct ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 
+{
+	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARParticipant> UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs::<added>k__BackingField
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CaddedU3Ek__BackingField_0;
+	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARParticipant> UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs::<updated>k__BackingField
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CupdatedU3Ek__BackingField_1;
+	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARParticipant> UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs::<removed>k__BackingField
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CremovedU3Ek__BackingField_2;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs
+struct ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527_marshaled_pinvoke
+{
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CaddedU3Ek__BackingField_0;
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CupdatedU3Ek__BackingField_1;
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CremovedU3Ek__BackingField_2;
+};
+// Native definition for COM marshalling of UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs
+struct ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527_marshaled_com
+{
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CaddedU3Ek__BackingField_0;
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CupdatedU3Ek__BackingField_1;
+	List_1_t87D9AC2D6B4A4860E01575669DEB0D164D4B33B3* ___U3CremovedU3Ek__BackingField_2;
+};
+
 // UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs
 struct ARPlaneBoundaryChangedEventArgs_tE59EDE94575C8947AD3F1F8DA1370D0A426A5FFC 
 {
@@ -2493,6 +2578,227 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
 };
 
+// Unity.Collections.FixedBytes16
+struct FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// System.Byte Unity.Collections.FixedBytes16::byte0000
+					uint8_t ___byte0000_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					uint8_t ___byte0000_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0001_1_OffsetPadding[1];
+					// System.Byte Unity.Collections.FixedBytes16::byte0001
+					uint8_t ___byte0001_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0001_1_OffsetPadding_forAlignmentOnly[1];
+					uint8_t ___byte0001_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0002_2_OffsetPadding[2];
+					// System.Byte Unity.Collections.FixedBytes16::byte0002
+					uint8_t ___byte0002_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0002_2_OffsetPadding_forAlignmentOnly[2];
+					uint8_t ___byte0002_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0003_3_OffsetPadding[3];
+					// System.Byte Unity.Collections.FixedBytes16::byte0003
+					uint8_t ___byte0003_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0003_3_OffsetPadding_forAlignmentOnly[3];
+					uint8_t ___byte0003_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0004_4_OffsetPadding[4];
+					// System.Byte Unity.Collections.FixedBytes16::byte0004
+					uint8_t ___byte0004_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0004_4_OffsetPadding_forAlignmentOnly[4];
+					uint8_t ___byte0004_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0005_5_OffsetPadding[5];
+					// System.Byte Unity.Collections.FixedBytes16::byte0005
+					uint8_t ___byte0005_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0005_5_OffsetPadding_forAlignmentOnly[5];
+					uint8_t ___byte0005_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0006_6_OffsetPadding[6];
+					// System.Byte Unity.Collections.FixedBytes16::byte0006
+					uint8_t ___byte0006_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0006_6_OffsetPadding_forAlignmentOnly[6];
+					uint8_t ___byte0006_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0007_7_OffsetPadding[7];
+					// System.Byte Unity.Collections.FixedBytes16::byte0007
+					uint8_t ___byte0007_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0007_7_OffsetPadding_forAlignmentOnly[7];
+					uint8_t ___byte0007_7_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0008_8_OffsetPadding[8];
+					// System.Byte Unity.Collections.FixedBytes16::byte0008
+					uint8_t ___byte0008_8;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0008_8_OffsetPadding_forAlignmentOnly[8];
+					uint8_t ___byte0008_8_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0009_9_OffsetPadding[9];
+					// System.Byte Unity.Collections.FixedBytes16::byte0009
+					uint8_t ___byte0009_9;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0009_9_OffsetPadding_forAlignmentOnly[9];
+					uint8_t ___byte0009_9_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0010_10_OffsetPadding[10];
+					// System.Byte Unity.Collections.FixedBytes16::byte0010
+					uint8_t ___byte0010_10;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0010_10_OffsetPadding_forAlignmentOnly[10];
+					uint8_t ___byte0010_10_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0011_11_OffsetPadding[11];
+					// System.Byte Unity.Collections.FixedBytes16::byte0011
+					uint8_t ___byte0011_11;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0011_11_OffsetPadding_forAlignmentOnly[11];
+					uint8_t ___byte0011_11_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0012_12_OffsetPadding[12];
+					// System.Byte Unity.Collections.FixedBytes16::byte0012
+					uint8_t ___byte0012_12;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0012_12_OffsetPadding_forAlignmentOnly[12];
+					uint8_t ___byte0012_12_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0013_13_OffsetPadding[13];
+					// System.Byte Unity.Collections.FixedBytes16::byte0013
+					uint8_t ___byte0013_13;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0013_13_OffsetPadding_forAlignmentOnly[13];
+					uint8_t ___byte0013_13_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0014_14_OffsetPadding[14];
+					// System.Byte Unity.Collections.FixedBytes16::byte0014
+					uint8_t ___byte0014_14;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0014_14_OffsetPadding_forAlignmentOnly[14];
+					uint8_t ___byte0014_14_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0015_15_OffsetPadding[15];
+					// System.Byte Unity.Collections.FixedBytes16::byte0015
+					uint8_t ___byte0015_15;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0015_15_OffsetPadding_forAlignmentOnly[15];
+					uint8_t ___byte0015_15_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0__padding[16];
+	};
+};
+
 // UnityEngine.UIElements.Focusable
 struct Focusable_t39F2BAF0AF6CA465BC2BEDAF9B5B2CF379B846D0  : public CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4
 {
@@ -2698,6 +3004,115 @@ struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC
 	uint64_t ___m_SubId2_2;
 };
 
+// Unity.Collections.NativeQueueBlockHeader
+struct NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004 
+{
+	// Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueBlockHeader::m_NextBlock
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* ___m_NextBlock_0;
+	// System.Int32 Unity.Collections.NativeQueueBlockHeader::m_NumItems
+	int32_t ___m_NumItems_1;
+};
+
+// Unity.Networking.Transport.NetworkConnection
+struct NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkConnection::m_NetworkId
+	int32_t ___m_NetworkId_0;
+	// System.Int32 Unity.Networking.Transport.NetworkConnection::m_NetworkVersion
+	int32_t ___m_NetworkVersion_1;
+};
+
+// Unity.Networking.Transport.NetworkEvent
+struct NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Unity.Networking.Transport.NetworkEvent/Type Unity.Networking.Transport.NetworkEvent::type
+			int16_t ___type_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___type_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___pipelineId_1_OffsetPadding[2];
+			// System.Int16 Unity.Networking.Transport.NetworkEvent::pipelineId
+			int16_t ___pipelineId_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___pipelineId_1_OffsetPadding_forAlignmentOnly[2];
+			int16_t ___pipelineId_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___connectionId_2_OffsetPadding[4];
+			// System.Int32 Unity.Networking.Transport.NetworkEvent::connectionId
+			int32_t ___connectionId_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___connectionId_2_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___connectionId_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___status_3_OffsetPadding[8];
+			// System.Int32 Unity.Networking.Transport.NetworkEvent::status
+			int32_t ___status_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___status_3_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___status_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___offset_4_OffsetPadding[8];
+			// System.Int32 Unity.Networking.Transport.NetworkEvent::offset
+			int32_t ___offset_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___offset_4_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___offset_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___size_5_OffsetPadding[12];
+			// System.Int32 Unity.Networking.Transport.NetworkEvent::size
+			int32_t ___size_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___size_5_OffsetPadding_forAlignmentOnly[12];
+			int32_t ___size_5_forAlignmentOnly;
+		};
+	};
+};
+
+// Unity.Networking.Transport.NetworkPipeline
+struct NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkPipeline::Id
+	int32_t ___Id_0;
+};
+
 // UnityEngine.PhysicsScene
 struct PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE 
 {
@@ -2832,6 +3247,32 @@ struct UIntPtr_t
 	void* ____pointer_1;
 };
 
+// Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList
+struct UnsafeAtomicFreeList_tDAA2E28DFA321FDC0BB202ECAC92DFF2922A9B04 
+{
+	// System.Int32* Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList::m_Buffer
+	int32_t* ___m_Buffer_0;
+	// System.Int32 Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList::m_Length
+	int32_t ___m_Length_1;
+	// Unity.Collections.Allocator Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList::m_Allocator
+	int32_t ___m_Allocator_2;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange
+struct UnsafeStreamRange_tF5953324FD7FC591B632D6464C49C83C9429AAA9 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock* Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange::Block
+	UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C* ___Block_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange::OffsetInFirstBlock
+	int32_t ___OffsetInFirstBlock_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange::ElementCount
+	int32_t ___ElementCount_2;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange::LastOffset
+	int32_t ___LastOffset_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange::NumberOfBlocks
+	int32_t ___NumberOfBlocks_4;
+};
+
 // UnityEngine.Vector2
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
 {
@@ -2893,6 +3334,550 @@ struct PointCloudRaycastInfo_t21F2232DA9CE91BB281F37151F58B97AE92436A4
 	float ___distance_0;
 	// System.Single UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo::cosineAngleWithRay
 	float ___cosineAngleWithRay_1;
+};
+
+// Unity.Collections.AllocatorManager/AllocatorHandle
+struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 
+{
+	// System.UInt16 Unity.Collections.AllocatorManager/AllocatorHandle::Index
+	uint16_t ___Index_0;
+	// System.UInt16 Unity.Collections.AllocatorManager/AllocatorHandle::Version
+	uint16_t ___Version_1;
+};
+
+// Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress
+struct Baselib_NetworkAddress_t2F4AF92B4EEFE31182BADF512CA004AFF48128E0 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data0
+			uint8_t ___data0_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___data0_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data1_1_OffsetPadding[1];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data1
+			uint8_t ___data1_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data1_1_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___data1_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data2_2_OffsetPadding[2];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data2
+			uint8_t ___data2_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data2_2_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___data2_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data3_3_OffsetPadding[3];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data3
+			uint8_t ___data3_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data3_3_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___data3_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data4_4_OffsetPadding[4];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data4
+			uint8_t ___data4_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data4_4_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___data4_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data5_5_OffsetPadding[5];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data5
+			uint8_t ___data5_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data5_5_OffsetPadding_forAlignmentOnly[5];
+			uint8_t ___data5_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data6_6_OffsetPadding[6];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data6
+			uint8_t ___data6_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data6_6_OffsetPadding_forAlignmentOnly[6];
+			uint8_t ___data6_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data7_7_OffsetPadding[7];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data7
+			uint8_t ___data7_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data7_7_OffsetPadding_forAlignmentOnly[7];
+			uint8_t ___data7_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data8_8_OffsetPadding[8];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data8
+			uint8_t ___data8_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data8_8_OffsetPadding_forAlignmentOnly[8];
+			uint8_t ___data8_8_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data9_9_OffsetPadding[9];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data9
+			uint8_t ___data9_9;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data9_9_OffsetPadding_forAlignmentOnly[9];
+			uint8_t ___data9_9_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data10_10_OffsetPadding[10];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data10
+			uint8_t ___data10_10;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data10_10_OffsetPadding_forAlignmentOnly[10];
+			uint8_t ___data10_10_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data11_11_OffsetPadding[11];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data11
+			uint8_t ___data11_11;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data11_11_OffsetPadding_forAlignmentOnly[11];
+			uint8_t ___data11_11_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data12_12_OffsetPadding[12];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data12
+			uint8_t ___data12_12;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data12_12_OffsetPadding_forAlignmentOnly[12];
+			uint8_t ___data12_12_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data13_13_OffsetPadding[13];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data13
+			uint8_t ___data13_13;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data13_13_OffsetPadding_forAlignmentOnly[13];
+			uint8_t ___data13_13_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data14_14_OffsetPadding[14];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data14
+			uint8_t ___data14_14;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data14_14_OffsetPadding_forAlignmentOnly[14];
+			uint8_t ___data14_14_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data15_15_OffsetPadding[15];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::data15
+			uint8_t ___data15_15;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data15_15_OffsetPadding_forAlignmentOnly[15];
+			uint8_t ___data15_15_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_0
+			uint8_t ___ipv6_0_16;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___ipv6_0_16_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_1_17_OffsetPadding[1];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_1
+			uint8_t ___ipv6_1_17;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_1_17_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___ipv6_1_17_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_2_18_OffsetPadding[2];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_2
+			uint8_t ___ipv6_2_18;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_2_18_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___ipv6_2_18_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_3_19_OffsetPadding[3];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_3
+			uint8_t ___ipv6_3_19;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_3_19_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___ipv6_3_19_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_4_20_OffsetPadding[4];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_4
+			uint8_t ___ipv6_4_20;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_4_20_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___ipv6_4_20_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_5_21_OffsetPadding[5];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_5
+			uint8_t ___ipv6_5_21;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_5_21_OffsetPadding_forAlignmentOnly[5];
+			uint8_t ___ipv6_5_21_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_6_22_OffsetPadding[6];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_6
+			uint8_t ___ipv6_6_22;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_6_22_OffsetPadding_forAlignmentOnly[6];
+			uint8_t ___ipv6_6_22_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_7_23_OffsetPadding[7];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_7
+			uint8_t ___ipv6_7_23;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_7_23_OffsetPadding_forAlignmentOnly[7];
+			uint8_t ___ipv6_7_23_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_8_24_OffsetPadding[8];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_8
+			uint8_t ___ipv6_8_24;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_8_24_OffsetPadding_forAlignmentOnly[8];
+			uint8_t ___ipv6_8_24_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_9_25_OffsetPadding[9];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_9
+			uint8_t ___ipv6_9_25;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_9_25_OffsetPadding_forAlignmentOnly[9];
+			uint8_t ___ipv6_9_25_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_10_26_OffsetPadding[10];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_10
+			uint8_t ___ipv6_10_26;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_10_26_OffsetPadding_forAlignmentOnly[10];
+			uint8_t ___ipv6_10_26_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_11_27_OffsetPadding[11];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_11
+			uint8_t ___ipv6_11_27;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_11_27_OffsetPadding_forAlignmentOnly[11];
+			uint8_t ___ipv6_11_27_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_12_28_OffsetPadding[12];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_12
+			uint8_t ___ipv6_12_28;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_12_28_OffsetPadding_forAlignmentOnly[12];
+			uint8_t ___ipv6_12_28_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_13_29_OffsetPadding[13];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_13
+			uint8_t ___ipv6_13_29;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_13_29_OffsetPadding_forAlignmentOnly[13];
+			uint8_t ___ipv6_13_29_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_14_30_OffsetPadding[14];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_14
+			uint8_t ___ipv6_14_30;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_14_30_OffsetPadding_forAlignmentOnly[14];
+			uint8_t ___ipv6_14_30_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_15_31_OffsetPadding[15];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_15
+			uint8_t ___ipv6_15_31;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_15_31_OffsetPadding_forAlignmentOnly[15];
+			uint8_t ___ipv6_15_31_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv4_0
+			uint8_t ___ipv4_0_32;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___ipv4_0_32_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv4_1_33_OffsetPadding[1];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv4_1
+			uint8_t ___ipv4_1_33;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv4_1_33_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___ipv4_1_33_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv4_2_34_OffsetPadding[2];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv4_2
+			uint8_t ___ipv4_2_34;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv4_2_34_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___ipv4_2_34_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv4_3_35_OffsetPadding[3];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv4_3
+			uint8_t ___ipv4_3_35;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv4_3_35_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___ipv4_3_35_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___port0_36_OffsetPadding[16];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::port0
+			uint8_t ___port0_36;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___port0_36_OffsetPadding_forAlignmentOnly[16];
+			uint8_t ___port0_36_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___port1_37_OffsetPadding[17];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::port1
+			uint8_t ___port1_37;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___port1_37_OffsetPadding_forAlignmentOnly[17];
+			uint8_t ___port1_37_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___family_38_OffsetPadding[18];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::family
+			uint8_t ___family_38;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___family_38_OffsetPadding_forAlignmentOnly[18];
+			uint8_t ___family_38_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ____padding_39_OffsetPadding[19];
+			// System.Byte Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::_padding
+			uint8_t ____padding_39;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ____padding_39_OffsetPadding_forAlignmentOnly[19];
+			uint8_t ____padding_39_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ipv6_scope_id_40_OffsetPadding[20];
+			// System.UInt32 Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress::ipv6_scope_id
+			uint32_t ___ipv6_scope_id_40;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ipv6_scope_id_40_OffsetPadding_forAlignmentOnly[20];
+			uint32_t ___ipv6_scope_id_40_forAlignmentOnly;
+		};
+	};
 };
 
 // UnityEngine.InputSystem.LowLevel.IMECompositionString/<buffer>e__FixedBuffer
@@ -3000,6 +3985,154 @@ struct OngoingAccountSelection_t8471F20105109B19CE04657B1C72EB8D23976956_marshal
 	uint32_t ___userId_1;
 };
 
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+struct SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkEventQueue/SubQueueItem::connection
+	int32_t ___connection_0;
+	// System.Int32 Unity.Networking.Transport.NetworkEventQueue/SubQueueItem::idx
+	int32_t ___idx_1;
+};
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
+struct U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0__padding[56];
+	};
+};
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+struct PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::FirstStageIndex
+	int32_t ___FirstStageIndex_0;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::NumStages
+	int32_t ___NumStages_1;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::receiveBufferOffset
+	int32_t ___receiveBufferOffset_2;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::sendBufferOffset
+	int32_t ___sendBufferOffset_3;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::sharedBufferOffset
+	int32_t ___sharedBufferOffset_4;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::headerCapacity
+	int32_t ___headerCapacity_5;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::payloadCapacity
+	int32_t ___payloadCapacity_6;
+};
+
+// Unity.Networking.Transport.NetworkSettings/ParameterSlice
+struct ParameterSlice_t11C9B163EC6791F24FB25F285363BC41ECEBE899 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkSettings/ParameterSlice::Offset
+	int32_t ___Offset_0;
+	// System.Int32 Unity.Networking.Transport.NetworkSettings/ParameterSlice::Size
+	int32_t ___Size_1;
+};
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
+struct U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B__padding[1400];
+	};
+};
+
+// Unity.Networking.Transport.Relay.RelayAllocationId/<Value>e__FixedBuffer
+struct U3CValueU3Ee__FixedBuffer_t0E279F5AD765D68C7D3ADB57B98FD471710955C8 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.Relay.RelayAllocationId/<Value>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CValueU3Ee__FixedBuffer_t0E279F5AD765D68C7D3ADB57B98FD471710955C8__padding[16];
+	};
+};
+
+// Unity.Networking.Transport.Relay.RelayConnectionData/<Value>e__FixedBuffer
+struct U3CValueU3Ee__FixedBuffer_t2EBBD6566B9DD8EF0CBC9EF9A9340955B5792054 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.Relay.RelayConnectionData/<Value>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CValueU3Ee__FixedBuffer_t2EBBD6566B9DD8EF0CBC9EF9A9340955B5792054__padding[255];
+	};
+};
+
+// Unity.Networking.Transport.Relay.RelayHMACKey/<Value>e__FixedBuffer
+struct U3CValueU3Ee__FixedBuffer_t3C8B36A587C8DE2573C0B7FD1CBD94E571B38A67 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.Relay.RelayHMACKey/<Value>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CValueU3Ee__FixedBuffer_t3C8B36A587C8DE2573C0B7FD1CBD94E571B38A67__padding[64];
+	};
+};
+
+// Unity.Networking.Transport.Relay.RelayServerData/<HMAC>e__FixedBuffer
+struct U3CHMACU3Ee__FixedBuffer_tEBE6EB5356C21D7CDAA77E2AB69381855EAD9816 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.Relay.RelayServerData/<HMAC>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CHMACU3Ee__FixedBuffer_tEBE6EB5356C21D7CDAA77E2AB69381855EAD9816__padding[32];
+	};
+};
+
+// Unity.Collections.RewindableAllocator/MemoryBlock
+struct MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84 
+{
+	// System.Byte* Unity.Collections.RewindableAllocator/MemoryBlock::m_pointer
+	uint8_t* ___m_pointer_1;
+	// System.Int64 Unity.Collections.RewindableAllocator/MemoryBlock::m_bytes
+	int64_t ___m_bytes_2;
+	// System.Int64 Unity.Collections.RewindableAllocator/MemoryBlock::m_current
+	int64_t ___m_current_3;
+	// System.Int64 Unity.Collections.RewindableAllocator/MemoryBlock::m_allocations
+	int64_t ___m_allocations_4;
+};
+
+// Unity.Networking.Transport.SessionIdToken/<Value>e__FixedBuffer
+struct U3CValueU3Ee__FixedBuffer_t4CE95A1DC9ED09372188CEDA707F9A09B897742D 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.SessionIdToken/<Value>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CValueU3Ee__FixedBuffer_t4CE95A1DC9ED09372188CEDA707F9A09B897742D__padding[8];
+	};
+};
+
 // UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair
 struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814 
 {
@@ -3087,6 +4220,34 @@ struct FingerAndTouchState_tC0A8EFA38A7428736E11195294EA7F6E1BA8F82D_marshaled_c
 	InputStateHistory_1_tFE6497AA1E7DC5B54CA3C00976576A7E88C77798* ___activeTouchState_10;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData/<firstFreeTLS>e__FixedBuffer
+struct U3CfirstFreeTLSU3Ee__FixedBuffer_tB5D033343517E3E37219A27C7757D645091EFF11 
+{
+	union
+	{
+		struct
+		{
+			// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData/<firstFreeTLS>e__FixedBuffer::FixedElementField
+			int32_t ___FixedElementField_0;
+		};
+		uint8_t U3CfirstFreeTLSU3Ee__FixedBuffer_tB5D033343517E3E37219A27C7757D645091EFF11__padding[8192];
+	};
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock/<Data>e__FixedBuffer
+struct U3CDataU3Ee__FixedBuffer_t60155FEDF2B8430C4B466CB3CDD85327C03F1116 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock/<Data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CDataU3Ee__FixedBuffer_t60155FEDF2B8430C4B466CB3CDD85327C03F1116__padding[1];
+	};
+};
+
 // UnityEngine.UIElements.VisualElement/Hierarchy
 struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 
 {
@@ -3102,6 +4263,38 @@ struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_pinvoke
 struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_com
 {
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.WordStorage/Entry
+struct Entry_t1009A7BA6D4B9FE7C4EFBB241257631226E77F28 
+{
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.WordStorage/Entry::offset
+	int32_t ___offset_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.WordStorage/Entry::length
+	int32_t ___length_1;
+};
+
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+struct U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F__padding[1400];
+	};
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>>
+struct AlignOfHelper_1_t84D97297200B4159780DE25EB961EAB56FABB45F 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97 ___data_1;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.Int32>>
@@ -3158,6 +4351,33 @@ struct AlignOfHelper_1_t3F15C977CB75F6273144B3EB4A070152979E3542
 	DrawBufferRange_t684F255F5C954760B12F6689F84E78811040C7A4 ___data_1;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.IntPtr>
+struct AlignOfHelper_1_tA1D9D36CBE8FF25BF6FFF35C56E697C87CBC2432 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	intptr_t ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockHeader>
+struct AlignOfHelper_1_t2E275C6A441885EC5D9B0303A469AFE40B3466E1 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEvent>
+struct AlignOfHelper_1_t4DDA69CDC40C75CFEF988E7A50621F40CA5C77D7 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F ___data_1;
+};
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Quaternion>
 struct AlignOfHelper_1_tEE6549D27A36D20AF7BFA9746B052ABFEE9E6F56 
 {
@@ -3174,6 +4394,15 @@ struct AlignOfHelper_1_t1B0EA5A1E7D9C74577BD9F7B65768A70AB421E87
 	uint8_t ___dummy_0;
 	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange>
+struct AlignOfHelper_1_tCD799B47813806AC4A245040A083D94557961977 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeStreamRange_tF5953324FD7FC591B632D6464C49C83C9429AAA9 ___data_1;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Vector2>
@@ -3210,6 +4439,51 @@ struct AlignOfHelper_1_t5FEEAD9C9850E7A660BC2F62274814436098DC4E
 	uint8_t ___dummy_0;
 	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
 	PointCloudRaycastInfo_t21F2232DA9CE91BB281F37151F58B97AE92436A4 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+struct AlignOfHelper_1_tBCCE6681007AF2E68C5E9FB98722D2A130CF82A6 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct AlignOfHelper_1_t7913D135CFC3085D8C4F97A4A032DC7D53551A14 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkSettings/ParameterSlice>
+struct AlignOfHelper_1_t519286A7CB389A1DACD028CFCE9F7CD8B6A39826 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	ParameterSlice_t11C9B163EC6791F24FB25F285363BC41ECEBE899 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.RewindableAllocator/MemoryBlock>
+struct AlignOfHelper_1_t68C3D8AC24508C31F35B828E6206CA7933E9B711 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.WordStorage/Entry>
+struct AlignOfHelper_1_t4F1D93E5940DBB4E738C8D3F030191A9B531C5D2 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	Entry_t1009A7BA6D4B9FE7C4EFBB241257631226E77F28 ___data_1;
 };
 
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
@@ -3262,6 +4536,48 @@ struct CallbackArray_1_t1A72A00347540C99C2A4BF0488E37A8C1B45C1BE
 	InlinedArray_1_t89D09048674475F5C319FE41264ED79405A8209D ___m_CallbacksToAdd_2;
 	// UnityEngine.InputSystem.Utilities.InlinedArray`1<TDelegate> UnityEngine.InputSystem.Utilities.CallbackArray`1::m_CallbacksToRemove
 	InlinedArray_1_t89D09048674475F5C319FE41264ED79405A8209D ___m_CallbacksToRemove_3;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+struct FunctionPointer_1_t8F0EE7CCF0085CB860984ADC60A80D650467391E 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+struct FunctionPointer_1_t2E52B92952AC40879F3596DE2FD777EC8D1DD4E0 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+struct FunctionPointer_1_tCDD6B82BADB3D595433A9F2B8A2D7D6043B10F21 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+struct FunctionPointer_1_t605FCD8E1E05F041A75BCDAE5CE44D9A201BFAA1 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+struct FunctionPointer_1_t5E2F5FC9CFE7FBBBECA6EB73BABFA0CD5F645155 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
+};
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
+struct FunctionPointer_1_tD15B3870776AA5A42DBB36B9CCA6AA930B9628DE 
+{
+	// System.IntPtr Unity.Burst.FunctionPointer`1::_ptr
+	intptr_t ____ptr_0;
 };
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
@@ -3334,6 +4650,168 @@ struct StyleData_tD9916786C46848BD8A33B29D97785D1FB3886628
 	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___reversingAdjustedStartValue_2;
 	// T UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData::currentValue
 	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___currentValue_3;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<Unity.Networking.Transport.NetworkInterfaceEndPoint,Unity.Networking.Transport.TLS.SecureClientState>
+struct UnsafeHashMap_2_t3AFF32975843284D4BDD5FD1254D6BC4EAC54F77 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData* Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::m_Buffer
+	UnsafeHashMapData_t82AA009E447306C927002C4EED80392BD8D8E5B4* ___m_Buffer_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::m_AllocatorLabel
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>
+struct UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	uint8_t* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>
+struct UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	int32_t* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+struct UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	intptr_t* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>
+struct UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+struct UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+struct UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+struct UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 
+{
+	// T** Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Ptr
+	Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::capacity
+	int32_t ___capacity_5;
 };
 
 // UnityEngine.XR.ARCore.ArCameraConfigFilter
@@ -3578,6 +5056,3724 @@ struct Exception_t_marshaled_com
 	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 	int32_t ___caught_in_unmanaged_16;
+};
+
+// Unity.Collections.FixedBytes30
+struct FixedBytes30_t7721F11929A3AC08287DF5E6D7AEF85CCEE04AD2 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes30::offset0000
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0000_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0000_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0016_1_OffsetPadding[16];
+					// System.Byte Unity.Collections.FixedBytes30::byte0016
+					uint8_t ___byte0016_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0016_1_OffsetPadding_forAlignmentOnly[16];
+					uint8_t ___byte0016_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0017_2_OffsetPadding[17];
+					// System.Byte Unity.Collections.FixedBytes30::byte0017
+					uint8_t ___byte0017_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0017_2_OffsetPadding_forAlignmentOnly[17];
+					uint8_t ___byte0017_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0018_3_OffsetPadding[18];
+					// System.Byte Unity.Collections.FixedBytes30::byte0018
+					uint8_t ___byte0018_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0018_3_OffsetPadding_forAlignmentOnly[18];
+					uint8_t ___byte0018_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0019_4_OffsetPadding[19];
+					// System.Byte Unity.Collections.FixedBytes30::byte0019
+					uint8_t ___byte0019_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0019_4_OffsetPadding_forAlignmentOnly[19];
+					uint8_t ___byte0019_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0020_5_OffsetPadding[20];
+					// System.Byte Unity.Collections.FixedBytes30::byte0020
+					uint8_t ___byte0020_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0020_5_OffsetPadding_forAlignmentOnly[20];
+					uint8_t ___byte0020_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0021_6_OffsetPadding[21];
+					// System.Byte Unity.Collections.FixedBytes30::byte0021
+					uint8_t ___byte0021_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0021_6_OffsetPadding_forAlignmentOnly[21];
+					uint8_t ___byte0021_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0022_7_OffsetPadding[22];
+					// System.Byte Unity.Collections.FixedBytes30::byte0022
+					uint8_t ___byte0022_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0022_7_OffsetPadding_forAlignmentOnly[22];
+					uint8_t ___byte0022_7_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0023_8_OffsetPadding[23];
+					// System.Byte Unity.Collections.FixedBytes30::byte0023
+					uint8_t ___byte0023_8;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0023_8_OffsetPadding_forAlignmentOnly[23];
+					uint8_t ___byte0023_8_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0024_9_OffsetPadding[24];
+					// System.Byte Unity.Collections.FixedBytes30::byte0024
+					uint8_t ___byte0024_9;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0024_9_OffsetPadding_forAlignmentOnly[24];
+					uint8_t ___byte0024_9_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0025_10_OffsetPadding[25];
+					// System.Byte Unity.Collections.FixedBytes30::byte0025
+					uint8_t ___byte0025_10;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0025_10_OffsetPadding_forAlignmentOnly[25];
+					uint8_t ___byte0025_10_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0026_11_OffsetPadding[26];
+					// System.Byte Unity.Collections.FixedBytes30::byte0026
+					uint8_t ___byte0026_11;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0026_11_OffsetPadding_forAlignmentOnly[26];
+					uint8_t ___byte0026_11_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0027_12_OffsetPadding[27];
+					// System.Byte Unity.Collections.FixedBytes30::byte0027
+					uint8_t ___byte0027_12;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0027_12_OffsetPadding_forAlignmentOnly[27];
+					uint8_t ___byte0027_12_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0028_13_OffsetPadding[28];
+					// System.Byte Unity.Collections.FixedBytes30::byte0028
+					uint8_t ___byte0028_13;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0028_13_OffsetPadding_forAlignmentOnly[28];
+					uint8_t ___byte0028_13_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte0029_14_OffsetPadding[29];
+					// System.Byte Unity.Collections.FixedBytes30::byte0029
+					uint8_t ___byte0029_14;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte0029_14_OffsetPadding_forAlignmentOnly[29];
+					uint8_t ___byte0029_14_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t FixedBytes30_t7721F11929A3AC08287DF5E6D7AEF85CCEE04AD2__padding[30];
+	};
+};
+
+// Unity.Collections.FixedBytes4094
+struct FixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0000
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0000_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0000_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0016_1_OffsetPadding[16];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0016
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0016_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0016_1_OffsetPadding_forAlignmentOnly[16];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0016_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0032_2_OffsetPadding[32];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0032
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0032_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0032_2_OffsetPadding_forAlignmentOnly[32];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0032_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0048_3_OffsetPadding[48];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0048
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0048_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0048_3_OffsetPadding_forAlignmentOnly[48];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0048_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0064_4_OffsetPadding[64];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0064
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0064_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0064_4_OffsetPadding_forAlignmentOnly[64];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0064_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0080_5_OffsetPadding[80];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0080
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0080_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0080_5_OffsetPadding_forAlignmentOnly[80];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0080_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0096_6_OffsetPadding[96];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0096
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0096_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0096_6_OffsetPadding_forAlignmentOnly[96];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0096_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0112_7_OffsetPadding[112];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0112
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0112_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0112_7_OffsetPadding_forAlignmentOnly[112];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0112_7_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0128_8_OffsetPadding[128];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0128
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0128_8;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0128_8_OffsetPadding_forAlignmentOnly[128];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0128_8_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0144_9_OffsetPadding[144];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0144
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0144_9;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0144_9_OffsetPadding_forAlignmentOnly[144];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0144_9_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0160_10_OffsetPadding[160];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0160
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0160_10;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0160_10_OffsetPadding_forAlignmentOnly[160];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0160_10_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0176_11_OffsetPadding[176];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0176
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0176_11;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0176_11_OffsetPadding_forAlignmentOnly[176];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0176_11_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0192_12_OffsetPadding[192];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0192
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0192_12;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0192_12_OffsetPadding_forAlignmentOnly[192];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0192_12_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0208_13_OffsetPadding[208];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0208
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0208_13;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0208_13_OffsetPadding_forAlignmentOnly[208];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0208_13_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0224_14_OffsetPadding[224];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0224
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0224_14;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0224_14_OffsetPadding_forAlignmentOnly[224];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0224_14_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0240_15_OffsetPadding[240];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0240
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0240_15;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0240_15_OffsetPadding_forAlignmentOnly[240];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0240_15_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0256_16_OffsetPadding[256];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0256
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0256_16;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0256_16_OffsetPadding_forAlignmentOnly[256];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0256_16_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0272_17_OffsetPadding[272];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0272
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0272_17;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0272_17_OffsetPadding_forAlignmentOnly[272];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0272_17_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0288_18_OffsetPadding[288];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0288
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0288_18;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0288_18_OffsetPadding_forAlignmentOnly[288];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0288_18_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0304_19_OffsetPadding[304];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0304
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0304_19;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0304_19_OffsetPadding_forAlignmentOnly[304];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0304_19_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0320_20_OffsetPadding[320];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0320
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0320_20;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0320_20_OffsetPadding_forAlignmentOnly[320];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0320_20_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0336_21_OffsetPadding[336];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0336
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0336_21;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0336_21_OffsetPadding_forAlignmentOnly[336];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0336_21_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0352_22_OffsetPadding[352];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0352
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0352_22;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0352_22_OffsetPadding_forAlignmentOnly[352];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0352_22_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0368_23_OffsetPadding[368];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0368
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0368_23;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0368_23_OffsetPadding_forAlignmentOnly[368];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0368_23_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0384_24_OffsetPadding[384];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0384
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0384_24;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0384_24_OffsetPadding_forAlignmentOnly[384];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0384_24_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0400_25_OffsetPadding[400];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0400
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0400_25;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0400_25_OffsetPadding_forAlignmentOnly[400];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0400_25_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0416_26_OffsetPadding[416];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0416
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0416_26;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0416_26_OffsetPadding_forAlignmentOnly[416];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0416_26_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0432_27_OffsetPadding[432];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0432
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0432_27;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0432_27_OffsetPadding_forAlignmentOnly[432];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0432_27_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0448_28_OffsetPadding[448];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0448
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0448_28;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0448_28_OffsetPadding_forAlignmentOnly[448];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0448_28_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0464_29_OffsetPadding[464];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0464
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0464_29;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0464_29_OffsetPadding_forAlignmentOnly[464];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0464_29_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0480_30_OffsetPadding[480];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0480
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0480_30;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0480_30_OffsetPadding_forAlignmentOnly[480];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0480_30_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0496_31_OffsetPadding[496];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0496
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0496_31;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0496_31_OffsetPadding_forAlignmentOnly[496];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0496_31_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0512_32_OffsetPadding[512];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0512
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0512_32;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0512_32_OffsetPadding_forAlignmentOnly[512];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0512_32_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0528_33_OffsetPadding[528];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0528
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0528_33;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0528_33_OffsetPadding_forAlignmentOnly[528];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0528_33_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0544_34_OffsetPadding[544];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0544
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0544_34;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0544_34_OffsetPadding_forAlignmentOnly[544];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0544_34_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0560_35_OffsetPadding[560];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0560
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0560_35;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0560_35_OffsetPadding_forAlignmentOnly[560];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0560_35_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0576_36_OffsetPadding[576];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0576
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0576_36;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0576_36_OffsetPadding_forAlignmentOnly[576];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0576_36_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0592_37_OffsetPadding[592];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0592
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0592_37;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0592_37_OffsetPadding_forAlignmentOnly[592];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0592_37_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0608_38_OffsetPadding[608];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0608
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0608_38;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0608_38_OffsetPadding_forAlignmentOnly[608];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0608_38_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0624_39_OffsetPadding[624];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0624
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0624_39;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0624_39_OffsetPadding_forAlignmentOnly[624];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0624_39_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0640_40_OffsetPadding[640];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0640
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0640_40;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0640_40_OffsetPadding_forAlignmentOnly[640];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0640_40_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0656_41_OffsetPadding[656];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0656
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0656_41;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0656_41_OffsetPadding_forAlignmentOnly[656];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0656_41_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0672_42_OffsetPadding[672];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0672
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0672_42;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0672_42_OffsetPadding_forAlignmentOnly[672];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0672_42_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0688_43_OffsetPadding[688];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0688
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0688_43;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0688_43_OffsetPadding_forAlignmentOnly[688];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0688_43_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0704_44_OffsetPadding[704];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0704
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0704_44;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0704_44_OffsetPadding_forAlignmentOnly[704];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0704_44_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0720_45_OffsetPadding[720];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0720
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0720_45;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0720_45_OffsetPadding_forAlignmentOnly[720];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0720_45_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0736_46_OffsetPadding[736];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0736
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0736_46;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0736_46_OffsetPadding_forAlignmentOnly[736];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0736_46_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0752_47_OffsetPadding[752];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0752
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0752_47;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0752_47_OffsetPadding_forAlignmentOnly[752];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0752_47_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0768_48_OffsetPadding[768];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0768
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0768_48;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0768_48_OffsetPadding_forAlignmentOnly[768];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0768_48_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0784_49_OffsetPadding[784];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0784
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0784_49;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0784_49_OffsetPadding_forAlignmentOnly[784];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0784_49_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0800_50_OffsetPadding[800];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0800
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0800_50;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0800_50_OffsetPadding_forAlignmentOnly[800];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0800_50_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0816_51_OffsetPadding[816];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0816
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0816_51;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0816_51_OffsetPadding_forAlignmentOnly[816];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0816_51_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0832_52_OffsetPadding[832];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0832
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0832_52;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0832_52_OffsetPadding_forAlignmentOnly[832];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0832_52_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0848_53_OffsetPadding[848];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0848
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0848_53;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0848_53_OffsetPadding_forAlignmentOnly[848];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0848_53_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0864_54_OffsetPadding[864];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0864
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0864_54;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0864_54_OffsetPadding_forAlignmentOnly[864];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0864_54_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0880_55_OffsetPadding[880];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0880
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0880_55;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0880_55_OffsetPadding_forAlignmentOnly[880];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0880_55_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0896_56_OffsetPadding[896];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0896
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0896_56;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0896_56_OffsetPadding_forAlignmentOnly[896];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0896_56_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0912_57_OffsetPadding[912];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0912
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0912_57;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0912_57_OffsetPadding_forAlignmentOnly[912];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0912_57_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0928_58_OffsetPadding[928];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0928
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0928_58;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0928_58_OffsetPadding_forAlignmentOnly[928];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0928_58_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0944_59_OffsetPadding[944];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0944
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0944_59;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0944_59_OffsetPadding_forAlignmentOnly[944];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0944_59_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0960_60_OffsetPadding[960];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0960
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0960_60;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0960_60_OffsetPadding_forAlignmentOnly[960];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0960_60_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0976_61_OffsetPadding[976];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0976
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0976_61;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0976_61_OffsetPadding_forAlignmentOnly[976];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0976_61_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset0992_62_OffsetPadding[992];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset0992
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0992_62;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset0992_62_OffsetPadding_forAlignmentOnly[992];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset0992_62_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1008_63_OffsetPadding[1008];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1008
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1008_63;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1008_63_OffsetPadding_forAlignmentOnly[1008];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1008_63_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1024_64_OffsetPadding[1024];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1024
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1024_64;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1024_64_OffsetPadding_forAlignmentOnly[1024];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1024_64_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1040_65_OffsetPadding[1040];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1040
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1040_65;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1040_65_OffsetPadding_forAlignmentOnly[1040];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1040_65_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1056_66_OffsetPadding[1056];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1056
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1056_66;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1056_66_OffsetPadding_forAlignmentOnly[1056];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1056_66_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1072_67_OffsetPadding[1072];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1072
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1072_67;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1072_67_OffsetPadding_forAlignmentOnly[1072];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1072_67_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1088_68_OffsetPadding[1088];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1088
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1088_68;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1088_68_OffsetPadding_forAlignmentOnly[1088];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1088_68_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1104_69_OffsetPadding[1104];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1104
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1104_69;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1104_69_OffsetPadding_forAlignmentOnly[1104];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1104_69_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1120_70_OffsetPadding[1120];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1120
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1120_70;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1120_70_OffsetPadding_forAlignmentOnly[1120];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1120_70_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1136_71_OffsetPadding[1136];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1136
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1136_71;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1136_71_OffsetPadding_forAlignmentOnly[1136];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1136_71_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1152_72_OffsetPadding[1152];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1152
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1152_72;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1152_72_OffsetPadding_forAlignmentOnly[1152];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1152_72_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1168_73_OffsetPadding[1168];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1168
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1168_73;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1168_73_OffsetPadding_forAlignmentOnly[1168];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1168_73_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1184_74_OffsetPadding[1184];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1184
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1184_74;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1184_74_OffsetPadding_forAlignmentOnly[1184];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1184_74_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1200_75_OffsetPadding[1200];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1200
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1200_75;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1200_75_OffsetPadding_forAlignmentOnly[1200];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1200_75_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1216_76_OffsetPadding[1216];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1216
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1216_76;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1216_76_OffsetPadding_forAlignmentOnly[1216];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1216_76_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1232_77_OffsetPadding[1232];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1232
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1232_77;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1232_77_OffsetPadding_forAlignmentOnly[1232];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1232_77_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1248_78_OffsetPadding[1248];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1248
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1248_78;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1248_78_OffsetPadding_forAlignmentOnly[1248];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1248_78_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1264_79_OffsetPadding[1264];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1264
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1264_79;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1264_79_OffsetPadding_forAlignmentOnly[1264];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1264_79_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1280_80_OffsetPadding[1280];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1280
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1280_80;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1280_80_OffsetPadding_forAlignmentOnly[1280];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1280_80_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1296_81_OffsetPadding[1296];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1296
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1296_81;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1296_81_OffsetPadding_forAlignmentOnly[1296];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1296_81_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1312_82_OffsetPadding[1312];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1312
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1312_82;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1312_82_OffsetPadding_forAlignmentOnly[1312];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1312_82_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1328_83_OffsetPadding[1328];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1328
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1328_83;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1328_83_OffsetPadding_forAlignmentOnly[1328];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1328_83_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1344_84_OffsetPadding[1344];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1344
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1344_84;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1344_84_OffsetPadding_forAlignmentOnly[1344];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1344_84_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1360_85_OffsetPadding[1360];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1360
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1360_85;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1360_85_OffsetPadding_forAlignmentOnly[1360];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1360_85_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1376_86_OffsetPadding[1376];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1376
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1376_86;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1376_86_OffsetPadding_forAlignmentOnly[1376];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1376_86_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1392_87_OffsetPadding[1392];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1392
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1392_87;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1392_87_OffsetPadding_forAlignmentOnly[1392];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1392_87_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1408_88_OffsetPadding[1408];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1408
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1408_88;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1408_88_OffsetPadding_forAlignmentOnly[1408];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1408_88_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1424_89_OffsetPadding[1424];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1424
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1424_89;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1424_89_OffsetPadding_forAlignmentOnly[1424];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1424_89_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1440_90_OffsetPadding[1440];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1440
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1440_90;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1440_90_OffsetPadding_forAlignmentOnly[1440];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1440_90_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1456_91_OffsetPadding[1456];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1456
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1456_91;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1456_91_OffsetPadding_forAlignmentOnly[1456];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1456_91_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1472_92_OffsetPadding[1472];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1472
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1472_92;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1472_92_OffsetPadding_forAlignmentOnly[1472];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1472_92_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1488_93_OffsetPadding[1488];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1488
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1488_93;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1488_93_OffsetPadding_forAlignmentOnly[1488];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1488_93_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1504_94_OffsetPadding[1504];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1504
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1504_94;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1504_94_OffsetPadding_forAlignmentOnly[1504];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1504_94_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1520_95_OffsetPadding[1520];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1520
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1520_95;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1520_95_OffsetPadding_forAlignmentOnly[1520];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1520_95_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1536_96_OffsetPadding[1536];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1536
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1536_96;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1536_96_OffsetPadding_forAlignmentOnly[1536];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1536_96_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1552_97_OffsetPadding[1552];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1552
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1552_97;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1552_97_OffsetPadding_forAlignmentOnly[1552];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1552_97_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1568_98_OffsetPadding[1568];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1568
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1568_98;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1568_98_OffsetPadding_forAlignmentOnly[1568];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1568_98_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1584_99_OffsetPadding[1584];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1584
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1584_99;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1584_99_OffsetPadding_forAlignmentOnly[1584];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1584_99_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1600_100_OffsetPadding[1600];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1600
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1600_100;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1600_100_OffsetPadding_forAlignmentOnly[1600];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1600_100_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1616_101_OffsetPadding[1616];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1616
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1616_101;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1616_101_OffsetPadding_forAlignmentOnly[1616];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1616_101_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1632_102_OffsetPadding[1632];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1632
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1632_102;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1632_102_OffsetPadding_forAlignmentOnly[1632];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1632_102_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1648_103_OffsetPadding[1648];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1648
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1648_103;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1648_103_OffsetPadding_forAlignmentOnly[1648];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1648_103_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1664_104_OffsetPadding[1664];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1664
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1664_104;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1664_104_OffsetPadding_forAlignmentOnly[1664];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1664_104_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1680_105_OffsetPadding[1680];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1680
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1680_105;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1680_105_OffsetPadding_forAlignmentOnly[1680];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1680_105_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1696_106_OffsetPadding[1696];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1696
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1696_106;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1696_106_OffsetPadding_forAlignmentOnly[1696];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1696_106_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1712_107_OffsetPadding[1712];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1712
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1712_107;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1712_107_OffsetPadding_forAlignmentOnly[1712];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1712_107_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1728_108_OffsetPadding[1728];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1728
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1728_108;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1728_108_OffsetPadding_forAlignmentOnly[1728];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1728_108_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1744_109_OffsetPadding[1744];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1744
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1744_109;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1744_109_OffsetPadding_forAlignmentOnly[1744];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1744_109_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1760_110_OffsetPadding[1760];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1760
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1760_110;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1760_110_OffsetPadding_forAlignmentOnly[1760];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1760_110_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1776_111_OffsetPadding[1776];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1776
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1776_111;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1776_111_OffsetPadding_forAlignmentOnly[1776];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1776_111_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1792_112_OffsetPadding[1792];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1792
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1792_112;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1792_112_OffsetPadding_forAlignmentOnly[1792];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1792_112_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1808_113_OffsetPadding[1808];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1808
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1808_113;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1808_113_OffsetPadding_forAlignmentOnly[1808];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1808_113_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1824_114_OffsetPadding[1824];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1824
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1824_114;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1824_114_OffsetPadding_forAlignmentOnly[1824];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1824_114_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1840_115_OffsetPadding[1840];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1840
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1840_115;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1840_115_OffsetPadding_forAlignmentOnly[1840];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1840_115_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1856_116_OffsetPadding[1856];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1856
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1856_116;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1856_116_OffsetPadding_forAlignmentOnly[1856];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1856_116_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1872_117_OffsetPadding[1872];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1872
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1872_117;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1872_117_OffsetPadding_forAlignmentOnly[1872];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1872_117_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1888_118_OffsetPadding[1888];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1888
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1888_118;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1888_118_OffsetPadding_forAlignmentOnly[1888];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1888_118_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1904_119_OffsetPadding[1904];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1904
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1904_119;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1904_119_OffsetPadding_forAlignmentOnly[1904];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1904_119_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1920_120_OffsetPadding[1920];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1920
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1920_120;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1920_120_OffsetPadding_forAlignmentOnly[1920];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1920_120_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1936_121_OffsetPadding[1936];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1936
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1936_121;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1936_121_OffsetPadding_forAlignmentOnly[1936];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1936_121_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1952_122_OffsetPadding[1952];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1952
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1952_122;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1952_122_OffsetPadding_forAlignmentOnly[1952];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1952_122_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1968_123_OffsetPadding[1968];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1968
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1968_123;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1968_123_OffsetPadding_forAlignmentOnly[1968];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1968_123_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset1984_124_OffsetPadding[1984];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset1984
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1984_124;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset1984_124_OffsetPadding_forAlignmentOnly[1984];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset1984_124_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2000_125_OffsetPadding[2000];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2000
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2000_125;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2000_125_OffsetPadding_forAlignmentOnly[2000];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2000_125_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2016_126_OffsetPadding[2016];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2016
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2016_126;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2016_126_OffsetPadding_forAlignmentOnly[2016];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2016_126_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2032_127_OffsetPadding[2032];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2032
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2032_127;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2032_127_OffsetPadding_forAlignmentOnly[2032];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2032_127_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2048_128_OffsetPadding[2048];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2048
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2048_128;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2048_128_OffsetPadding_forAlignmentOnly[2048];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2048_128_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2064_129_OffsetPadding[2064];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2064
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2064_129;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2064_129_OffsetPadding_forAlignmentOnly[2064];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2064_129_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2080_130_OffsetPadding[2080];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2080
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2080_130;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2080_130_OffsetPadding_forAlignmentOnly[2080];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2080_130_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2096_131_OffsetPadding[2096];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2096
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2096_131;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2096_131_OffsetPadding_forAlignmentOnly[2096];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2096_131_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2112_132_OffsetPadding[2112];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2112
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2112_132;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2112_132_OffsetPadding_forAlignmentOnly[2112];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2112_132_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2128_133_OffsetPadding[2128];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2128
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2128_133;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2128_133_OffsetPadding_forAlignmentOnly[2128];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2128_133_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2144_134_OffsetPadding[2144];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2144
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2144_134;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2144_134_OffsetPadding_forAlignmentOnly[2144];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2144_134_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2160_135_OffsetPadding[2160];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2160
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2160_135;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2160_135_OffsetPadding_forAlignmentOnly[2160];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2160_135_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2176_136_OffsetPadding[2176];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2176
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2176_136;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2176_136_OffsetPadding_forAlignmentOnly[2176];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2176_136_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2192_137_OffsetPadding[2192];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2192
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2192_137;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2192_137_OffsetPadding_forAlignmentOnly[2192];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2192_137_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2208_138_OffsetPadding[2208];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2208
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2208_138;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2208_138_OffsetPadding_forAlignmentOnly[2208];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2208_138_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2224_139_OffsetPadding[2224];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2224
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2224_139;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2224_139_OffsetPadding_forAlignmentOnly[2224];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2224_139_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2240_140_OffsetPadding[2240];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2240
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2240_140;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2240_140_OffsetPadding_forAlignmentOnly[2240];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2240_140_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2256_141_OffsetPadding[2256];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2256
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2256_141;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2256_141_OffsetPadding_forAlignmentOnly[2256];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2256_141_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2272_142_OffsetPadding[2272];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2272
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2272_142;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2272_142_OffsetPadding_forAlignmentOnly[2272];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2272_142_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2288_143_OffsetPadding[2288];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2288
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2288_143;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2288_143_OffsetPadding_forAlignmentOnly[2288];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2288_143_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2304_144_OffsetPadding[2304];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2304
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2304_144;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2304_144_OffsetPadding_forAlignmentOnly[2304];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2304_144_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2320_145_OffsetPadding[2320];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2320
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2320_145;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2320_145_OffsetPadding_forAlignmentOnly[2320];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2320_145_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2336_146_OffsetPadding[2336];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2336
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2336_146;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2336_146_OffsetPadding_forAlignmentOnly[2336];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2336_146_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2352_147_OffsetPadding[2352];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2352
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2352_147;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2352_147_OffsetPadding_forAlignmentOnly[2352];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2352_147_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2368_148_OffsetPadding[2368];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2368
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2368_148;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2368_148_OffsetPadding_forAlignmentOnly[2368];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2368_148_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2384_149_OffsetPadding[2384];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2384
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2384_149;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2384_149_OffsetPadding_forAlignmentOnly[2384];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2384_149_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2400_150_OffsetPadding[2400];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2400
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2400_150;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2400_150_OffsetPadding_forAlignmentOnly[2400];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2400_150_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2416_151_OffsetPadding[2416];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2416
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2416_151;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2416_151_OffsetPadding_forAlignmentOnly[2416];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2416_151_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2432_152_OffsetPadding[2432];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2432
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2432_152;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2432_152_OffsetPadding_forAlignmentOnly[2432];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2432_152_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2448_153_OffsetPadding[2448];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2448
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2448_153;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2448_153_OffsetPadding_forAlignmentOnly[2448];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2448_153_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2464_154_OffsetPadding[2464];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2464
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2464_154;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2464_154_OffsetPadding_forAlignmentOnly[2464];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2464_154_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2480_155_OffsetPadding[2480];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2480
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2480_155;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2480_155_OffsetPadding_forAlignmentOnly[2480];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2480_155_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2496_156_OffsetPadding[2496];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2496
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2496_156;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2496_156_OffsetPadding_forAlignmentOnly[2496];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2496_156_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2512_157_OffsetPadding[2512];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2512
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2512_157;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2512_157_OffsetPadding_forAlignmentOnly[2512];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2512_157_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2528_158_OffsetPadding[2528];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2528
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2528_158;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2528_158_OffsetPadding_forAlignmentOnly[2528];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2528_158_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2544_159_OffsetPadding[2544];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2544
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2544_159;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2544_159_OffsetPadding_forAlignmentOnly[2544];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2544_159_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2560_160_OffsetPadding[2560];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2560
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2560_160;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2560_160_OffsetPadding_forAlignmentOnly[2560];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2560_160_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2576_161_OffsetPadding[2576];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2576
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2576_161;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2576_161_OffsetPadding_forAlignmentOnly[2576];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2576_161_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2592_162_OffsetPadding[2592];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2592
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2592_162;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2592_162_OffsetPadding_forAlignmentOnly[2592];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2592_162_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2608_163_OffsetPadding[2608];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2608
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2608_163;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2608_163_OffsetPadding_forAlignmentOnly[2608];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2608_163_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2624_164_OffsetPadding[2624];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2624
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2624_164;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2624_164_OffsetPadding_forAlignmentOnly[2624];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2624_164_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2640_165_OffsetPadding[2640];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2640
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2640_165;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2640_165_OffsetPadding_forAlignmentOnly[2640];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2640_165_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2656_166_OffsetPadding[2656];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2656
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2656_166;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2656_166_OffsetPadding_forAlignmentOnly[2656];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2656_166_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2672_167_OffsetPadding[2672];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2672
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2672_167;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2672_167_OffsetPadding_forAlignmentOnly[2672];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2672_167_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2688_168_OffsetPadding[2688];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2688
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2688_168;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2688_168_OffsetPadding_forAlignmentOnly[2688];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2688_168_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2704_169_OffsetPadding[2704];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2704
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2704_169;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2704_169_OffsetPadding_forAlignmentOnly[2704];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2704_169_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2720_170_OffsetPadding[2720];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2720
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2720_170;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2720_170_OffsetPadding_forAlignmentOnly[2720];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2720_170_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2736_171_OffsetPadding[2736];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2736
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2736_171;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2736_171_OffsetPadding_forAlignmentOnly[2736];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2736_171_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2752_172_OffsetPadding[2752];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2752
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2752_172;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2752_172_OffsetPadding_forAlignmentOnly[2752];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2752_172_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2768_173_OffsetPadding[2768];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2768
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2768_173;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2768_173_OffsetPadding_forAlignmentOnly[2768];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2768_173_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2784_174_OffsetPadding[2784];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2784
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2784_174;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2784_174_OffsetPadding_forAlignmentOnly[2784];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2784_174_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2800_175_OffsetPadding[2800];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2800
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2800_175;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2800_175_OffsetPadding_forAlignmentOnly[2800];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2800_175_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2816_176_OffsetPadding[2816];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2816
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2816_176;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2816_176_OffsetPadding_forAlignmentOnly[2816];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2816_176_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2832_177_OffsetPadding[2832];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2832
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2832_177;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2832_177_OffsetPadding_forAlignmentOnly[2832];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2832_177_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2848_178_OffsetPadding[2848];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2848
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2848_178;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2848_178_OffsetPadding_forAlignmentOnly[2848];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2848_178_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2864_179_OffsetPadding[2864];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2864
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2864_179;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2864_179_OffsetPadding_forAlignmentOnly[2864];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2864_179_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2880_180_OffsetPadding[2880];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2880
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2880_180;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2880_180_OffsetPadding_forAlignmentOnly[2880];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2880_180_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2896_181_OffsetPadding[2896];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2896
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2896_181;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2896_181_OffsetPadding_forAlignmentOnly[2896];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2896_181_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2912_182_OffsetPadding[2912];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2912
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2912_182;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2912_182_OffsetPadding_forAlignmentOnly[2912];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2912_182_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2928_183_OffsetPadding[2928];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2928
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2928_183;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2928_183_OffsetPadding_forAlignmentOnly[2928];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2928_183_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2944_184_OffsetPadding[2944];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2944
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2944_184;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2944_184_OffsetPadding_forAlignmentOnly[2944];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2944_184_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2960_185_OffsetPadding[2960];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2960
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2960_185;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2960_185_OffsetPadding_forAlignmentOnly[2960];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2960_185_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2976_186_OffsetPadding[2976];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2976
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2976_186;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2976_186_OffsetPadding_forAlignmentOnly[2976];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2976_186_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset2992_187_OffsetPadding[2992];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset2992
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2992_187;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset2992_187_OffsetPadding_forAlignmentOnly[2992];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset2992_187_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3008_188_OffsetPadding[3008];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3008
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3008_188;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3008_188_OffsetPadding_forAlignmentOnly[3008];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3008_188_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3024_189_OffsetPadding[3024];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3024
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3024_189;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3024_189_OffsetPadding_forAlignmentOnly[3024];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3024_189_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3040_190_OffsetPadding[3040];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3040
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3040_190;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3040_190_OffsetPadding_forAlignmentOnly[3040];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3040_190_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3056_191_OffsetPadding[3056];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3056
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3056_191;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3056_191_OffsetPadding_forAlignmentOnly[3056];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3056_191_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3072_192_OffsetPadding[3072];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3072
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3072_192;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3072_192_OffsetPadding_forAlignmentOnly[3072];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3072_192_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3088_193_OffsetPadding[3088];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3088
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3088_193;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3088_193_OffsetPadding_forAlignmentOnly[3088];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3088_193_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3104_194_OffsetPadding[3104];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3104
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3104_194;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3104_194_OffsetPadding_forAlignmentOnly[3104];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3104_194_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3120_195_OffsetPadding[3120];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3120
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3120_195;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3120_195_OffsetPadding_forAlignmentOnly[3120];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3120_195_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3136_196_OffsetPadding[3136];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3136
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3136_196;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3136_196_OffsetPadding_forAlignmentOnly[3136];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3136_196_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3152_197_OffsetPadding[3152];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3152
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3152_197;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3152_197_OffsetPadding_forAlignmentOnly[3152];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3152_197_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3168_198_OffsetPadding[3168];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3168
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3168_198;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3168_198_OffsetPadding_forAlignmentOnly[3168];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3168_198_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3184_199_OffsetPadding[3184];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3184
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3184_199;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3184_199_OffsetPadding_forAlignmentOnly[3184];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3184_199_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3200_200_OffsetPadding[3200];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3200
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3200_200;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3200_200_OffsetPadding_forAlignmentOnly[3200];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3200_200_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3216_201_OffsetPadding[3216];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3216
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3216_201;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3216_201_OffsetPadding_forAlignmentOnly[3216];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3216_201_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3232_202_OffsetPadding[3232];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3232
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3232_202;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3232_202_OffsetPadding_forAlignmentOnly[3232];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3232_202_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3248_203_OffsetPadding[3248];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3248
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3248_203;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3248_203_OffsetPadding_forAlignmentOnly[3248];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3248_203_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3264_204_OffsetPadding[3264];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3264
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3264_204;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3264_204_OffsetPadding_forAlignmentOnly[3264];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3264_204_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3280_205_OffsetPadding[3280];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3280
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3280_205;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3280_205_OffsetPadding_forAlignmentOnly[3280];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3280_205_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3296_206_OffsetPadding[3296];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3296
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3296_206;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3296_206_OffsetPadding_forAlignmentOnly[3296];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3296_206_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3312_207_OffsetPadding[3312];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3312
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3312_207;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3312_207_OffsetPadding_forAlignmentOnly[3312];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3312_207_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3328_208_OffsetPadding[3328];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3328
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3328_208;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3328_208_OffsetPadding_forAlignmentOnly[3328];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3328_208_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3344_209_OffsetPadding[3344];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3344
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3344_209;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3344_209_OffsetPadding_forAlignmentOnly[3344];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3344_209_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3360_210_OffsetPadding[3360];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3360
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3360_210;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3360_210_OffsetPadding_forAlignmentOnly[3360];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3360_210_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3376_211_OffsetPadding[3376];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3376
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3376_211;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3376_211_OffsetPadding_forAlignmentOnly[3376];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3376_211_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3392_212_OffsetPadding[3392];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3392
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3392_212;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3392_212_OffsetPadding_forAlignmentOnly[3392];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3392_212_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3408_213_OffsetPadding[3408];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3408
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3408_213;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3408_213_OffsetPadding_forAlignmentOnly[3408];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3408_213_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3424_214_OffsetPadding[3424];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3424
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3424_214;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3424_214_OffsetPadding_forAlignmentOnly[3424];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3424_214_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3440_215_OffsetPadding[3440];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3440
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3440_215;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3440_215_OffsetPadding_forAlignmentOnly[3440];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3440_215_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3456_216_OffsetPadding[3456];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3456
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3456_216;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3456_216_OffsetPadding_forAlignmentOnly[3456];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3456_216_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3472_217_OffsetPadding[3472];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3472
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3472_217;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3472_217_OffsetPadding_forAlignmentOnly[3472];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3472_217_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3488_218_OffsetPadding[3488];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3488
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3488_218;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3488_218_OffsetPadding_forAlignmentOnly[3488];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3488_218_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3504_219_OffsetPadding[3504];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3504
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3504_219;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3504_219_OffsetPadding_forAlignmentOnly[3504];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3504_219_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3520_220_OffsetPadding[3520];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3520
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3520_220;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3520_220_OffsetPadding_forAlignmentOnly[3520];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3520_220_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3536_221_OffsetPadding[3536];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3536
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3536_221;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3536_221_OffsetPadding_forAlignmentOnly[3536];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3536_221_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3552_222_OffsetPadding[3552];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3552
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3552_222;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3552_222_OffsetPadding_forAlignmentOnly[3552];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3552_222_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3568_223_OffsetPadding[3568];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3568
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3568_223;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3568_223_OffsetPadding_forAlignmentOnly[3568];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3568_223_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3584_224_OffsetPadding[3584];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3584
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3584_224;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3584_224_OffsetPadding_forAlignmentOnly[3584];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3584_224_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3600_225_OffsetPadding[3600];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3600
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3600_225;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3600_225_OffsetPadding_forAlignmentOnly[3600];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3600_225_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3616_226_OffsetPadding[3616];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3616
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3616_226;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3616_226_OffsetPadding_forAlignmentOnly[3616];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3616_226_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3632_227_OffsetPadding[3632];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3632
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3632_227;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3632_227_OffsetPadding_forAlignmentOnly[3632];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3632_227_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3648_228_OffsetPadding[3648];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3648
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3648_228;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3648_228_OffsetPadding_forAlignmentOnly[3648];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3648_228_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3664_229_OffsetPadding[3664];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3664
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3664_229;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3664_229_OffsetPadding_forAlignmentOnly[3664];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3664_229_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3680_230_OffsetPadding[3680];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3680
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3680_230;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3680_230_OffsetPadding_forAlignmentOnly[3680];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3680_230_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3696_231_OffsetPadding[3696];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3696
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3696_231;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3696_231_OffsetPadding_forAlignmentOnly[3696];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3696_231_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3712_232_OffsetPadding[3712];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3712
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3712_232;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3712_232_OffsetPadding_forAlignmentOnly[3712];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3712_232_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3728_233_OffsetPadding[3728];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3728
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3728_233;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3728_233_OffsetPadding_forAlignmentOnly[3728];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3728_233_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3744_234_OffsetPadding[3744];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3744
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3744_234;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3744_234_OffsetPadding_forAlignmentOnly[3744];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3744_234_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3760_235_OffsetPadding[3760];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3760
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3760_235;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3760_235_OffsetPadding_forAlignmentOnly[3760];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3760_235_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3776_236_OffsetPadding[3776];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3776
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3776_236;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3776_236_OffsetPadding_forAlignmentOnly[3776];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3776_236_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3792_237_OffsetPadding[3792];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3792
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3792_237;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3792_237_OffsetPadding_forAlignmentOnly[3792];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3792_237_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3808_238_OffsetPadding[3808];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3808
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3808_238;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3808_238_OffsetPadding_forAlignmentOnly[3808];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3808_238_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3824_239_OffsetPadding[3824];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3824
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3824_239;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3824_239_OffsetPadding_forAlignmentOnly[3824];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3824_239_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3840_240_OffsetPadding[3840];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3840
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3840_240;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3840_240_OffsetPadding_forAlignmentOnly[3840];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3840_240_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3856_241_OffsetPadding[3856];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3856
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3856_241;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3856_241_OffsetPadding_forAlignmentOnly[3856];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3856_241_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3872_242_OffsetPadding[3872];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3872
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3872_242;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3872_242_OffsetPadding_forAlignmentOnly[3872];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3872_242_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3888_243_OffsetPadding[3888];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3888
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3888_243;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3888_243_OffsetPadding_forAlignmentOnly[3888];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3888_243_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3904_244_OffsetPadding[3904];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3904
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3904_244;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3904_244_OffsetPadding_forAlignmentOnly[3904];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3904_244_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3920_245_OffsetPadding[3920];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3920
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3920_245;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3920_245_OffsetPadding_forAlignmentOnly[3920];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3920_245_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3936_246_OffsetPadding[3936];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3936
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3936_246;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3936_246_OffsetPadding_forAlignmentOnly[3936];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3936_246_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3952_247_OffsetPadding[3952];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3952
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3952_247;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3952_247_OffsetPadding_forAlignmentOnly[3952];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3952_247_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3968_248_OffsetPadding[3968];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3968
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3968_248;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3968_248_OffsetPadding_forAlignmentOnly[3968];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3968_248_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset3984_249_OffsetPadding[3984];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset3984
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3984_249;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset3984_249_OffsetPadding_forAlignmentOnly[3984];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset3984_249_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset4000_250_OffsetPadding[4000];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset4000
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4000_250;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset4000_250_OffsetPadding_forAlignmentOnly[4000];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4000_250_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset4016_251_OffsetPadding[4016];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset4016
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4016_251;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset4016_251_OffsetPadding_forAlignmentOnly[4016];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4016_251_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset4032_252_OffsetPadding[4032];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset4032
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4032_252;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset4032_252_OffsetPadding_forAlignmentOnly[4032];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4032_252_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset4048_253_OffsetPadding[4048];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset4048
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4048_253;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset4048_253_OffsetPadding_forAlignmentOnly[4048];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4048_253_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___offset4064_254_OffsetPadding[4064];
+					// Unity.Collections.FixedBytes16 Unity.Collections.FixedBytes4094::offset4064
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4064_254;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___offset4064_254_OffsetPadding_forAlignmentOnly[4064];
+					FixedBytes16_tBBD888116CBD6329886E0FE97A82EEB4B7CB3FA0 ___offset4064_254_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4080_255_OffsetPadding[4080];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4080
+					uint8_t ___byte4080_255;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4080_255_OffsetPadding_forAlignmentOnly[4080];
+					uint8_t ___byte4080_255_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4081_256_OffsetPadding[4081];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4081
+					uint8_t ___byte4081_256;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4081_256_OffsetPadding_forAlignmentOnly[4081];
+					uint8_t ___byte4081_256_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4082_257_OffsetPadding[4082];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4082
+					uint8_t ___byte4082_257;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4082_257_OffsetPadding_forAlignmentOnly[4082];
+					uint8_t ___byte4082_257_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4083_258_OffsetPadding[4083];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4083
+					uint8_t ___byte4083_258;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4083_258_OffsetPadding_forAlignmentOnly[4083];
+					uint8_t ___byte4083_258_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4084_259_OffsetPadding[4084];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4084
+					uint8_t ___byte4084_259;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4084_259_OffsetPadding_forAlignmentOnly[4084];
+					uint8_t ___byte4084_259_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4085_260_OffsetPadding[4085];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4085
+					uint8_t ___byte4085_260;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4085_260_OffsetPadding_forAlignmentOnly[4085];
+					uint8_t ___byte4085_260_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4086_261_OffsetPadding[4086];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4086
+					uint8_t ___byte4086_261;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4086_261_OffsetPadding_forAlignmentOnly[4086];
+					uint8_t ___byte4086_261_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4087_262_OffsetPadding[4087];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4087
+					uint8_t ___byte4087_262;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4087_262_OffsetPadding_forAlignmentOnly[4087];
+					uint8_t ___byte4087_262_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4088_263_OffsetPadding[4088];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4088
+					uint8_t ___byte4088_263;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4088_263_OffsetPadding_forAlignmentOnly[4088];
+					uint8_t ___byte4088_263_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4089_264_OffsetPadding[4089];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4089
+					uint8_t ___byte4089_264;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4089_264_OffsetPadding_forAlignmentOnly[4089];
+					uint8_t ___byte4089_264_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4090_265_OffsetPadding[4090];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4090
+					uint8_t ___byte4090_265;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4090_265_OffsetPadding_forAlignmentOnly[4090];
+					uint8_t ___byte4090_265_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4091_266_OffsetPadding[4091];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4091
+					uint8_t ___byte4091_266;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4091_266_OffsetPadding_forAlignmentOnly[4091];
+					uint8_t ___byte4091_266_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4092_267_OffsetPadding[4092];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4092
+					uint8_t ___byte4092_267;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4092_267_OffsetPadding_forAlignmentOnly[4092];
+					uint8_t ___byte4092_267_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___byte4093_268_OffsetPadding[4093];
+					// System.Byte Unity.Collections.FixedBytes4094::byte4093
+					uint8_t ___byte4093_268;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___byte4093_268_OffsetPadding_forAlignmentOnly[4093];
+					uint8_t ___byte4093_268_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t FixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5__padding[4094];
+	};
 };
 
 // UnityEngine.UIElements.UIR.GfxUpdateBufferRange
@@ -3850,6 +9046,72 @@ struct ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960
 	intptr_t ___contacts_9;
 };
 
+// Unity.Collections.NativeQueueBlockPoolData
+struct NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87 
+{
+	// System.IntPtr Unity.Collections.NativeQueueBlockPoolData::m_FirstBlock
+	intptr_t ___m_FirstBlock_0;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_NumBlocks
+	int32_t ___m_NumBlocks_1;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_MaxBlocks
+	int32_t ___m_MaxBlocks_2;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_AllocLock
+	int32_t ___m_AllocLock_4;
+};
+
+// Unity.Collections.NativeQueueData
+struct NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52 
+{
+	// System.IntPtr Unity.Collections.NativeQueueData::m_FirstBlock
+	intptr_t ___m_FirstBlock_0;
+	// System.IntPtr Unity.Collections.NativeQueueData::m_LastBlock
+	intptr_t ___m_LastBlock_1;
+	// System.Int32 Unity.Collections.NativeQueueData::m_MaxItems
+	int32_t ___m_MaxItems_2;
+	// System.Int32 Unity.Collections.NativeQueueData::m_CurrentRead
+	int32_t ___m_CurrentRead_3;
+	// System.Byte* Unity.Collections.NativeQueueData::m_CurrentWriteBlockTLS
+	uint8_t* ___m_CurrentWriteBlockTLS_4;
+};
+
+// Unity.Networking.Transport.NetworkEndPoint
+struct NetworkEndPoint_t40D02F3956B78E8C6115ED188912FBCE35437F63 
+{
+	// Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress Unity.Networking.Transport.NetworkEndPoint::rawNetworkAddress
+	Baselib_NetworkAddress_t2F4AF92B4EEFE31182BADF512CA004AFF48128E0 ___rawNetworkAddress_5;
+};
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint
+struct NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkInterfaceEndPoint::dataLength
+	int32_t ___dataLength_1;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer Unity.Networking.Transport.NetworkInterfaceEndPoint::data
+	U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0 ___data_2;
+};
+
+// Unity.Networking.Transport.NetworkInterfaceSendHandle
+struct NetworkInterfaceSendHandle_t0DDDEE6B24387948E786543B54C52A3F7B625CE3 
+{
+	// System.IntPtr Unity.Networking.Transport.NetworkInterfaceSendHandle::data
+	intptr_t ___data_0;
+	// System.Int32 Unity.Networking.Transport.NetworkInterfaceSendHandle::capacity
+	int32_t ___capacity_1;
+	// System.Int32 Unity.Networking.Transport.NetworkInterfaceSendHandle::size
+	int32_t ___size_2;
+	// System.Int32 Unity.Networking.Transport.NetworkInterfaceSendHandle::id
+	int32_t ___id_3;
+	// Unity.Networking.Transport.SendHandleFlags Unity.Networking.Transport.NetworkInterfaceSendHandle::flags
+	int32_t ___flags_4;
+};
+
+// Unity.Networking.Transport.NetworkSendQueueHandle
+struct NetworkSendQueueHandle_t9F11BEB70EFEEE4BCD9CD241BB758B11F25D5090 
+{
+	// System.IntPtr Unity.Networking.Transport.NetworkSendQueueHandle::handle
+	intptr_t ___handle_0;
+};
+
 // UnityEngine.Plane
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C 
 {
@@ -3873,6 +9135,27 @@ struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD
 {
 	// System.IntPtr Unity.Profiling.ProfilerMarker::m_Ptr
 	intptr_t ___m_Ptr_0;
+};
+
+// Unity.Networking.Transport.Relay.RelayAllocationId
+struct RelayAllocationId_tAD787B0E59C71831D70A45A63526CBC685AA2984 
+{
+	// Unity.Networking.Transport.Relay.RelayAllocationId/<Value>e__FixedBuffer Unity.Networking.Transport.Relay.RelayAllocationId::Value
+	U3CValueU3Ee__FixedBuffer_t0E279F5AD765D68C7D3ADB57B98FD471710955C8 ___Value_1;
+};
+
+// Unity.Networking.Transport.Relay.RelayConnectionData
+struct RelayConnectionData_tA5306A14AEB9FA72A119334CBE01CE0B1F7AC18D 
+{
+	// Unity.Networking.Transport.Relay.RelayConnectionData/<Value>e__FixedBuffer Unity.Networking.Transport.Relay.RelayConnectionData::Value
+	U3CValueU3Ee__FixedBuffer_t2EBBD6566B9DD8EF0CBC9EF9A9340955B5792054 ___Value_1;
+};
+
+// Unity.Networking.Transport.Relay.RelayHMACKey
+struct RelayHMACKey_t8A1480D4E69892635FBA3B1408C094733613B844 
+{
+	// Unity.Networking.Transport.Relay.RelayHMACKey/<Value>e__FixedBuffer Unity.Networking.Transport.Relay.RelayHMACKey::Value
+	U3CValueU3Ee__FixedBuffer_t3C8B36A587C8DE2573C0B7FD1CBD94E571B38A67 ___Value_1;
 };
 
 // UnityEngine.UIElements.UIR.RenderChainVEData
@@ -4110,6 +9393,25 @@ struct Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_marshaled_com
 	int32_t ___m_IsNone_1;
 };
 
+// Unity.Networking.Transport.SessionIdToken
+struct SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Unity.Networking.Transport.SessionIdToken/<Value>e__FixedBuffer Unity.Networking.Transport.SessionIdToken::Value
+			U3CValueU3Ee__FixedBuffer_t4CE95A1DC9ED09372188CEDA707F9A09B897742D ___Value_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			U3CValueU3Ee__FixedBuffer_t4CE95A1DC9ED09372188CEDA707F9A09B897742D ___Value_1_forAlignmentOnly;
+		};
+	};
+};
+
 // UnityEngine.UIElements.StyleSheets.StylePropertyId
 struct StylePropertyId_tA3B8A5213F5BA43F9C5443B27B165D744713BE69 
 {
@@ -4223,6 +9525,189 @@ struct Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_marshaled_com
 	int32_t ___m_isNone_3;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData
+struct UnsafeHashMapData_t82AA009E447306C927002C4EED80392BD8D8E5B4 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte* Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::values
+			uint8_t* ___values_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t* ___values_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___keys_1_OffsetPadding[8];
+			// System.Byte* Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::keys
+			uint8_t* ___keys_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___keys_1_OffsetPadding_forAlignmentOnly[8];
+			uint8_t* ___keys_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___next_2_OffsetPadding[16];
+			// System.Byte* Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::next
+			uint8_t* ___next_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___next_2_OffsetPadding_forAlignmentOnly[16];
+			uint8_t* ___next_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___buckets_3_OffsetPadding[24];
+			// System.Byte* Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::buckets
+			uint8_t* ___buckets_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___buckets_3_OffsetPadding_forAlignmentOnly[24];
+			uint8_t* ___buckets_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___keyCapacity_4_OffsetPadding[32];
+			// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::keyCapacity
+			int32_t ___keyCapacity_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___keyCapacity_4_OffsetPadding_forAlignmentOnly[32];
+			int32_t ___keyCapacity_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___bucketCapacityMask_5_OffsetPadding[36];
+			// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::bucketCapacityMask
+			int32_t ___bucketCapacityMask_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___bucketCapacityMask_5_OffsetPadding_forAlignmentOnly[36];
+			int32_t ___bucketCapacityMask_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___allocatedIndexLength_6_OffsetPadding[40];
+			// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::allocatedIndexLength
+			int32_t ___allocatedIndexLength_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___allocatedIndexLength_6_OffsetPadding_forAlignmentOnly[40];
+			int32_t ___allocatedIndexLength_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___firstFreeTLS_7_OffsetPadding[64];
+			// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData/<firstFreeTLS>e__FixedBuffer Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::firstFreeTLS
+			U3CfirstFreeTLSU3Ee__FixedBuffer_tB5D033343517E3E37219A27C7757D645091EFF11 ___firstFreeTLS_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___firstFreeTLS_7_OffsetPadding_forAlignmentOnly[64];
+			U3CfirstFreeTLSU3Ee__FixedBuffer_tB5D033343517E3E37219A27C7757D645091EFF11 ___firstFreeTLS_7_forAlignmentOnly;
+		};
+	};
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList
+struct UnsafeList_t821320446016467933FF194D701C7EDDC23E538B 
+{
+	// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList::Ptr
+	void* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList::Length
+	int32_t ___Length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList::unused
+	int32_t ___unused_2;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList::Capacity
+	int32_t ___Capacity_3;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_4;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList
+struct UnsafePtrList_tEF526055038E136B34A2E66046CE206B9E38E71C 
+{
+	// System.Void** Unity.Collections.LowLevel.Unsafe.UnsafePtrList::Ptr
+	void** ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList::length
+	int32_t ___length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList::unused
+	int32_t ___unused_2;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList::capacity
+	int32_t ___capacity_3;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafePtrList::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_4;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock
+struct UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock* Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock::Next
+	UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C* ___Next_0;
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock/<Data>e__FixedBuffer Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock::Data
+	U3CDataU3Ee__FixedBuffer_t60155FEDF2B8430C4B466CB3CDD85327C03F1116 ___Data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData
+struct UnsafeStreamBlockData_t7024BEE600A8D8D0A263688FDF269C9F89473DA6 
+{
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_1;
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock** Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::Blocks
+	UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C** ___Blocks_2;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::BlockCount
+	int32_t ___BlockCount_3;
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock* Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::Free
+	UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C* ___Free_4;
+	// Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange* Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::Ranges
+	UnsafeStreamRange_tF5953324FD7FC591B632D6464C49C83C9429AAA9* ___Ranges_5;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData::RangeCount
+	int32_t ___RangeCount_6;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList
+struct UntypedUnsafeList_tB7A46F76589C71832F1147292E5123FB99E199B2 
+{
+	// System.Void* Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::Ptr
+	void* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::obsolete_length
+	int32_t ___obsolete_length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList::obsolete_capacity
+	int32_t ___obsolete_capacity_5;
+};
+
 // UnityEngine.UIElements.Vertex
 struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 
 {
@@ -4327,6 +9812,87 @@ struct ARCorePose_t7EA136D2DEE8CE51594AEA19618A11FD3E34968A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_1;
 };
 
+// Unity.Collections.AllocatorManager/TableEntry
+struct TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE 
+{
+	// System.IntPtr Unity.Collections.AllocatorManager/TableEntry::function
+	intptr_t ___function_0;
+	// System.IntPtr Unity.Collections.AllocatorManager/TableEntry::state
+	intptr_t ___state_1;
+};
+
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+struct Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 
+{
+	// System.IntPtr Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::ptr
+	intptr_t ___ptr_0;
+	// System.UInt64 Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::pageSize
+	uint64_t ___pageSize_1;
+	// System.UInt64 Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::pageCount
+	uint64_t ___pageCount_2;
+};
+
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Socket_UDP
+struct Baselib_RegisteredNetwork_Socket_UDP_t56202AB2B03941A065A7D8382591DD253115192A 
+{
+	// System.IntPtr Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Socket_UDP::handle
+	intptr_t ___handle_0;
+};
+
+// Unity.TLS.LowLevel.Binding/unitytls_dataRef
+struct unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 
+{
+	// System.Byte* Unity.TLS.LowLevel.Binding/unitytls_dataRef::dataPtr
+	uint8_t* ___dataPtr_0;
+	// System.UIntPtr Unity.TLS.LowLevel.Binding/unitytls_dataRef::dataLen
+	uintptr_t ___dataLen_1;
+};
+
+// Unity.Networking.Transport.IPCManager/IPCData
+struct IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 Unity.Networking.Transport.IPCManager/IPCData::from
+			int32_t ___from_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___from_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___length_1_OffsetPadding[4];
+			// System.Int32 Unity.Networking.Transport.IPCManager/IPCData::length
+			int32_t ___length_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___length_1_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___length_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data_2_OffsetPadding[8];
+			// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer Unity.Networking.Transport.IPCManager/IPCData::data
+			U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F ___data_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data_2_OffsetPadding_forAlignmentOnly[8];
+			U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F ___data_2_forAlignmentOnly;
+		};
+	};
+};
+
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB 
 {
@@ -4348,6 +9914,17 @@ struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com
 	int32_t ___hasEscapes_1;
 };
 
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+struct UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 
+{
+	// Unity.Networking.Transport.NetworkPipeline Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::pipeline
+	NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 ___pipeline_0;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::stage
+	int32_t ___stage_1;
+	// Unity.Networking.Transport.NetworkConnection Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::connection
+	NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___connection_2;
+};
+
 // UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
 struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 
 {
@@ -4359,6 +9936,87 @@ struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62
 	int32_t ___m_Format_2;
 	// UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Transformation
 	int32_t ___m_Transformation_3;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>>
+struct AlignOfHelper_1_t1BF68DC9ACACFA6FDBB0139DC16493B0F70F132F 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>>
+struct AlignOfHelper_1_tF7DAEC11C637A41FF2F5A4D227ECE155AE4F3FC9 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>>
+struct AlignOfHelper_1_t63ADE17EF3E942C5484F5B81CD189AFE6F123940 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>>
+struct AlignOfHelper_1_tC2E032BF4745C21749B01E45C7C31C7A5BAFFD7E 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>>
+struct AlignOfHelper_1_tCED6E9D0580072FFB770C15EF166A6D9F714D3E4 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>>
+struct AlignOfHelper_1_t69093720CA0D1044657AC0BDF228B96C4E191665 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>>
+struct AlignOfHelper_1_t5EC713A219618FEB1D64B215CC5F100F44A7BE88 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>>
+struct AlignOfHelper_1_tFF99787C19E0EC3114B4465F49D34EF9E4E9B070 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>>
+struct AlignOfHelper_1_t49828B9CE1842B793678ADFD459609AB2E3F0680 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___data_1;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
@@ -4415,6 +10073,33 @@ struct AlignOfHelper_1_tD67A48EC63F59A3B0822645B10F6057BB0B1A6FB
 	ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960 ___data_1;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockPoolData>
+struct AlignOfHelper_1_tD5F6C7F10A67053A68CBBAD474073CBD4E06B4A0 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueData>
+struct AlignOfHelper_1_t939A641488FA626E51F63A5CC5CA3F6F1E2E88B2 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkInterfaceEndPoint>
+struct AlignOfHelper_1_tDE131A8FE9BB7C1BF2CD95543A7F2E8EB769125C 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___data_1;
+};
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Plane>
 struct AlignOfHelper_1_t0A0F0444D297D1B268776F65B34B921CC7440328 
 {
@@ -4440,6 +10125,51 @@ struct AlignOfHelper_1_t6867F50FD3853DD4CA4DD96AD88FE1A614E678D2
 	uint8_t ___dummy_0;
 	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
 	Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData>
+struct AlignOfHelper_1_t44748AC00241E124F016371B08CF251CC22577D4 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeHashMapData_t82AA009E447306C927002C4EED80392BD8D8E5B4 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList>
+struct AlignOfHelper_1_t4140BB6D4F8F2E2A8846108979C1AF65BBE2C52D 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeList_t821320446016467933FF194D701C7EDDC23E538B ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList>
+struct AlignOfHelper_1_t1BD6BB64A0F02A80E232867B1FBA3A4E66A9EB49 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafePtrList_tEF526055038E136B34A2E66046CE206B9E38E71C ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock>
+struct AlignOfHelper_1_t487B0DB19BABC69964D6D66B28BF17A3116FA9B9 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeStreamBlock_t0DE96C782B2CBF67BE34978C364781E170B3A86C ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData>
+struct AlignOfHelper_1_tEA9F51B0F871DAA3E918568FE895122DD107C9B6 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeStreamBlockData_t7024BEE600A8D8D0A263688FDF269C9F89473DA6 ___data_1;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.UIElements.Vertex>
@@ -4476,6 +10206,61 @@ struct AlignOfHelper_1_t928BEA3B7E6A62AA292EAEA0DCD626F172713439
 	uint8_t ___dummy_0;
 	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
 	XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.IPCManager/IPCData>
+struct AlignOfHelper_1_t11724E000FDB2327AC1FB5E5C69661CFEFA95C1D 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct AlignOfHelper_1_t5DFFE40D93AF20FAF98C674309D6B429613B4B82 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___data_1;
+};
+
+// Unity.Collections.AllocatorManager/Array16`1<Unity.Collections.AllocatorManager/TableEntry>
+struct Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F 
+{
+	// T Unity.Collections.AllocatorManager/Array16`1::f0
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f0_0;
+	// T Unity.Collections.AllocatorManager/Array16`1::f1
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f1_1;
+	// T Unity.Collections.AllocatorManager/Array16`1::f2
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f2_2;
+	// T Unity.Collections.AllocatorManager/Array16`1::f3
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f3_3;
+	// T Unity.Collections.AllocatorManager/Array16`1::f4
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f4_4;
+	// T Unity.Collections.AllocatorManager/Array16`1::f5
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f5_5;
+	// T Unity.Collections.AllocatorManager/Array16`1::f6
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f6_6;
+	// T Unity.Collections.AllocatorManager/Array16`1::f7
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f7_7;
+	// T Unity.Collections.AllocatorManager/Array16`1::f8
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f8_8;
+	// T Unity.Collections.AllocatorManager/Array16`1::f9
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f9_9;
+	// T Unity.Collections.AllocatorManager/Array16`1::f10
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f10_10;
+	// T Unity.Collections.AllocatorManager/Array16`1::f11
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f11_11;
+	// T Unity.Collections.AllocatorManager/Array16`1::f12
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f12_12;
+	// T Unity.Collections.AllocatorManager/Array16`1::f13
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f13_13;
+	// T Unity.Collections.AllocatorManager/Array16`1::f14
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f14_14;
+	// T Unity.Collections.AllocatorManager/Array16`1::f15
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE ___f15_15;
 };
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Rotate>
@@ -4543,6 +10328,48 @@ struct StyleData_t516B303180A937637806C9C217FE06E3AACDEE23
 	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___currentValue_3;
 };
 
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+struct TransportFunctionPointer_1_t6BF5E81E0840B90172D9CF46B2C509613517ECEB 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_t8F0EE7CCF0085CB860984ADC60A80D650467391E ___Ptr_0;
+};
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+struct TransportFunctionPointer_1_t511C3C8E675E5CB219FF3A1D96C2427B3FE67093 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_t2E52B92952AC40879F3596DE2FD777EC8D1DD4E0 ___Ptr_0;
+};
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+struct TransportFunctionPointer_1_t501B8E9B93C30C95A92F8DF78ACF94988E45A4B9 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_tCDD6B82BADB3D595433A9F2B8A2D7D6043B10F21 ___Ptr_0;
+};
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+struct TransportFunctionPointer_1_t6BF0E9809FEF820449ED4B566281FFDB8B1F6807 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_t605FCD8E1E05F041A75BCDAE5CE44D9A201BFAA1 ___Ptr_0;
+};
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+struct TransportFunctionPointer_1_t9F2FD24758ADF9E597DCA02A01D7972B74AF6736 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_t5E2F5FC9CFE7FBBBECA6EB73BABFA0CD5F645155 ___Ptr_0;
+};
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
+struct TransportFunctionPointer_1_t1933A8E5B03799A74CE910DB0A4F8FF67DD0405D 
+{
+	// Unity.Burst.FunctionPointer`1<T> Unity.Networking.Transport.TransportFunctionPointer`1::Ptr
+	FunctionPointer_1_tD15B3870776AA5A42DBB36B9CCA6AA930B9628DE ___Ptr_0;
+};
+
 // UnityEngine.XR.ARCore.ARCoreFaceRegionData
 struct ARCoreFaceRegionData_tC5ABC889AB00A0DB777FFB44FD943E772F8A4F11 
 {
@@ -4575,6 +10402,38 @@ struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE
 	int32_t ___m_Classification_9;
 };
 
+// Unity.Collections.FixedString32Bytes
+struct FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824 
+{
+	union
+	{
+		struct
+		{
+			// System.UInt16 Unity.Collections.FixedString32Bytes::utf8LengthInBytes
+			uint16_t ___utf8LengthInBytes_1;
+			// Unity.Collections.FixedBytes30 Unity.Collections.FixedString32Bytes::bytes
+			FixedBytes30_t7721F11929A3AC08287DF5E6D7AEF85CCEE04AD2 ___bytes_2;
+		};
+		uint8_t FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824__padding[32];
+	};
+};
+
+// Unity.Collections.FixedString4096Bytes
+struct FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21 
+{
+	union
+	{
+		struct
+		{
+			// System.UInt16 Unity.Collections.FixedString4096Bytes::utf8LengthInBytes
+			uint16_t ___utf8LengthInBytes_1;
+			// Unity.Collections.FixedBytes4094 Unity.Collections.FixedString4096Bytes::bytes
+			FixedBytes4094_t8611441D8BDC6A677C2D9E551086F59EFBFCBBE5 ___bytes_2;
+		};
+		uint8_t FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21__padding[4096];
+	};
+};
+
 // System.MulticastDelegate
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -4592,9 +10451,68 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 	Delegate_t_marshaled_com** ___delegates_13;
 };
 
+// Unity.Networking.Transport.QueuedSendMessage
+struct QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 
+{
+	// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer Unity.Networking.Transport.QueuedSendMessage::Data
+	U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B ___Data_0;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.QueuedSendMessage::Dest
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___Dest_1;
+	// System.Int32 Unity.Networking.Transport.QueuedSendMessage::DataLength
+	int32_t ___DataLength_2;
+};
+
+// Unity.Networking.Transport.Relay.RelayServerData
+struct RelayServerData_t8D74FE8A133FB1F7C1BF9C0D39C69B5A75F70F09 
+{
+	// Unity.Networking.Transport.NetworkEndPoint Unity.Networking.Transport.Relay.RelayServerData::Endpoint
+	NetworkEndPoint_t40D02F3956B78E8C6115ED188912FBCE35437F63 ___Endpoint_0;
+	// System.UInt16 Unity.Networking.Transport.Relay.RelayServerData::Nonce
+	uint16_t ___Nonce_1;
+	// Unity.Networking.Transport.Relay.RelayConnectionData Unity.Networking.Transport.Relay.RelayServerData::ConnectionData
+	RelayConnectionData_tA5306A14AEB9FA72A119334CBE01CE0B1F7AC18D ___ConnectionData_2;
+	// Unity.Networking.Transport.Relay.RelayConnectionData Unity.Networking.Transport.Relay.RelayServerData::HostConnectionData
+	RelayConnectionData_tA5306A14AEB9FA72A119334CBE01CE0B1F7AC18D ___HostConnectionData_3;
+	// Unity.Networking.Transport.Relay.RelayAllocationId Unity.Networking.Transport.Relay.RelayServerData::AllocationId
+	RelayAllocationId_tAD787B0E59C71831D70A45A63526CBC685AA2984 ___AllocationId_4;
+	// Unity.Networking.Transport.Relay.RelayHMACKey Unity.Networking.Transport.Relay.RelayServerData::HMACKey
+	RelayHMACKey_t8A1480D4E69892635FBA3B1408C094733613B844 ___HMACKey_5;
+	// Unity.Networking.Transport.Relay.RelayServerData/<HMAC>e__FixedBuffer Unity.Networking.Transport.Relay.RelayServerData::HMAC
+	U3CHMACU3Ee__FixedBuffer_tEBE6EB5356C21D7CDAA77E2AB69381855EAD9816 ___HMAC_6;
+	// System.Byte Unity.Networking.Transport.Relay.RelayServerData::IsSecure
+	uint8_t ___IsSecure_7;
+};
+
+// Unity.Networking.Transport.TLS.SecureClientState
+struct SecureClientState_t347C5882049D4DC06AD28FFFC8C16ADD7D77EB54 
+{
+	// Unity.TLS.LowLevel.Binding/unitytls_client* Unity.Networking.Transport.TLS.SecureClientState::ClientPtr
+	unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___ClientPtr_0;
+	// Unity.TLS.LowLevel.Binding/unitytls_client_config* Unity.Networking.Transport.TLS.SecureClientState::ClientConfig
+	unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F* ___ClientConfig_1;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.TLS.SecureClientState::ReceiveToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ReceiveToken_2;
+	// System.Int64 Unity.Networking.Transport.TLS.SecureClientState::LastHandshakeUpdate
+	int64_t ___LastHandshakeUpdate_3;
+};
+
 // System.SystemException
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+
+// Unity.Networking.Transport.UnsafeBaselibNetworkArray
+struct UnsafeBaselibNetworkArray_t584439A8DE5F6B3E95118C7E62CCA8C3B6220709 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer> Unity.Networking.Transport.UnsafeBaselibNetworkArray::m_BufferPool
+	UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___m_BufferPool_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeText
+struct UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67 
+{
+	// Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList Unity.Collections.LowLevel.Unsafe.UnsafeText::m_UntypedListData
+	UntypedUnsafeList_tB7A46F76589C71832F1147292E5123FB99E199B2 ___m_UntypedListData_0;
 };
 
 // UnityEngine.UIElements.VisualElement
@@ -4882,6 +10800,64 @@ struct FaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA
 	ARCorePose_t7EA136D2DEE8CE51594AEA19618A11FD3E34968A ___pose_1;
 };
 
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42 
+{
+	// System.IntPtr Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer::id
+	intptr_t ___id_0;
+	// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer::allocation
+	Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 ___allocation_1;
+};
+
+// Unity.TLS.LowLevel.Binding/unitytls_client_config
+struct unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F 
+{
+	// Unity.TLS.LowLevel.Binding/unitytls_dataRef Unity.TLS.LowLevel.Binding/unitytls_client_config::caPEM
+	unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 ___caPEM_0;
+	// Unity.TLS.LowLevel.Binding/unitytls_dataRef Unity.TLS.LowLevel.Binding/unitytls_client_config::serverPEM
+	unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 ___serverPEM_1;
+	// Unity.TLS.LowLevel.Binding/unitytls_dataRef Unity.TLS.LowLevel.Binding/unitytls_client_config::privateKeyPEM
+	unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 ___privateKeyPEM_2;
+	// System.UInt32 Unity.TLS.LowLevel.Binding/unitytls_client_config::clientAuth
+	uint32_t ___clientAuth_3;
+	// System.UInt32 Unity.TLS.LowLevel.Binding/unitytls_client_config::transportProtocol
+	uint32_t ___transportProtocol_4;
+	// Unity.TLS.LowLevel.Binding/unitytls_dataRef Unity.TLS.LowLevel.Binding/unitytls_client_config::psk
+	unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 ___psk_5;
+	// Unity.TLS.LowLevel.Binding/unitytls_dataRef Unity.TLS.LowLevel.Binding/unitytls_client_config::pskIdentity
+	unitytls_dataRef_t1BFC0BF3A4F679AA362BA5EB11A849C82D5F64B8 ___pskIdentity_6;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::onDataCB
+	intptr_t ___onDataCB_7;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::dataSendCB
+	intptr_t ___dataSendCB_8;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::dataReceiveCB
+	intptr_t ___dataReceiveCB_9;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::dataReceiveTimeoutCB
+	intptr_t ___dataReceiveTimeoutCB_10;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::transportUserData
+	intptr_t ___transportUserData_11;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::applicationUserData
+	intptr_t ___applicationUserData_12;
+	// System.Int32 Unity.TLS.LowLevel.Binding/unitytls_client_config::handshakeReturnsOnStep
+	int32_t ___handshakeReturnsOnStep_13;
+	// System.Int32 Unity.TLS.LowLevel.Binding/unitytls_client_config::handshakeReturnsIfWouldBlock
+	int32_t ___handshakeReturnsIfWouldBlock_14;
+	// System.UInt32 Unity.TLS.LowLevel.Binding/unitytls_client_config::ssl_read_timeout_ms
+	uint32_t ___ssl_read_timeout_ms_15;
+	// System.Byte* Unity.TLS.LowLevel.Binding/unitytls_client_config::hostname
+	uint8_t* ___hostname_16;
+	// System.Int32 Unity.TLS.LowLevel.Binding/unitytls_client_config::tracelevel
+	int32_t ___tracelevel_17;
+	// System.IntPtr Unity.TLS.LowLevel.Binding/unitytls_client_config::logCallback
+	intptr_t ___logCallback_18;
+	// System.UInt32 Unity.TLS.LowLevel.Binding/unitytls_client_config::ssl_handshake_timeout_min
+	uint32_t ___ssl_handshake_timeout_min_19;
+	// System.UInt32 Unity.TLS.LowLevel.Binding/unitytls_client_config::ssl_handshake_timeout_max
+	uint32_t ___ssl_handshake_timeout_max_20;
+	// System.UInt16 Unity.TLS.LowLevel.Binding/unitytls_client_config::mtu
+	uint16_t ___mtu_21;
+};
+
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
 struct GlobalState_t11A6C6C3EF611D00EF34976903A48BCABCD6C9D3 
 {
@@ -5020,6 +10996,33 @@ struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_com
 	Il2CppIUnknown* ___anyValue_7;
 };
 
+// Unity.Networking.Transport.NetworkDriver/Connection
+struct Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 
+{
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.NetworkDriver/Connection::Address
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___Address_0;
+	// System.Int64 Unity.Networking.Transport.NetworkDriver/Connection::LastNonDataSend
+	int64_t ___LastNonDataSend_1;
+	// System.Int64 Unity.Networking.Transport.NetworkDriver/Connection::LastReceive
+	int64_t ___LastReceive_2;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::Id
+	int32_t ___Id_3;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::Version
+	int32_t ___Version_4;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::ConnectAttempts
+	int32_t ___ConnectAttempts_5;
+	// Unity.Networking.Transport.NetworkConnection/State Unity.Networking.Transport.NetworkDriver/Connection::State
+	int32_t ___State_6;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.NetworkDriver/Connection::ReceiveToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ReceiveToken_7;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.NetworkDriver/Connection::SendToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___SendToken_8;
+	// System.Byte Unity.Networking.Transport.NetworkDriver/Connection::DidReceiveData
+	uint8_t ___DidReceiveData_9;
+	// System.Byte Unity.Networking.Transport.NetworkDriver/Connection::IsAccepted
+	uint8_t ___IsAccepted_10;
+};
+
 // UnityEngine.InputSystem.EnhancedTouch.Touch/GlobalState
 struct GlobalState_tFDD5D3FE93083EE02E4E8987E61A5D7D5F5CE61A 
 {
@@ -5055,6 +11058,24 @@ struct GlobalState_tFDD5D3FE93083EE02E4E8987E61A5D7D5F5CE61A_marshaled_com
 	CallbackArray_1_t1F5839E457B3AE192D38F0A2463CAB97DA96B96B ___onFingerMove_3;
 	CallbackArray_1_t1F5839E457B3AE192D38F0A2463CAB97DA96B96B ___onFingerUp_4;
 	FingerAndTouchState_tC0A8EFA38A7428736E11195294EA7F6E1BA8F82D_marshaled_com ___playerState_5;
+};
+
+// Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend
+struct PendingSend_t7A22053E3758CAA60B8CC515132FA5DCE47C37E6 
+{
+	// Unity.Networking.Transport.NetworkPipeline Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend::Pipeline
+	NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 ___Pipeline_0;
+	// Unity.Networking.Transport.NetworkConnection Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend::Connection
+	NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___Connection_1;
+	// Unity.Networking.Transport.NetworkInterfaceSendHandle Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend::SendHandle
+	NetworkInterfaceSendHandle_t0DDDEE6B24387948E786543B54C52A3F7B625CE3 ___SendHandle_2;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend::headerSize
+	int32_t ___headerSize_3;
+};
+
+// System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>
+struct Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3  : public MulticastDelegate_t
+{
 };
 
 // System.Action`1<UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs>
@@ -5154,6 +11175,11 @@ struct Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8  : public MulticastDel
 
 // System.Action`1<System.Object>
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<UnityEngine.Pose>
+struct Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD  : public MulticastDelegate_t
 {
 };
 
@@ -5335,6 +11361,33 @@ struct AlignOfHelper_1_tB06A689E75BED03FFD7EF2F67DB0A0BF55FD26E8
 	BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___data_1;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.QueuedSendMessage>
+struct AlignOfHelper_1_t6CEF28F5B8A12DD9C9C2D8FC82559341CDFC4808 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureClientState>
+struct AlignOfHelper_1_t7FCF357A1BB7E07B8E31D20533559792E2DD2718 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	SecureClientState_t347C5882049D4DC06AD28FFFC8C16ADD7D77EB54 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeText>
+struct AlignOfHelper_1_tBCBF8B8E1CD4F63F3840DC83691B86A3BA432563 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67 ___data_1;
+};
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.XRAnchor>
 struct AlignOfHelper_1_tC0F0471D2FE3757817D5616407CF8C963E068D51 
 {
@@ -5443,6 +11496,79 @@ struct AlignOfHelper_1_t5DF9B7AD6DD920FB2524910984AA9864FA23CACE
 	FaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA ___data_1;
 };
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+struct AlignOfHelper_1_tB23E02CB6689D758B804B33D5A1DA475B6F3F88E 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.TLS.LowLevel.Binding/unitytls_client_config>
+struct AlignOfHelper_1_tE61764BFD1AC82FF1F6AC7BE0768F919FBA09444 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Connection>
+struct AlignOfHelper_1_t923F6721D107E711F519174D8A1A8F36D0D4683B 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend>
+struct AlignOfHelper_1_t984619D6C5503AE217C535DAA2B142DA6E6E6792 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	PendingSend_t7A22053E3758CAA60B8CC515132FA5DCE47C37E6 ___data_1;
+};
+
+// Unity.Collections.AllocatorManager/Array256`1<Unity.Collections.AllocatorManager/TableEntry>
+struct Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 
+{
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f0
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f0_0;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f1
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f1_1;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f2
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f2_2;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f3
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f3_3;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f4
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f4_4;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f5
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f5_5;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f6
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f6_6;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f7
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f7_7;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f8
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f8_8;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f9
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f9_9;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f10
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f10_10;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f11
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f11_11;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f12
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f12_12;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f13
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f13_13;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f14
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f14_14;
+	// Unity.Collections.AllocatorManager/Array16`1<T> Unity.Collections.AllocatorManager/Array256`1::f15
+	Array16_1_tD7DC1805EB67B07DF30FB4A25D3C1D0D5C0F9A9F ___f15_15;
+};
+
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>>
 struct Comparison_1_t1087F8E45A489AC50D87CD34DB3491B06DFFC698  : public MulticastDelegate_t
 {
@@ -5474,6 +11600,73 @@ struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : pu
 {
 };
 
+// Unity.Networking.Transport.NetworkPipelineStage
+struct NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E 
+{
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate> Unity.Networking.Transport.NetworkPipelineStage::Receive
+	TransportFunctionPointer_1_t511C3C8E675E5CB219FF3A1D96C2427B3FE67093 ___Receive_0;
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate> Unity.Networking.Transport.NetworkPipelineStage::Send
+	TransportFunctionPointer_1_t501B8E9B93C30C95A92F8DF78ACF94988E45A4B9 ___Send_1;
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate> Unity.Networking.Transport.NetworkPipelineStage::InitializeConnection
+	TransportFunctionPointer_1_t6BF5E81E0840B90172D9CF46B2C509613517ECEB ___InitializeConnection_2;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::ReceiveCapacity
+	int32_t ___ReceiveCapacity_3;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::SendCapacity
+	int32_t ___SendCapacity_4;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::HeaderCapacity
+	int32_t ___HeaderCapacity_5;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::SharedStateCapacity
+	int32_t ___SharedStateCapacity_6;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::PayloadCapacity
+	int32_t ___PayloadCapacity_7;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::StaticStateStart
+	int32_t ___StaticStateStart_8;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineStage::StaticStateCapcity
+	int32_t ___StaticStateCapcity_9;
+};
+
+// Unity.Networking.Transport.NetworkSendInterface
+struct NetworkSendInterface_t3C39B6892E6E0D3587471F02F0A82F8252E55035 
+{
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate> Unity.Networking.Transport.NetworkSendInterface::BeginSendMessage
+	TransportFunctionPointer_1_t9F2FD24758ADF9E597DCA02A01D7972B74AF6736 ___BeginSendMessage_0;
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate> Unity.Networking.Transport.NetworkSendInterface::EndSendMessage
+	TransportFunctionPointer_1_t1933A8E5B03799A74CE910DB0A4F8FF67DD0405D ___EndSendMessage_1;
+	// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate> Unity.Networking.Transport.NetworkSendInterface::AbortSendMessage
+	TransportFunctionPointer_1_t6BF0E9809FEF820449ED4B566281FFDB8B1F6807 ___AbortSendMessage_2;
+	// System.IntPtr Unity.Networking.Transport.NetworkSendInterface::UserData
+	intptr_t ___UserData_3;
+};
+
+// Unity.Networking.Transport.TLS.SecureNetworkProtocolData
+struct SecureNetworkProtocolData_tA3C3EB543E45487C8250364955DF2F444C3E4582 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<Unity.Networking.Transport.NetworkInterfaceEndPoint,Unity.Networking.Transport.TLS.SecureClientState> Unity.Networking.Transport.TLS.SecureNetworkProtocolData::SecureClients
+	UnsafeHashMap_2_t3AFF32975843284D4BDD5FD1254D6BC4EAC54F77 ___SecureClients_0;
+	// Unity.Collections.FixedString4096Bytes Unity.Networking.Transport.TLS.SecureNetworkProtocolData::Pem
+	FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21 ___Pem_1;
+	// Unity.Collections.FixedString4096Bytes Unity.Networking.Transport.TLS.SecureNetworkProtocolData::Rsa
+	FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21 ___Rsa_2;
+	// Unity.Collections.FixedString4096Bytes Unity.Networking.Transport.TLS.SecureNetworkProtocolData::RsaKey
+	FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21 ___RsaKey_3;
+	// Unity.Collections.FixedString32Bytes Unity.Networking.Transport.TLS.SecureNetworkProtocolData::Hostname
+	FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824 ___Hostname_4;
+	// System.UInt32 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::Protocol
+	uint32_t ___Protocol_5;
+	// System.UInt32 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::SSLReadTimeoutMs
+	uint32_t ___SSLReadTimeoutMs_6;
+	// System.UInt32 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::SSLHandshakeTimeoutMax
+	uint32_t ___SSLHandshakeTimeoutMax_7;
+	// System.UInt32 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::SSLHandshakeTimeoutMin
+	uint32_t ___SSLHandshakeTimeoutMin_8;
+	// System.UInt32 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::ClientAuth
+	uint32_t ___ClientAuth_9;
+	// System.Int64 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::LastUpdate
+	int64_t ___LastUpdate_10;
+	// System.Int64 Unity.Networking.Transport.TLS.SecureNetworkProtocolData::LastHalfOpenPrune
+	int64_t ___LastHalfOpenPrune_11;
+};
+
 // System.Threading.ThreadAbortException
 struct ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -5500,6 +11693,84 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_marshaled_com
 	Record_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4 ___m_TouchRecord_1;
 };
 
+// Unity.Networking.Transport.BaselibNetworkInterface/Payloads
+struct Payloads_t73B5E28F36472A64947A3A62029D9F6643CAC463 
+{
+	// Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList Unity.Networking.Transport.BaselibNetworkInterface/Payloads::m_Handles
+	UnsafeAtomicFreeList_tDAA2E28DFA321FDC0BB202ECAC92DFF2922A9B04 ___m_Handles_0;
+	// Unity.Networking.Transport.UnsafeBaselibNetworkArray Unity.Networking.Transport.BaselibNetworkInterface/Payloads::m_PayloadArray
+	UnsafeBaselibNetworkArray_t584439A8DE5F6B3E95118C7E62CCA8C3B6220709 ___m_PayloadArray_1;
+	// Unity.Networking.Transport.UnsafeBaselibNetworkArray Unity.Networking.Transport.BaselibNetworkInterface/Payloads::m_EndpointArray
+	UnsafeBaselibNetworkArray_t584439A8DE5F6B3E95118C7E62CCA8C3B6220709 ___m_EndpointArray_2;
+	// System.UInt32 Unity.Networking.Transport.BaselibNetworkInterface/Payloads::m_PayloadSize
+	uint32_t ___m_PayloadSize_3;
+};
+
+// Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData
+struct RelayProtocolData_tD57D421CA918D581F6E2314B53121386C617E66F 
+{
+	// Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayConnectionState Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ConnectionState
+	uint8_t ___ConnectionState_0;
+	// Unity.Networking.Transport.Relay.RelayNetworkProtocol/SecuredRelayConnectionState Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::SecureState
+	uint8_t ___SecureState_1;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ConnectionReceiveToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ConnectionReceiveToken_2;
+	// System.Int64 Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::LastConnectAttempt
+	int64_t ___LastConnectAttempt_3;
+	// System.Int64 Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::LastUpdateTime
+	int64_t ___LastUpdateTime_4;
+	// System.Int64 Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::LastSentTime
+	int64_t ___LastSentTime_5;
+	// System.Int32 Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ConnectTimeoutMS
+	int32_t ___ConnectTimeoutMS_6;
+	// System.Int32 Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::RelayConnectionTimeMS
+	int32_t ___RelayConnectionTimeMS_7;
+	// Unity.Networking.Transport.Relay.RelayAllocationId Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::HostAllocationId
+	RelayAllocationId_tAD787B0E59C71831D70A45A63526CBC685AA2984 ___HostAllocationId_8;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ServerEndpoint
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___ServerEndpoint_9;
+	// Unity.Networking.Transport.Relay.RelayServerData Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ServerData
+	RelayServerData_t8D74FE8A133FB1F7C1BF9C0D39C69B5A75F70F09 ___ServerData_10;
+	// Unity.Networking.Transport.TLS.SecureClientState Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::SecureClientState
+	SecureClientState_t347C5882049D4DC06AD28FFFC8C16ADD7D77EB54 ___SecureClientState_11;
+	// System.Boolean Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData::ConnectOnBind
+	bool ___ConnectOnBind_12;
+};
+// Native definition for P/Invoke marshalling of Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData
+struct RelayProtocolData_tD57D421CA918D581F6E2314B53121386C617E66F_marshaled_pinvoke
+{
+	uint8_t ___ConnectionState_0;
+	uint8_t ___SecureState_1;
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ConnectionReceiveToken_2;
+	int64_t ___LastConnectAttempt_3;
+	int64_t ___LastUpdateTime_4;
+	int64_t ___LastSentTime_5;
+	int32_t ___ConnectTimeoutMS_6;
+	int32_t ___RelayConnectionTimeMS_7;
+	RelayAllocationId_tAD787B0E59C71831D70A45A63526CBC685AA2984 ___HostAllocationId_8;
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___ServerEndpoint_9;
+	RelayServerData_t8D74FE8A133FB1F7C1BF9C0D39C69B5A75F70F09 ___ServerData_10;
+	SecureClientState_t347C5882049D4DC06AD28FFFC8C16ADD7D77EB54 ___SecureClientState_11;
+	int32_t ___ConnectOnBind_12;
+};
+// Native definition for COM marshalling of Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData
+struct RelayProtocolData_tD57D421CA918D581F6E2314B53121386C617E66F_marshaled_com
+{
+	uint8_t ___ConnectionState_0;
+	uint8_t ___SecureState_1;
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ConnectionReceiveToken_2;
+	int64_t ___LastConnectAttempt_3;
+	int64_t ___LastUpdateTime_4;
+	int64_t ___LastSentTime_5;
+	int32_t ___ConnectTimeoutMS_6;
+	int32_t ___RelayConnectionTimeMS_7;
+	RelayAllocationId_tAD787B0E59C71831D70A45A63526CBC685AA2984 ___HostAllocationId_8;
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___ServerEndpoint_9;
+	RelayServerData_t8D74FE8A133FB1F7C1BF9C0D39C69B5A75F70F09 ___ServerData_10;
+	SecureClientState_t347C5882049D4DC06AD28FFFC8C16ADD7D77EB54 ___SecureClientState_11;
+	int32_t ___ConnectOnBind_12;
+};
+
 // System.Action`2<System.Object,UnityEngine.InputSystem.EnhancedTouch.Touch>
 struct Action_2_t0601EE14ACAFAFAA95A833ECA50F58B662F7A996  : public MulticastDelegate_t
 {
@@ -5513,6 +11784,70 @@ struct Action_3_t578BAB0FB022501D2B8C21085367B6384ED8840E  : public MulticastDel
 // System.Action`3<System.Object,UnityEngine.InputSystem.EnhancedTouch.Touch,UnityEngine.InputSystem.EnhancedTouch.Touch>
 struct Action_3_t7BFFCA7B6CC81D586CF54B1CF82144656676E366  : public MulticastDelegate_t
 {
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineStage>
+struct AlignOfHelper_1_t67CBE15D863D3CC622DE82E6BFEC1D8BFF04DACD 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureNetworkProtocolData>
+struct AlignOfHelper_1_t65150117EDFD55DA002A43A09F9B6A48D4C9B422 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	SecureNetworkProtocolData_tA3C3EB543E45487C8250364955DF2F444C3E4582 ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData>
+struct AlignOfHelper_1_tE7A0E4D52C83EC3FCE0BEF9F1DEDB83711D61784 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	RelayProtocolData_tD57D421CA918D581F6E2314B53121386C617E66F ___data_1;
+};
+
+// Unity.Collections.AllocatorManager/Array4096`1<Unity.Collections.AllocatorManager/TableEntry>
+struct Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 
+{
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f0
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f0_0;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f1
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f1_1;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f2
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f2_2;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f3
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f3_3;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f4
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f4_4;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f5
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f5_5;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f6
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f6_6;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f7
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f7_7;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f8
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f8_8;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f9
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f9_9;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f10
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f10_10;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f11
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f11_11;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f12
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f12_12;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f13
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f13_13;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f14
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f14_14;
+	// Unity.Collections.AllocatorManager/Array256`1<T> Unity.Collections.AllocatorManager/Array4096`1::f15
+	Array256_1_t5410033DC9920374048839AA4B80BA4420373D59 ___f15_15;
 };
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
@@ -5545,6 +11880,42 @@ struct CommonTouch_tEEF2A636F42DFA035FF9DC0EC588736D5877E6DF_marshaled_com
 	int32_t ___m_IsEnhancedTouch_2;
 };
 
+// Unity.Networking.Transport.TLS.SecureUserData
+struct SecureUserData_t7AF182ED8C0BA05FC7AB70D34FB6F8DDB5BA7D1B 
+{
+	// System.IntPtr Unity.Networking.Transport.TLS.SecureUserData::StreamData
+	intptr_t ___StreamData_0;
+	// Unity.Networking.Transport.NetworkSendInterface Unity.Networking.Transport.TLS.SecureUserData::Interface
+	NetworkSendInterface_t3C39B6892E6E0D3587471F02F0A82F8252E55035 ___Interface_1;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.TLS.SecureUserData::Remote
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___Remote_2;
+	// Unity.Networking.Transport.NetworkSendQueueHandle Unity.Networking.Transport.TLS.SecureUserData::QueueHandle
+	NetworkSendQueueHandle_t9F11BEB70EFEEE4BCD9CD241BB758B11F25D5090 ___QueueHandle_3;
+	// System.Int32 Unity.Networking.Transport.TLS.SecureUserData::Size
+	int32_t ___Size_4;
+	// System.Int32 Unity.Networking.Transport.TLS.SecureUserData::BytesProcessed
+	int32_t ___BytesProcessed_5;
+};
+
+// Unity.Networking.Transport.BaselibNetworkInterface/BaselibData
+struct BaselibData_t9DBF15F308D32D64DA4633540C58A5043B939128 
+{
+	// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Socket_UDP Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_Socket
+	Baselib_RegisteredNetwork_Socket_UDP_t56202AB2B03941A065A7D8382591DD253115192A ___m_Socket_0;
+	// Unity.Networking.Transport.BaselibNetworkInterface/SocketStatus Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_SocketStatus
+	int32_t ___m_SocketStatus_1;
+	// Unity.Networking.Transport.BaselibNetworkInterface/Payloads Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_PayloadsTx
+	Payloads_t73B5E28F36472A64947A3A62029D9F6643CAC463 ___m_PayloadsTx_2;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_LocalEndpoint
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___m_LocalEndpoint_3;
+	// System.Int64 Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_LastUpdateTime
+	int64_t ___m_LastUpdateTime_4;
+	// System.Int64 Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_LastSocketRecreateTime
+	int64_t ___m_LastSocketRecreateTime_5;
+	// System.UInt32 Unity.Networking.Transport.BaselibNetworkInterface/BaselibData::m_NumSocketRecreate
+	uint32_t ___m_NumSocketRecreate_6;
+};
+
 // System.Action`2<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
 struct Action_2_t5B70225312A503274D89033FD6C8A7C5A09278D0  : public MulticastDelegate_t
 {
@@ -5553,6 +11924,45 @@ struct Action_2_t5B70225312A503274D89033FD6C8A7C5A09278D0  : public MulticastDel
 // System.Action`3<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
 struct Action_3_tC3D7DB7E5739240DDA9644CE9710D71AA36A565E  : public MulticastDelegate_t
 {
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureUserData>
+struct AlignOfHelper_1_tCA427B66738B2F57AD1E7A0B748A74B1EAFFB25D 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	SecureUserData_t7AF182ED8C0BA05FC7AB70D34FB6F8DDB5BA7D1B ___data_1;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.BaselibNetworkInterface/BaselibData>
+struct AlignOfHelper_1_t38298E30315339E1AAA47B12D97B4923CB06682F 
+{
+	// System.Byte Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::dummy
+	uint8_t ___dummy_0;
+	// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1::data
+	BaselibData_t9DBF15F308D32D64DA4633540C58A5043B939128 ___data_1;
+};
+
+// Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>
+struct Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6 
+{
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f0
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f0_0;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f1
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f1_1;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f2
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f2_2;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f3
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f3_3;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f4
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f4_4;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f5
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f5_5;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f6
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f6_6;
+	// Unity.Collections.AllocatorManager/Array4096`1<T> Unity.Collections.AllocatorManager/Array32768`1::f7
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8 ___f7_7;
 };
 
 // System.Buffers.ArrayPool`1<System.Byte>
@@ -5673,6 +12083,10 @@ struct String_t_StaticFields
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Int32>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Int32>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Int64>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Int64>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.Single>
 
@@ -5922,6 +12336,10 @@ struct EmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB_StaticFields
 
 // Unity.Collections.NativeArray`1<UnityEngine.ModifiableContactPair>
 
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+
 // UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>
 
 // UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>
@@ -6082,6 +12500,10 @@ struct TlsOverPerCoreLockedStacksArrayPool_1_t75E187DD86278717F6AF0E6C1ED4783711
 
 // UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.UInt16>
 
+// UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs
+
+// UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs
+
 // UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs
 
 // UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs
@@ -6184,6 +12606,10 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 
 // System.Enum
 
+// Unity.Collections.FixedBytes16
+
+// Unity.Collections.FixedBytes16
+
 // UnityEngine.UIElements.Focusable
 
 // UnityEngine.UIElements.Focusable
@@ -6263,6 +12689,22 @@ struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_StaticFields
 
 // UnityEngine.XR.MeshId
 
+// Unity.Collections.NativeQueueBlockHeader
+
+// Unity.Collections.NativeQueueBlockHeader
+
+// Unity.Networking.Transport.NetworkConnection
+
+// Unity.Networking.Transport.NetworkConnection
+
+// Unity.Networking.Transport.NetworkEvent
+
+// Unity.Networking.Transport.NetworkEvent
+
+// Unity.Networking.Transport.NetworkPipeline
+
+// Unity.Networking.Transport.NetworkPipeline
+
 // UnityEngine.PhysicsScene
 
 // UnityEngine.PhysicsScene
@@ -6327,6 +12769,14 @@ struct UIntPtr_t_StaticFields
 };
 
 // System.UIntPtr
+
+// Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList
+
+// Unity.Networking.Transport.Utilities.LowLevel.Unsafe.UnsafeAtomicFreeList
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange
 
 // UnityEngine.Vector2
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
@@ -6420,6 +12870,14 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo
 
+// Unity.Collections.AllocatorManager/AllocatorHandle
+
+// Unity.Collections.AllocatorManager/AllocatorHandle
+
+// Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress
+
+// Unity.Baselib.LowLevel.Binding/Baselib_NetworkAddress
+
 // UnityEngine.InputSystem.LowLevel.IMECompositionString/<buffer>e__FixedBuffer
 
 // UnityEngine.InputSystem.LowLevel.IMECompositionString/<buffer>e__FixedBuffer
@@ -6435,6 +12893,50 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 // UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection
 
 // UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection
+
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+
+// Unity.Networking.Transport.NetworkSettings/ParameterSlice
+
+// Unity.Networking.Transport.NetworkSettings/ParameterSlice
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayAllocationId/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayAllocationId/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayConnectionData/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayConnectionData/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayHMACKey/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayHMACKey/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayServerData/<HMAC>e__FixedBuffer
+
+// Unity.Networking.Transport.Relay.RelayServerData/<HMAC>e__FixedBuffer
+
+// Unity.Collections.RewindableAllocator/MemoryBlock
+
+// Unity.Collections.RewindableAllocator/MemoryBlock
+
+// Unity.Networking.Transport.SessionIdToken/<Value>e__FixedBuffer
+
+// Unity.Networking.Transport.SessionIdToken/<Value>e__FixedBuffer
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair
 struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticFields
@@ -6453,9 +12955,29 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 
 // UnityEngine.InputSystem.EnhancedTouch.Touch/FingerAndTouchState
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData/<firstFreeTLS>e__FixedBuffer
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData/<firstFreeTLS>e__FixedBuffer
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock/<Data>e__FixedBuffer
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock/<Data>e__FixedBuffer
+
 // UnityEngine.UIElements.VisualElement/Hierarchy
 
 // UnityEngine.UIElements.VisualElement/Hierarchy
+
+// Unity.Collections.LowLevel.Unsafe.WordStorage/Entry
+
+// Unity.Collections.LowLevel.Unsafe.WordStorage/Entry
+
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.Int32>>
 
@@ -6481,6 +13003,18 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.UIElements.UIR.DrawBufferRange>
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockHeader>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockHeader>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEvent>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEvent>
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Quaternion>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Quaternion>
@@ -6488,6 +13022,10 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.TrackableId>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.TrackableId>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamRange>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Vector2>
 
@@ -6505,6 +13043,26 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo>
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkSettings/ParameterSlice>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkSettings/ParameterSlice>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.RewindableAllocator/MemoryBlock>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.RewindableAllocator/MemoryBlock>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.WordStorage/Entry>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.WordStorage/Entry>
+
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
 
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
@@ -6520,6 +13078,30 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
 
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
+
+// Unity.Burst.FunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
 
@@ -6544,6 +13126,46 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Length>
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Length>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<Unity.Networking.Transport.NetworkInterfaceEndPoint,Unity.Networking.Transport.TLS.SecureClientState>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<Unity.Networking.Transport.NetworkInterfaceEndPoint,Unity.Networking.Transport.TLS.SecureClientState>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
 
 // UnityEngine.XR.ARCore.ArCameraConfigFilter
 
@@ -6582,6 +13204,14 @@ struct Exception_t_StaticFields
 
 // System.Exception
 
+// Unity.Collections.FixedBytes30
+
+// Unity.Collections.FixedBytes30
+
+// Unity.Collections.FixedBytes4094
+
+// Unity.Collections.FixedBytes4094
+
 // UnityEngine.UIElements.UIR.GfxUpdateBufferRange
 
 // UnityEngine.UIElements.UIR.GfxUpdateBufferRange
@@ -6613,6 +13243,35 @@ struct Exception_t_StaticFields
 // UnityEngine.ModifiableContactPair
 
 // UnityEngine.ModifiableContactPair
+
+// Unity.Collections.NativeQueueBlockPoolData
+
+// Unity.Collections.NativeQueueBlockPoolData
+
+// Unity.Collections.NativeQueueData
+
+// Unity.Collections.NativeQueueData
+
+// Unity.Networking.Transport.NetworkEndPoint
+struct NetworkEndPoint_t40D02F3956B78E8C6115ED188912FBCE35437F63_StaticFields
+{
+	// System.Boolean Unity.Networking.Transport.NetworkEndPoint::IsLittleEndian
+	bool ___IsLittleEndian_4;
+};
+
+// Unity.Networking.Transport.NetworkEndPoint
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint
+
+// Unity.Networking.Transport.NetworkInterfaceEndPoint
+
+// Unity.Networking.Transport.NetworkInterfaceSendHandle
+
+// Unity.Networking.Transport.NetworkInterfaceSendHandle
+
+// Unity.Networking.Transport.NetworkSendQueueHandle
+
+// Unity.Networking.Transport.NetworkSendQueueHandle
 
 // UnityEngine.Plane
 
@@ -6631,6 +13290,18 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 
 // Unity.Profiling.ProfilerMarker
 
+// Unity.Networking.Transport.Relay.RelayAllocationId
+
+// Unity.Networking.Transport.Relay.RelayAllocationId
+
+// Unity.Networking.Transport.Relay.RelayConnectionData
+
+// Unity.Networking.Transport.Relay.RelayConnectionData
+
+// Unity.Networking.Transport.Relay.RelayHMACKey
+
+// Unity.Networking.Transport.Relay.RelayHMACKey
+
 // UnityEngine.UIElements.UIR.RenderChainVEData
 
 // UnityEngine.UIElements.UIR.RenderChainVEData
@@ -6642,6 +13313,10 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 // UnityEngine.UIElements.Scale
 
 // UnityEngine.UIElements.Scale
+
+// Unity.Networking.Transport.SessionIdToken
+
+// Unity.Networking.Transport.SessionIdToken
 
 // UnityEngine.UIElements.StyleSheets.StylePropertyId
 
@@ -6670,6 +13345,30 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 // UnityEngine.UIElements.Translate
 
 // UnityEngine.UIElements.Translate
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData
+
+// Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList
+
+// Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList
 
 // UnityEngine.UIElements.Vertex
 struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
@@ -6700,13 +13399,73 @@ struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
 
 // UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCorePose
 
+// Unity.Collections.AllocatorManager/TableEntry
+
+// Unity.Collections.AllocatorManager/TableEntry
+
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Socket_UDP
+
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Socket_UDP
+
+// Unity.TLS.LowLevel.Binding/unitytls_dataRef
+
+// Unity.TLS.LowLevel.Binding/unitytls_dataRef
+
+// Unity.Networking.Transport.IPCManager/IPCData
+
+// Unity.Networking.Transport.IPCManager/IPCData
+
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Byte>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkEvent>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
 
@@ -6732,6 +13491,18 @@ struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.ModifiableContactPair>
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockPoolData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueBlockPoolData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.NativeQueueData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkInterfaceEndPoint>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkInterfaceEndPoint>
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Plane>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.Plane>
@@ -6743,6 +13514,26 @@ struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.UIElements.UIR.Transform3x4>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.UIElements.UIR.Transform3x4>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeList>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafePtrList>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlockData>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.UIElements.Vertex>
 
@@ -6759,6 +13550,18 @@ struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.AllocatorManager/Array16`1<Unity.Collections.AllocatorManager/TableEntry>
+
+// Unity.Collections.AllocatorManager/Array16`1<Unity.Collections.AllocatorManager/TableEntry>
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Rotate>
 
@@ -6779,6 +13582,30 @@ struct Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_StaticFields
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Translate>
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Translate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/InitializeConnectionDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/ReceiveDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkPipelineStage/SendDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/AbortSendMessageDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/BeginSendMessageDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
+
+// Unity.Networking.Transport.TransportFunctionPointer`1<Unity.Networking.Transport.NetworkSendInterface/EndSendMessageDelegate>
 
 // UnityEngine.XR.ARCore.ARCoreFaceRegionData
 
@@ -6793,13 +13620,41 @@ struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_StaticFields
 
 // UnityEngine.XR.ARSubsystems.BoundedPlane
 
+// Unity.Collections.FixedString32Bytes
+
+// Unity.Collections.FixedString32Bytes
+
+// Unity.Collections.FixedString4096Bytes
+
+// Unity.Collections.FixedString4096Bytes
+
 // System.MulticastDelegate
 
 // System.MulticastDelegate
+
+// Unity.Networking.Transport.QueuedSendMessage
+
+// Unity.Networking.Transport.QueuedSendMessage
+
+// Unity.Networking.Transport.Relay.RelayServerData
+
+// Unity.Networking.Transport.Relay.RelayServerData
+
+// Unity.Networking.Transport.TLS.SecureClientState
+
+// Unity.Networking.Transport.TLS.SecureClientState
 
 // System.SystemException
 
 // System.SystemException
+
+// Unity.Networking.Transport.UnsafeBaselibNetworkArray
+
+// Unity.Networking.Transport.UnsafeBaselibNetworkArray
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeText
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeText
 
 // UnityEngine.UIElements.VisualElement
 struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
@@ -6928,6 +13783,14 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 
 // UnityEngine.XR.ARCore.ARCoreFaceSubsystem/FaceRegionWithARCorePose
 
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+
+// Unity.TLS.LowLevel.Binding/unitytls_client_config
+
+// Unity.TLS.LowLevel.Binding/unitytls_client_config
+
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
 
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
@@ -6936,9 +13799,21 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
 
+// Unity.Networking.Transport.NetworkDriver/Connection
+
+// Unity.Networking.Transport.NetworkDriver/Connection
+
 // UnityEngine.InputSystem.EnhancedTouch.Touch/GlobalState
 
 // UnityEngine.InputSystem.EnhancedTouch.Touch/GlobalState
+
+// Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend
+
+// Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend
+
+// System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>
+
+// System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>
 
 // System.Action`1<UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs>
 
@@ -7019,6 +13894,10 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 // System.Action`1<System.Object>
 
 // System.Action`1<System.Object>
+
+// System.Action`1<UnityEngine.Pose>
+
+// System.Action`1<UnityEngine.Pose>
 
 // System.Action`1<System.Single>
 
@@ -7156,6 +14035,18 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.QueuedSendMessage>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.QueuedSendMessage>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureClientState>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureClientState>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeText>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Collections.LowLevel.Unsafe.UnsafeText>
+
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.XRAnchor>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARSubsystems.XRAnchor>
@@ -7203,6 +14094,26 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/FaceRegionWithARCorePose>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/FaceRegionWithARCorePose>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.TLS.LowLevel.Binding/unitytls_client_config>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.TLS.LowLevel.Binding/unitytls_client_config>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkDriver/Concurrent/PendingSend>
+
+// Unity.Collections.AllocatorManager/Array256`1<Unity.Collections.AllocatorManager/TableEntry>
+
+// Unity.Collections.AllocatorManager/Array256`1<Unity.Collections.AllocatorManager/TableEntry>
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>>
 
@@ -7229,6 +14140,18 @@ struct InputUser_tD938B6FAC4D79FB2BA7040DE247549A4F832000E_StaticFields
 
 // System.InvalidOperationException
 
+// Unity.Networking.Transport.NetworkPipelineStage
+
+// Unity.Networking.Transport.NetworkPipelineStage
+
+// Unity.Networking.Transport.NetworkSendInterface
+
+// Unity.Networking.Transport.NetworkSendInterface
+
+// Unity.Networking.Transport.TLS.SecureNetworkProtocolData
+
+// Unity.Networking.Transport.TLS.SecureNetworkProtocolData
+
 // System.Threading.ThreadAbortException
 
 // System.Threading.ThreadAbortException
@@ -7242,6 +14165,14 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_StaticFields
 
 // UnityEngine.InputSystem.EnhancedTouch.Touch
 
+// Unity.Networking.Transport.BaselibNetworkInterface/Payloads
+
+// Unity.Networking.Transport.BaselibNetworkInterface/Payloads
+
+// Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData
+
+// Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData
+
 // System.Action`2<System.Object,UnityEngine.InputSystem.EnhancedTouch.Touch>
 
 // System.Action`2<System.Object,UnityEngine.InputSystem.EnhancedTouch.Touch>
@@ -7254,6 +14185,22 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_StaticFields
 
 // System.Action`3<System.Object,UnityEngine.InputSystem.EnhancedTouch.Touch,UnityEngine.InputSystem.EnhancedTouch.Touch>
 
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineStage>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.NetworkPipelineStage>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureNetworkProtocolData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureNetworkProtocolData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.Relay.RelayNetworkProtocol/RelayProtocolData>
+
+// Unity.Collections.AllocatorManager/Array4096`1<Unity.Collections.AllocatorManager/TableEntry>
+
+// Unity.Collections.AllocatorManager/Array4096`1<Unity.Collections.AllocatorManager/TableEntry>
+
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
@@ -7262,6 +14209,14 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_StaticFields
 
 // UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch
 
+// Unity.Networking.Transport.TLS.SecureUserData
+
+// Unity.Networking.Transport.TLS.SecureUserData
+
+// Unity.Networking.Transport.BaselibNetworkInterface/BaselibData
+
+// Unity.Networking.Transport.BaselibNetworkInterface/BaselibData
+
 // System.Action`2<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
 
 // System.Action`2<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
@@ -7269,6 +14224,18 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_StaticFields
 // System.Action`3<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
 
 // System.Action`3<System.Object,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch,UnityEngine.XR.Interaction.Toolkit.AR.CommonTouch>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureUserData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.TLS.SecureUserData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.BaselibNetworkInterface/BaselibData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<Unity.Networking.Transport.BaselibNetworkInterface/BaselibData>
+
+// Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>
+
+// Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9816,6 +16783,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationDataSet_2_RemoveAll_mF0C0A4A979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationDataSet_2_RemoveAll_m0475F5BF622C302FE16B1E9D731ABB7B0ABA4838_gshared (AnimationDataSet_2_tB6DDCD2FDFA114849F7C40F1C87A714449EE4095* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.StylePropertyAnimationSystem/AnimationDataSet`2<System.Object,System.Object>::GetActivePropertiesForElement(UnityEngine.UIElements.VisualElement,System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheets.StylePropertyId>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationDataSet_2_GetActivePropertiesForElement_mA348A4FDE2E52699D3386F516352CF2354D5BAF1_gshared (AnimationDataSet_2_tB6DDCD2FDFA114849F7C40F1C87A714449EE4095* __this, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___0_ve, List_1_t365205E6BE687FCF41975C16741DD9C303C1C269* ___1_outProperties, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::set_Length(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// T& Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::ElementAt(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 
 // System.Int32 UnityEngine.UIElements.StylePropertyAnimationSystem/AnimationDataSet`2<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Background>,UnityEngine.UIElements.Background>::get_capacity()
 inline int32_t AnimationDataSet_2_get_capacity_m39788C036A726D011E1E5DFCA7B918FCA4F82F80 (AnimationDataSet_2_t07C050B2EAC67E726A0EDE08E5279AEDE10CD2E1* __this, const RuntimeMethod* method)
@@ -11118,6 +18091,21 @@ inline void AnimationDataSet_2_GetActivePropertiesForElement_mA348A4FDE2E52699D3
 {
 	((  void (*) (AnimationDataSet_2_tB6DDCD2FDFA114849F7C40F1C87A714449EE4095*, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*, List_1_t365205E6BE687FCF41975C16741DD9C303C1C269*, const RuntimeMethod*))AnimationDataSet_2_GetActivePropertiesForElement_mA348A4FDE2E52699D3386F516352CF2354D5BAF1_gshared)(__this, ___0_ve, ___1_outProperties, method);
 }
+// System.Int32 Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::get_Length()
+inline int32_t Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773 (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*, const RuntimeMethod*))Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773_gshared)(__this, method);
+}
+// System.Void Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::set_Length(System.Int32)
+inline void Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*, int32_t, const RuntimeMethod*))Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED_gshared)(__this, ___0_value, method);
+}
+// T& Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::ElementAt(System.Int32)
+inline TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* (*) (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*, int32_t, const RuntimeMethod*))Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F_gshared)(__this, ___0_index, method);
+}
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer(System.Object)
@@ -11126,6 +18114,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntrospectiveSortUtilities_ThrowOrIgnore
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_m63F5561BE647F655D22C8289E53A5D3A2196B668 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___0_message, Exception_t* ___1_innerException, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.IntrospectiveSortUtilities::FloorLog2PlusOne(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntrospectiveSortUtilities_FloorLog2PlusOne_m33AC60574EC2B80A3B7084361A3736D4CFE91F6D (int32_t ___0_n, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_Multicast(Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* currentDelegate = reinterpret_cast<Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_OpenInst(Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_OpenStatic(Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_OpenStaticInvoker(Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 >::Invoke(__this->___method_ptr_0, method, NULL, ___0_obj);
+}
+void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_ClosedStaticInvoker(Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_obj);
+}
+// System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m0C34C0D8022B4CB26E739D328681C24E65FC460C_gshared (Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_Multicast;
+}
+// System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARParticipantsChangedEventArgs>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mDA06774083C019EDDDADD67674445925C0D83016_gshared (Action_1_tE5F1AC110E5F6610E8B460B753F57ACC9B4524E3* __this, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527 ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ARParticipantsChangedEventArgs_t2EAD9041A074A7ACEFF280662784747A4E85E527, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -12726,6 +19792,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_Multicast(Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* currentDelegate = reinterpret_cast<Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_OpenInst(Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_OpenStatic(Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_OpenStaticInvoker(Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(__this->___method_ptr_0, method, NULL, ___0_obj);
+}
+void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_ClosedStaticInvoker(Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_obj);
+}
+// System.Void System.Action`1<UnityEngine.Pose>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mC9BB90DB767BB1770D5639F9A4819990B3BAA0BA_gshared (Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_Multicast;
+}
+// System.Void System.Action`1<UnityEngine.Pose>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m2F1B31FDD10B097D66A892AAC8A326E9FC8C4139_gshared (Action_1_t62C38AF61BFF03BE1DB5E1C54773DC9975D958CD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__
@@ -16424,6 +23568,342 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_4_Invoke_mC8C8B8A8D0B62945087E474
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -31471,6 +38951,97 @@ IL2CPP_EXTERN_C  void AnimationDataSet_2_GetActivePropertiesForElement_mA348A4FD
 	_thisAdjusted = reinterpret_cast<AnimationDataSet_2_tB6DDCD2FDFA114849F7C40F1C87A714449EE4095*>(__this + _offset);
 	AnimationDataSet_2_GetActivePropertiesForElement_mA348A4FDE2E52699D3386F516352CF2354D5BAF1(_thisAdjusted, ___0_ve, ___1_outProperties, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Length { get { return 32768; } set {} }
+		return ((int32_t)32768);
+	}
+}
+IL2CPP_EXTERN_C  int32_t Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = Array32768_1_get_Length_m47E7F0A9D761AB65DB88D8E80F97EFB1CC68F773(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::set_Length(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// public int Length { get { return 32768; } set {} }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*>(__this + _offset);
+	Array32768_1_set_Length_m56E0FEA84CA0898CECA2BE2A2626F42CEEB8CDED(_thisAdjusted, ___0_value, method);
+}
+// T& Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>::ElementAt(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F_gshared (Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8* V_0 = NULL;
+	{
+		// unsafe { fixed(Array4096<T>* p = &f0) { return ref UnsafeUtility.AsRef<T>((T*)p + index); } }
+		Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8* L_0 = (Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8*)(&__this->___f0_0);
+		V_0 = L_0;
+		// unsafe { fixed(Array4096<T>* p = &f0) { return ref UnsafeUtility.AsRef<T>((T*)p + index); } }
+		Array4096_1_t97465F61B5971FE36BADFE9A629DEB33EF47E8D8* L_1 = V_0;
+		// unsafe { fixed(Array4096<T>* p = &f0) { return ref UnsafeUtility.AsRef<T>((T*)p + index); } }
+		int32_t L_2 = ___0_index;
+		uint32_t L_3 = sizeof(TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE);
+		TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* L_4;
+		L_4 = ((  TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* (*) (void*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))((void*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_1), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_2), (int32_t)L_3)))), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F_AdjustorThunk (RuntimeObject* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6*>(__this + _offset);
+	TableEntry_t5E44AFA7857A41AC654D7F248FD36B15D7835FFE* _returnValue;
+	_returnValue = Array32768_1_ElementAt_mAF50A1B3FAA1E10902B5B1A6AFD81BE97AF4B59F(_thisAdjusted, ___0_index, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
