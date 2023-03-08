@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.ARSubsystems;
+using System.Collections;
+using UnityEngine;
+
 
 namespace UnityEngine.XR.ARFoundation.Samples
 {
@@ -50,6 +53,9 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (m_RaycastManager.Raycast(touchPosition, s_Hits, TrackableType.PlaneWithinPolygon))
             {
+                if (touchPosition.y < Screen.height/4){
+                    return;
+                }
                 // Raycast hits are sorted by distance, so the first one
                 // will be the closest hit.
                 var hitPose = s_Hits[0].pose;
