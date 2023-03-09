@@ -66,7 +66,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                         spawnObject = Instantiate(prefabOrigin, hitpose.position, hitpose.rotation);
                         buttonGround.SetActive(true);
 
-                        //var anchor = CreateAnchorSetPrefab(hit);
+                        var anchor = CreateAnchorSetPrefab(hit);
                     }
                     else
                     {
@@ -104,19 +104,19 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                 }
             }
-            else
-            {
-                foreach (var plane in _planeManger.trackables)
-                {
-                    if (plane.trackableId != _id)
-                    {
-                        plane.gameObject.SetActive(false);
+            // else
+            // {
+            //     foreach (var plane in _planeManger.trackables)
+            //     {
+            //         if (plane.trackableId != _id)
+            //         {
+            //             plane.gameObject.SetActive(false);
 
-                    }
+            //         }
 
-                }
-                //planeManger.GetComponent<ARPlaneManager>().enabled = false;
-            }
+            //     }
+            //planeManger.GetComponent<ARPlaneManager>().enabled = false;
+            //}
             // if (spawnObject.GetComponent<ARAnchor>() == null)
             // {
             //     ARAnchor anchor = spawnObject.AddComponent<ARAnchor>();
@@ -134,6 +134,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         public bool GetButtonPressed()
         {
+
             return hasFoundPlane;
         }
 
@@ -185,9 +186,9 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (prefabOrigin != null)
             {
-                var gameObject = Instantiate(prefabOrigin, hit.pose.position, hit.pose.rotation);
+                //var gameObject = Instantiate(prefabOrigin, hit.pose.position, hit.pose.rotation);
 
-                anchor = ComponentUtils.GetOrAddIf<ARAnchor>(gameObject, true);
+                anchor = ComponentUtils.GetOrAddIf<ARAnchor>(prefabOrigin, true);
             }
 
             return anchor;

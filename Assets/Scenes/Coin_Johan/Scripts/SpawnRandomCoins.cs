@@ -74,7 +74,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             // ARAnchor from start of session //
             currentPos = origin.transform.position;
-            rayCast = _raycastManager.AddRaycast((new Vector2((Screen.width - 1) / 2, (Screen.height - 1) / 2)), 10f);
+            // rayCast = _raycastManager.AddRaycast((new Vector2((Screen.width - 1) / 2, (Screen.height - 1) / 2)), 10f);
         }
 
 
@@ -84,7 +84,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (origin.gameObject.GetComponent<Origin>().GetButtonPressed() && !hasPressed)
             {
-                Debug.Log("1");
+
                 sessionOrigin = GameObject.FindGameObjectWithTag("SessionOrigin");
                 if (sessionOrigin != null)
                 {
@@ -95,7 +95,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (sessionOrigin != null)
             {
-                if (spawnObject == null || maxNumberOfSpawnedCoins >= numberOfSpawnCoins && numberOfSpawnCoins >= 0)
+                if (spawnObject == null || (maxNumberOfSpawnedCoins >= numberOfSpawnCoins && numberOfSpawnCoins >= 0))
                 {
 
                     Vector3 spawnPosition = (sessionOrigin.transform.position + new Vector3(Random.Range(-roomWidth, roomWidth) * 2, +coinSpawnHeight, Random.Range(-roomLength, roomLength) * 2));
@@ -126,8 +126,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                         spawnedObjects.Add(spawnObject);
 
                     }
-                    hits.GetComponent<Text>().text = spawnObject.transform.position.y.ToString();
-                    hits2.GetComponent<Text>().text = sessionOrigin.transform.position.y.ToString();
+                    //hits.GetComponent<Text>().text = spawnObject.transform.position.y.ToString();
+                    //hits2.GetComponent<Text>().text = sessionOrigin.transform.position.y.ToString();
 
 
 
@@ -201,7 +201,10 @@ namespace UnityEngine.XR.ARFoundation.Samples
         }
 
 
-
+        public void ClearSpawnedObjects()
+        {
+            spawnedObjects.Clear();
+        }
 
 
         // private float ARPlaneSize(ARPlaneBoundaryChangedEventArgs obj)
