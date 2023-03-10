@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 12971560617242129321
       m_GuidHigh: 15062774542159721787
-    m_Size: {x: 0.1, y: 0.1}
+    m_Size: {x: 0.18, y: 0.18}
     m_SpecifySize: 1
     m_Name: Vattna
     m_Texture: {fileID: 2800000, guid: b529f3a93da7b4043b353adda3b909d1, type: 3}
@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 2906016179914125566
       m_GuidHigh: 3334697308659199338
-    m_Size: {x: 0.1, y: 0.1}
+    m_Size: {x: 0.18, y: 0.18}
     m_SpecifySize: 1
     m_Name: Mala
     m_Texture: {fileID: 2800000, guid: a351b0fe3e5128546a2d15c48839472e, type: 3}
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4649070451310393365
       m_GuidHigh: 16462039920870016585
-    m_Size: {x: 0.1, y: 0.1}
+    m_Size: {x: 0.18, y: 0.18}
     m_SpecifySize: 1
     m_Name: Dammsuga
     m_Texture: {fileID: 2800000, guid: 921ef815d0f1408449c6c1a116ea74e4, type: 3}
