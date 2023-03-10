@@ -48,9 +48,17 @@ public class PlaneDetectionToggle : MonoBehaviour
 
     private void SetAllPlanesActive(bool value)
     {
+        
         foreach( var plane in planeManager.trackables)
         {
             plane.gameObject.SetActive(value);
+        }
+    }
+
+    public void SetEnable(){
+        {
+            planeManager.enabled = true;
+
         }
     }
 }

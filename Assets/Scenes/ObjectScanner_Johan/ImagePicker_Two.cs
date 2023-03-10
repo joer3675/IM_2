@@ -49,12 +49,12 @@ namespace UnityEngine.XR.ARFoundation
         void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
         {
 
-
+            task = Task.getTask();
             foreach (var newImage in eventArgs.added)
             {
 
                 //task = inputField.GetComponent<TMP_InputField>().text;
-                task = Task.getTask();
+              
                 var imageName = newImage.referenceImage.name;
 
 
@@ -73,7 +73,7 @@ namespace UnityEngine.XR.ARFoundation
                             // isCorrectNewImage = true;
                             GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(true);
                             GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(false);
-                            // scannerObject.GetComponent<ScannerColor>().setColor("green");
+                            scannerObject.GetComponent<ScannerColor>().setColor("green");
 
                         }
                         else if (imageName.Equals("BrushQR"))
@@ -86,7 +86,7 @@ namespace UnityEngine.XR.ARFoundation
                             // isCorrectNewImage = false;
                             GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
                             GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
-                            //scannerObject.GetComponent<ScannerColor>().setColor("red");
+                            scannerObject.GetComponent<ScannerColor>().setColor("red");
 
                         }
                         else if (imageName.Equals("WaterCanQR"))
@@ -99,6 +99,7 @@ namespace UnityEngine.XR.ARFoundation
                             // isCorrectNewImage = false;
                             GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                             GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
+                            scannerObject.GetComponent<ScannerColor>().setColor("red");
                         }
                         // if (!hasPlayedSound)
                         // {
@@ -127,6 +128,7 @@ namespace UnityEngine.XR.ARFoundation
                             audioSource.PlayOneShot(audioClipBad);
                             GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                             GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
+                            scannerObject.GetComponent<ScannerColor>().setColor("red");
 
                         }
                         else if (imageName.Equals("BrushQR"))
@@ -135,6 +137,7 @@ namespace UnityEngine.XR.ARFoundation
                             //  isCorrectNewImage = true;
                             GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(true);
                             GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(false);
+                            scannerObject.GetComponent<ScannerColor>().setColor("green");
 
                         }
                         else if (imageName.Equals("WaterCanQR"))
@@ -144,6 +147,7 @@ namespace UnityEngine.XR.ARFoundation
                             audioSource.PlayOneShot(audioClipBad);
                             GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(false);
                             GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(true);
+                            scannerObject.GetComponent<ScannerColor>().setColor("red");
 
 
                         }
@@ -163,6 +167,7 @@ namespace UnityEngine.XR.ARFoundation
                                 audioSource.PlayOneShot(audioClipBad);
                                 GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(0).gameObject.SetActive(false);
                                 GameObject.FindGameObjectWithTag("GreenRedMarker").transform.GetChild(1).gameObject.SetActive(true);
+                                scannerObject.GetComponent<ScannerColor>().setColor("red");
 
                             }
                             else if (imageName.Equals("BrushQR"))
@@ -171,6 +176,7 @@ namespace UnityEngine.XR.ARFoundation
                                 audioSource.PlayOneShot(audioClipBad);
                                 GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(0).gameObject.SetActive(false);
                                 GameObject.FindGameObjectWithTag("GreenRedMarker2").transform.GetChild(1).gameObject.SetActive(true);
+                                scannerObject.GetComponent<ScannerColor>().setColor("red");
 
                             }
                             else if (imageName.Equals("WaterCanQR"))
@@ -179,6 +185,7 @@ namespace UnityEngine.XR.ARFoundation
                                 // isCorrectNewImage = true;
                                 GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(0).gameObject.SetActive(true);
                                 GameObject.FindGameObjectWithTag("GreenRedMarker3").transform.GetChild(1).gameObject.SetActive(false);
+                                scannerObject.GetComponent<ScannerColor>().setColor("green");
 
 
                             }
@@ -205,7 +212,7 @@ namespace UnityEngine.XR.ARFoundation
             }
             foreach (var updatedImage in eventArgs.updated)
             {
-                task = Task.getTask();
+                
                 var imageName = updatedImage.referenceImage.name;
 
                 if (!GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
