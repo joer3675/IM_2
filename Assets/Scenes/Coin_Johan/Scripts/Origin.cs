@@ -103,6 +103,11 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
 
                 }
+                // else
+                // {
+                //     prefabOrigin.SetActive(false);
+
+                // }
             }
             // else
             // {

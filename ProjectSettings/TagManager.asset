@@ -15,6 +15,9 @@ TagManager:
   - RotationSlider1
   - ScaleSlider1
   - prefabtag
+  - Settings
+  - Sound
+  - TextTag
   layers:
   - Default
   - TransparentFX

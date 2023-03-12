@@ -54,7 +54,7 @@ namespace UnityEngine.XR.ARFoundation
             {
 
                 //task = inputField.GetComponent<TMP_InputField>().text;
-              
+
                 var imageName = newImage.referenceImage.name;
 
 
@@ -212,18 +212,18 @@ namespace UnityEngine.XR.ARFoundation
             }
             foreach (var updatedImage in eventArgs.updated)
             {
-                
+
                 var imageName = updatedImage.referenceImage.name;
 
-                if (!GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
-                {
-                    //GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "Failed";
-                    scannerObject.GetComponent<ScannerColor>().setColor("white");
-                    nextSceneObject.SetActive(false);
+                // if (!GameObject.Find("Vacuum(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("PBrush(Clone)").GetComponent<OnVisible>().getVisible() && !GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
+                // {
+                //     //GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = "Failed";
+                //     scannerObject.GetComponent<ScannerColor>().setColor("white");
+                //     nextSceneObject.SetActive(false);
 
-                    return;
+                //     return;
 
-                }
+                // }
 
                 if (task.Equals("Dammsuga", StringComparison.OrdinalIgnoreCase))
                 {
@@ -241,6 +241,11 @@ namespace UnityEngine.XR.ARFoundation
                     else if (GameObject.Find("WaterCan(Clone)").GetComponent<OnVisible>().getVisible())
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
+                        nextSceneObject.SetActive(false);
+                    }
+                    else
+                    {
+                        scannerObject.GetComponent<ScannerColor>().setColor("white");
                         nextSceneObject.SetActive(false);
                     }
 
@@ -262,6 +267,11 @@ namespace UnityEngine.XR.ARFoundation
                         scannerObject.GetComponent<ScannerColor>().setColor("red");
                         // nextSceneObject.SetActive(false);
                     }
+                    else
+                    {
+                        scannerObject.GetComponent<ScannerColor>().setColor("white");
+                        nextSceneObject.SetActive(false);
+                    }
 
 
                 }
@@ -281,6 +291,11 @@ namespace UnityEngine.XR.ARFoundation
                     {
                         scannerObject.GetComponent<ScannerColor>().setColor("green");
                         //nextSceneObject.SetActive(true);
+                    }
+                    else
+                    {
+                        scannerObject.GetComponent<ScannerColor>().setColor("white");
+                        nextSceneObject.SetActive(false);
                     }
 
 

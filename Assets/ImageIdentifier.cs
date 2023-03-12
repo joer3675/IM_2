@@ -10,7 +10,7 @@ using TMPro;
 
 namespace UnityEngine.XR.ARFoundation
 {
-    public class ImageIdentifier: MonoBehaviour
+    public class ImageIdentifier : MonoBehaviour
     {
         [SerializeField]
         ARTrackedImageManager m_TrackedImageManager;
@@ -25,7 +25,7 @@ namespace UnityEngine.XR.ARFoundation
         }
         void Update()
         {
-          //  GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = inputField.GetComponent<TMP_InputField>().text;
+            //  GameObject.FindGameObjectWithTag("DebugTag").GetComponent<Text>().text = inputField.GetComponent<TMP_InputField>().text;
         }
 
         void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
@@ -37,18 +37,18 @@ namespace UnityEngine.XR.ARFoundation
             foreach (var newImage in eventArgs.added)
             {
                 Task.setTask(newImage.referenceImage.name);
-                gameObject.GetComponent<Text>().text = Task.getTask();
+                // gameObject.GetComponent<Text>().text = Task.getTask();
 
             }
 
             //foreach (var updatedImage in eventArgs.updated)
             //{
-       
+
             //}
 
             //foreach (var removedImage in eventArgs.removed)
             //{
-                
+
             //}
         }
     }
