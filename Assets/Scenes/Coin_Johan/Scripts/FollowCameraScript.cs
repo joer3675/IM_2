@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using TMPro;
 
 
 namespace UnityEngine.XR.ARFoundation.Samples
@@ -22,8 +23,13 @@ namespace UnityEngine.XR.ARFoundation.Samples
         private SpawnRandomCoins coinsLeft;
 
         [SerializeField]
-        private Text _score;
+        private TMP_Text _score;
         private int highscoore;
+        [SerializeField]
+        private int scoreGameOver;
+        [SerializeField]
+        private GameObject panelGameOver;
+
 
 
 
@@ -47,6 +53,12 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (collision.gameObject.CompareTag("CoinTag"))
             {
+                if (highscoore >= scoreGameOver)
+                {
+                    panelGameOver.gameObject.SetActive(true);
+                    panelGameOver.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject.GetComponent<TMP_Text>().text = highscoore.ToString();
+                    return;
+                }
 
                 soundClip.Play();
                 highscoore++;
@@ -57,6 +69,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 //Destroy(collision.gameObject);
                 _score.text = highscoore.ToString();
                 SpawnRandomCoins.spawnedObjects.Remove(this.gameObject);
+
 
             }
 

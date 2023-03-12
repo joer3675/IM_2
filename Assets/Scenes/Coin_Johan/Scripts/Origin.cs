@@ -55,7 +55,10 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                 if (_raycastManager.Raycast(touchPosition, Hits, TrackableType.PlaneWithinPolygon))
                 {
-
+                    if (touchPosition.y < Screen.height / 4)
+                    {
+                        return;
+                    }
                     var hit = Hits[0];
                     Pose hitpose = Hits[0].pose;
 
@@ -109,31 +112,34 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                 // }
             }
-            // else
-            // {
-            //     foreach (var plane in _planeManger.trackables)
-            //     {
-            //         if (plane.trackableId != _id)
-            //         {
-            //             plane.gameObject.SetActive(false);
+            else
+            {
+                foreach (var plane in _planeManger.trackables)
+                {
+                    if (plane.trackableId != _id)
+                    {
+                        plane.gameObject.SetActive(false);
 
-            //         }
+                    }
 
-            //     }
-            //planeManger.GetComponent<ARPlaneManager>().enabled = false;
-            //}
-            // if (spawnObject.GetComponent<ARAnchor>() == null)
-            // {
-            //     ARAnchor anchor = spawnObject.AddComponent<ARAnchor>();
-            // }
+                }
+                //planeManger.GetComponent<ARPlaneManager>().enabled = false;
+                //}
+                // if (spawnObject.GetComponent<ARAnchor>() == null)
+                // {
+                //     ARAnchor anchor = spawnObject.AddComponent<ARAnchor>();
+                // }
 
+            }
         }
+
         protected override void OnPress(Vector3 position) => m_Pressed = true;
 
         protected override void OnPressCancel() => m_Pressed = false;
 
         public void ButtonPressed()
         {
+            spawnObject.transform.GetChild(1).gameObject.SetActive(false);
             hasFoundPlane = true;
         }
 

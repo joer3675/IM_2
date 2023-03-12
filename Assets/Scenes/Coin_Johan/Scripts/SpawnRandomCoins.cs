@@ -55,11 +55,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         GameObject sessionOrigin;
 
-        public GameObject hits;
-        public GameObject hits2;
-
         bool hasPressed;
-
 
         private static readonly List<ARRaycastHit> Hits = new List<ARRaycastHit>();
 
@@ -80,6 +76,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         void Update()
         {
+
             numberOfSpawnCoins = spawnedObjects.Count;
 
             if (origin.gameObject.GetComponent<Origin>().GetButtonPressed() && !hasPressed)
