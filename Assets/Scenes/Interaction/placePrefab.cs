@@ -20,6 +20,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         [Tooltip("Instantiates this prefab on a plane at the touch location.")]
         GameObject m_PlacedPrefab;
+        GameObject InfoPanel;
 
         /// <summary>
         /// The prefab to instantiate on touch.
@@ -28,6 +29,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         {
             get { return m_PlacedPrefab; }
             set { m_PlacedPrefab = value; }
+
         }
 
         /// <summary>
@@ -40,7 +42,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         protected override void Awake()
         {
             base.Awake();
-            m_RaycastManager = GetComponent<ARRaycastManager>();
+            m_RaycastManager = GetComponent<ARRaycastManager>();       
         }
 
         void Update()
@@ -63,6 +65,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (spawnedObject == null)
                 {
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
+                    InfoPanel = GameObject.Find("InfoPanel"); InfoPanel.SetActive(false);
                 }
                 else
                 {
