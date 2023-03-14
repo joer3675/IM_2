@@ -25,6 +25,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         GameObject m_AlternativePrefab2;
 
+
         public GameObject alternativePrefab
         {
             get => m_AlternativePrefab;
@@ -43,7 +44,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             set => m_AlternativePrefab2 = value;
         }
 
-       
+
 
         enum State
         {
@@ -71,28 +72,34 @@ namespace UnityEngine.XR.ARFoundation.Samples
             switch (m_State)
             {
                 case State.OriginalPrefab:
-                {
-                    if (GUILayout.Button($"Piktogram"))
                     {
-                        m_State = State.ChangeToAlternativePrefab;
-                    }
+                        if (GUILayout.Button($"Piktogram"))
+                        {
+                            Pictogram.setPictogram(true);
+                            m_State = State.ChangeToAlternativePrefab;
+                            Debug.Log(Pictogram.getPictogramState());
 
-                    break;
-                }
+                        }
+
+                        break;
+                    }
                 case State.AlternativePrefab:
-                {
-                    if (GUILayout.Button($"Text"))
                     {
-                        m_State = State.ChangeToOriginalPrefab;
-                    }
+                        if (GUILayout.Button($"Text"))
+                        {
+                            Pictogram.setPictogram(false);
+                            m_State = State.ChangeToOriginalPrefab;
+                            Debug.Log(Pictogram.getPictogramState());
 
-                    break;
-                }
+                        }
+
+                        break;
+                    }
                 case State.Error:
-                {
-                    GUILayout.Label(m_ErrorMessage);
-                    break;
-                }
+                    {
+                        GUILayout.Label(m_ErrorMessage);
+                        break;
+                    }
             }
             GUILayout.EndArea();
         }
@@ -108,29 +115,29 @@ namespace UnityEngine.XR.ARFoundation.Samples
             switch (m_State)
             {
                 case State.ChangeToAlternativePrefab:
-                {
-                    if (!alternativePrefab)
                     {
-                        SetError("No alternative prefab is given.");
-                        break;
-                    }
+                        if (!alternativePrefab)
+                        {
+                            SetError("No alternative prefab is given.");
+                            break;
+                        }
 
-                    var manager = GetComponent<PrefabImagePairManager>();
-                    if (!manager)
-                    {
-                        SetError($"No {nameof(PrefabImagePairManager)} available.");
-                        break;
-                    }
+                        var manager = GetComponent<PrefabImagePairManager>();
+                        if (!manager)
+                        {
+                            SetError($"No {nameof(PrefabImagePairManager)} available.");
+                            break;
+                        }
 
-                    var library = manager.imageLibrary;
-                    if (!library)
-                    {
-                        SetError($"No image library available.");
-                        break;
-                    }
+                        var library = manager.imageLibrary;
+                        if (!library)
+                        {
+                            SetError($"No image library available.");
+                            break;
+                        }
 
-                    if (!m_OriginalPrefab)
-                        m_OriginalPrefab = manager.GetPrefabForReferenceImage(library[0]);
+                        if (!m_OriginalPrefab)
+                            m_OriginalPrefab = manager.GetPrefabForReferenceImage(library[0]);
                         m_OriginalPrefab1 = manager.GetPrefabForReferenceImage(library[1]);
                         m_OriginalPrefab2 = manager.GetPrefabForReferenceImage(library[2]);
 
@@ -138,37 +145,37 @@ namespace UnityEngine.XR.ARFoundation.Samples
                         manager.SetPrefabForReferenceImage(library[1], alternativePrefab1);
                         manager.SetPrefabForReferenceImage(library[2], alternativePrefab2);
                         m_State = State.AlternativePrefab;
-                    break;
-                }
+                        break;
+                    }
 
                 case State.ChangeToOriginalPrefab:
-                {
-                    if (!m_OriginalPrefab)
                     {
-                        SetError("No original prefab is given.");
+                        if (!m_OriginalPrefab)
+                        {
+                            SetError("No original prefab is given.");
+                            break;
+                        }
+
+                        var manager = GetComponent<PrefabImagePairManager>();
+                        if (!manager)
+                        {
+                            SetError($"No {nameof(PrefabImagePairManager)} available.");
+                            break;
+                        }
+
+                        var library = manager.imageLibrary;
+                        if (!library)
+                        {
+                            SetError($"No image library available.");
+                            break;
+                        }
+
+                        manager.SetPrefabForReferenceImage(library[0], m_OriginalPrefab);
+                        manager.SetPrefabForReferenceImage(library[1], m_OriginalPrefab1);
+                        manager.SetPrefabForReferenceImage(library[2], m_OriginalPrefab2);
+                        m_State = State.OriginalPrefab;
                         break;
                     }
-
-                    var manager = GetComponent<PrefabImagePairManager>();
-                    if (!manager)
-                    {
-                        SetError($"No {nameof(PrefabImagePairManager)} available.");
-                        break;
-                    }
-
-                    var library = manager.imageLibrary;
-                    if (!library)
-                    {
-                        SetError($"No image library available.");
-                        break;
-                    }
-
-                    manager.SetPrefabForReferenceImage(library[0], m_OriginalPrefab);
-                    manager.SetPrefabForReferenceImage(library[1], m_OriginalPrefab1);
-                    manager.SetPrefabForReferenceImage(library[2], m_OriginalPrefab2);
-                    m_State = State.OriginalPrefab;
-                    break;
-                }
             }
         }
     }
