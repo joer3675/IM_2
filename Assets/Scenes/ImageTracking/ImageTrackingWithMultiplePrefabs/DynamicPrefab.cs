@@ -67,7 +67,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             float margin = 100;
 
-            GUILayout.BeginArea(new Rect(margin * 2, Screen.height - margin, Screen.width - margin * 4, Screen.height - margin * 4));
+            GUILayout.BeginArea(new Rect(margin * 2, Screen.height - 300, Screen.width - margin * 4, Screen.height - margin * 4));
 
             switch (m_State)
             {
