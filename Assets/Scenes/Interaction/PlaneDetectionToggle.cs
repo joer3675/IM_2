@@ -22,7 +22,7 @@ public class PlaneDetectionToggle : MonoBehaviour
     private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
-        ToggleButtonText.text = "Dölj";
+        ToggleButtonText.text = "DÃ¶lj plan";
         buttonObject.GetComponent<Image>().color = new Color32(170, 170, 170, 255);
 
 
@@ -37,13 +37,13 @@ public class PlaneDetectionToggle : MonoBehaviour
         if (planeManager.enabled)
         {
 
-            toggleButtonMessage = "Dölj";
+            toggleButtonMessage = "DÃ¶lj plan";
             SetAllPlanesActive(true);
             buttonObject.GetComponent<Image>().color = new Color32(170, 170, 170, 255);
         }
         else
         {
-            toggleButtonMessage = "Visa";
+            toggleButtonMessage = "Visa plan";
             SetAllPlanesActive(false);
             buttonObject.GetComponent<Image>().color = new Color32(255,250,250, 255);
         }

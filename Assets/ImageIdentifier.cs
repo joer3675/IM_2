@@ -37,6 +37,7 @@ namespace UnityEngine.XR.ARFoundation
             foreach (var newImage in eventArgs.added)
             {
                 Task.setTask(newImage.referenceImage.name);
+                gameObject.SetActive(true);
                 // gameObject.GetComponent<Text>().text = Task.getTask();
 
             }
