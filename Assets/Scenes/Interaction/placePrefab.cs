@@ -65,7 +65,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (spawnedObject == null)
                 {
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
-                    InfoPanel = GameObject.Find("InfoPanel"); InfoPanel.SetActive(false);
+                    InfoPanel = GameObject.Find("InfoTask"); InfoPanel.SetActive(false);
                 }
                 else
                 {
