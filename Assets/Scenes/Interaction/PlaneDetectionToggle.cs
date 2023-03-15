@@ -11,7 +11,10 @@ using TMPro;
 public class PlaneDetectionToggle : MonoBehaviour
 {
     private ARPlaneManager planeManager;
+    
+
     [SerializeField]
+    private GameObject buttonObject;
 
  
     public TextMeshProUGUI ToggleButtonText;
@@ -19,7 +22,8 @@ public class PlaneDetectionToggle : MonoBehaviour
     private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
-        ToggleButtonText.text = "Disable";
+        ToggleButtonText.text = "Dölj";
+        buttonObject.GetComponent<Image>().color = new Color32(170, 170, 170, 255);
 
 
     }
@@ -33,13 +37,15 @@ public class PlaneDetectionToggle : MonoBehaviour
         if (planeManager.enabled)
         {
 
-            toggleButtonMessage = "Disable";
+            toggleButtonMessage = "Dölj";
             SetAllPlanesActive(true);
+            buttonObject.GetComponent<Image>().color = new Color32(170, 170, 170, 255);
         }
         else
         {
-            toggleButtonMessage = "Enable";
+            toggleButtonMessage = "Visa";
             SetAllPlanesActive(false);
+            buttonObject.GetComponent<Image>().color = new Color32(255,250,250, 255);
         }
 
         ToggleButtonText.text = toggleButtonMessage;

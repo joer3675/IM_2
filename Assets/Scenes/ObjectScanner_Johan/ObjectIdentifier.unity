@@ -347,7 +347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xE4sta"
+  m_text: Vidare
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e262267a8bff4052949f3cbc5f2820f, type: 2}
   m_sharedMaterial: {fileID: 3374262808974120758, guid: 3e262267a8bff4052949f3cbc5f2820f,
