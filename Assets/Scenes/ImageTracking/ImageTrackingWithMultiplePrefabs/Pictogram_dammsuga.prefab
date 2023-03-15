@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 6334086029374997230}
   m_Layer: 0
   m_Name: Voice
-  m_TagString: Untagged
+  m_TagString: Sound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 3043349999823416690}
   m_Layer: 0
   m_Name: Pictogram_dammsuga
-  m_TagString: Untagged
+  m_TagString: Sound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
